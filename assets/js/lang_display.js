@@ -50,8 +50,17 @@ function updateTextOverlays() {
                     overlay.setAttribute('data-width', overlayData.width || 'narrow');
                     overlay.setAttribute('lang', currentLang);
                     overlay.textContent = overlayData[currentLang];
-                    console.log('Overlay added:', overlay); // Debug log
+
+                    // Append to container first to get computed styles
                     container.appendChild(overlay);
+
+                   // Apply all styles from the zh-hant version
+                   if (currentLang !== 'zh-hant') {
+                       const baseFontSize = parseFloat(window.getComputedStyle(overlay).fontSize);
+                       overlay.style.fontSize = (baseFontSize - 5) + 'px';
+                    }
+
+                    console.log('Overlay added:', overlay); // Debug log
                 }
             });
         }
