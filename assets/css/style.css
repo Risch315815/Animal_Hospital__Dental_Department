@@ -110,7 +110,7 @@ body {
 /* --------------------------------------------------- */
 
 /* Specific styles for individual overlays */
-.text-overlay[data-position="01A"][lang="zh-hant"] {
+.text-overlay[data-position="01A"] {
     top: 10%;
     left: 41.5%;
     background-color: rgba(0,0,0,0.02);
@@ -118,7 +118,7 @@ body {
     font-size: 40px;
 }
 
-.text-overlay[data-position="01B"][lang="zh-hant"] {
+.text-overlay[data-position="01B"] {
     top: 20%;
     left: 85%;
     background-color: rgba(0,0,0,0.02);
@@ -126,7 +126,7 @@ body {
     font-size: 30px;
 }
 
-.text-overlay[data-position="01C"][lang="zh-hant"] {
+.text-overlay[data-position="01C"] {
     top: 85%;
     left: 15%;
     background-color: rgba(0,0,0,0);
@@ -134,7 +134,7 @@ body {
     font-size: 28px;
 }
 
-.text-overlay[data-position="01D"][lang="zh-hant"] {
+.text-overlay[data-position="01D"] {
     top: 87%;
     left: 65%;
     background-color: rgba(0,0,0,0);
@@ -142,7 +142,7 @@ body {
     font-size: 28px;
 }
 /* --------------------------------------------------- */
-.text-overlay[data-position="02A"][lang="zh-hant"] {
+.text-overlay[data-position="02A"] {
     top: 45%;
     left: 15%;
     background-color: rgba(0,0,0,0);
@@ -151,7 +151,7 @@ body {
     width: 270px;
 }
 /* --------------------------------------------------- */
-.text-overlay[data-position="03A"][lang="zh-hant"] {
+.text-overlay[data-position="03A"] {
     top: 50%;
     left: 85%;
     background-color: rgba(0,0,0,0);
@@ -160,7 +160,7 @@ body {
     width: 250px;
 }
 /* --------------------------------------------------- */
-.text-overlay[data-position="04A"][lang="zh-hant"] {
+.text-overlay[data-position="04A"] {
     top: 10%;
     left: 50%;
     background-color: rgba(0,0,0,0);
@@ -169,7 +169,7 @@ body {
     width: 1000px;
     max-height: 200px;
 }
-.text-overlay[data-position="04B"][lang="zh-hant"] {
+.text-overlay[data-position="04B"] {
     top: 25%;
     left: 25%;
     background-color: rgba(0,0,0,0);
@@ -178,7 +178,7 @@ body {
     max-width: 600px;
 }
 /* --------------------------------------------------- */
-.text-overlay[data-position="05A"][lang="zh-hant"] {
+.text-overlay[data-position="05A"] {
     top: 30%;
     left: 15%;
     background-color: rgba(0,0,0,0);
@@ -187,7 +187,7 @@ body {
     width: 300px;
     max-height: 200px;
 }
-.text-overlay[data-position="05B"][lang="zh-hant"] {
+.text-overlay[data-position="05B"] {
     top: 46%;
     left: 88%;
     background-color: rgba(0,0,0,0);
