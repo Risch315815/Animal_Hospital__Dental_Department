@@ -59,6 +59,10 @@ function updateTextOverlays() {
                        const baseFontSize = parseFloat(window.getComputedStyle(overlay).fontSize);
                        overlay.style.fontSize = (baseFontSize - 7) + 'px';
                     }
+                    else if (currentLang !== 'en') {
+                        const baseFontSize = parseFloat(window.getComputedStyle(overlay).fontSize);
+                        overlay.style.fontSize = (baseFontSize - 10) + 'px';
+                    }
 
                     console.log('Overlay added:', overlay); // Debug log
                 }
