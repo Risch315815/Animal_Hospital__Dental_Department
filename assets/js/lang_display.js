@@ -57,13 +57,14 @@ function updateTextOverlays() {
                    // Apply all styles from the zh-hant version
                    
                    // Adjust font size based on language
+                   console.log(currentLang, parseFloat(window.getComputedStyle(overlay).fontSize))
                    const baseFontSize = parseFloat(window.getComputedStyle(overlay).fontSize);
                    if (currentLang === 'zh-hant') {
                        overlay.style.fontSize = baseFontSize + 'px';
                    } else if (currentLang === 'en') {
                        overlay.style.fontSize = (baseFontSize - 7) + 'px';
                    } else {
-                       overlay.style.fontSize = (baseFontSize - 10) + 'px';
+                       overlay.style.fontSize = (baseFontSize - 12) + 'px';
                    }
 
                     console.log('Overlay added:', overlay); // Debug log
