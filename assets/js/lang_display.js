@@ -18,6 +18,8 @@ async function loadTranslations() {
             translationFile = '/data/Comics/QuestionableCharacters/translatedQC.json';
         } else if (path.includes('extractosaurus')) {
             translationFile = '/data/Comics/Extractosaurus_BS/Extractosaurus_BS.json';
+        } else if (path.includes('scaling-kitty')) {
+            translationFile = '/data/Comics/ScalingKitty_BS/ScalingKitty_BS.json';
         } else {
             throw new Error('Unknown post type');
         }
@@ -73,6 +75,7 @@ function updateTextOverlays() {
                 overlay.style.height = boxData.height;
                 overlay.style.backgroundColor = boxData.backgroundColor;
                 overlay.style.border = boxData.border;
+                overlay.style.fontWeight = boxData.fontWeight || 'normal';
 
                 // Adjust font size based on language
                 const baseFontSize = parseInt(boxData.fontSize);

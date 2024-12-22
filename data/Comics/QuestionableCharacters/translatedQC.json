@@ -187,7 +187,7 @@
       "border": "2px solid black",
       "fontSize": "80px",
       "text": {
-        "en": "Captain Frontal Lobotomy",
+        "en": "Captain\n Frontal Lobotomy",
         "zh-hant": "前額葉切除\n隊長",
         "ja": "キャプテン・\nフロンタル・\nロボトミー",
         "es": "Capitán Lobotomía Frontal",
@@ -204,7 +204,7 @@
       "border": "2px solid black",
       "fontSize": "40px",
       "text": {
-        "en": "That serious already?\nHave you considered frontal lobotomy?",
+        "en": "That serious already?\nHave you considered\n frontal lobotomy?",
         "zh-hant": "這麼嚴重啊？\n有考慮過\n前額葉切除術嗎？",
         "ja": "もうそんなに深刻?\n前頭葉ロボトミーを\n検討したことがありますか?",
         "es": "¿Tan serio ya?\n¿Has considerado la lobotomía frontal?",

@@ -1,40 +1,94 @@
 {
   "ScalingKitty_BS01": {
     "textbox1": {
-      "x": "80%",
-      "y": "30%",
+      "x": "55%",
+      "y": "13%",
       "width": "auto",
       "height": "auto",
       "fontSize": "40px",
-      "backgroundColor": "rgba(0,0,0,0.02)",
-      "border": "2px solid black",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "0px solid black",
       "text": {
-        "en": "Stage? Grade?",
-        "zh-hant": "Stage幾?\nGrade幾?",
-        "ja": "舞台。等級。",
-        "es": "¿Etapa? ¿Grado?",
-        "fr": "Étape? Grade?",
-        "th": "เวที  เกรด "
+        "en": "Please take care of him from now on~",
+        "zh-hant": "從今以後\n他就麻煩你照顧了~",
+        "ja": "これからもお世話になってね~",
+        "es": "Por favor, cuídalo de ahora en adelante ~",
+        "fr": "S’il vous plaît, prenez soin de lui à partir de maintenant~",
+        "th": "โปรดดูแลเขาด้วยกันเถอะ~"
+      }
+    },
+    "textbox2": {
+      "x": "32%",
+      "y": "58%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "30px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "0px solid black",
+      "text": {
+        "en": "It's just plaque,\nwhy are you doing this?\nEver heard of scaling?",
+        "zh-hant": "牙菌斑而已，\n確定要轉診？\n有聽過洗牙？",
+        "ja": "ただのプラークですが、\nどうしてこうしているんですか。\nスケーリングについて聞いたことがありますか?",
+        "es": "Es solo una placa,\n¿Por qué estás haciendo esto?\n¿Alguna vez has oído hablar del escalado?",
+        "fr": "C’est juste de la plaque,\nPourquoi tu fais ça?\nAvez-vous déjà entendu parler de la mise à l’échelle ?",
+        "th": "มันเป็นแค่แผ่นป้าย\nทําไมคุณถึงทําเช่นนี้?\nเคยได้ยินเกี่ยวกับการปรับขนาดหรือไม่?"
       }
     }
   },
   "ScalingKitty_BS02": {
     "textbox1": {
-      "x": "80%",
-      "y": "30%",
+      "x": "45%",
+      "y": "15%",
       "width": "auto",
       "height": "auto",
       "fontSize": "40px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
-        "en": "Have you read the AAPD 2017 Classification of Periodontal Diseases?",
-        "zh-hant": "有看 AAPD 2017 了嗎？",
-        "ja": "AAPD 2017を読んだことがありますか?",
-        "es": "¿Has leído la Clasificación AAPD 2017?",
-        "fr": "Avez-vous lu la classification AAPD 2017?",
-        "th": "คุณได้อ่าน AAPD 2017 แล้วหรือยัง?"
+        "en": "Go get hepatitis B vaccine",
+        "zh-hant": "去接種B肝疫苗啦",
+        "ja": "B型肝炎ワクチンを接種しに行こう",
+        "es": "Ir a vacunarse contra la hepatitis B",
+        "fr": "Allez vous faire vacciner contre l’hépatite B",
+        "th": "ไปรับวัคซีนไวรัสตับอักเสบบี"
+      }
+    },
+    "textbox2": {
+      "x": "35%",
+      "y": "50%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "0px solid black",
+      "text": {
+        "en": "I don't want injections…",
+        "zh-hant": "我不要打針......",
+        "ja": "注射はいらない...",
+        "es": "No quiero inyecciones...",
+        "fr": "Je ne veux pas d’injections...",
+        "th": "ฉันไม่ต้องการการฉีดยา..."
+      }
+    }
+  },
+  "ScalingKitty_BS03": {
+    "textbox1": {
+      "x": "80%",
+      "y": "35%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "50px",
+      "fontWeight": "bold",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "0px solid black",
+      "text": {
+        "en": "Why can't you be \nminimally invasive???",
+        "zh-hant": "為什麼你就不能\n下手輕一點???",
+        "ja": "なぜあなたは最小侵襲的になれないのですか???",
+        "es": "¿Por qué no puedes ser mínimamente invasivo???",
+        "fr": "Pourquoi ne pouvez-vous pas être peu invasif ???",
+        "th": "ทําไมคุณถึงรุกรานน้อยที่สุดไม่ได้???"
       }
     }
   }
-} 
+}
