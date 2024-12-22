@@ -1,0 +1,185 @@
+{
+  "TerribleDad01": {
+    "textbox1": {
+      "x": "41.5%",
+      "y": "10%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Son, you're back!",
+        "zh-hant": "兒子你回來了!",
+        "ja": "息子さん、戻ってきましたね!",
+        "es": "¡Hijo, has vuelto!",
+        "fr": "Mon fils, tu es de retour !",
+        "th": "ลูกชาย คุณกลับมาแล้ว!"
+      }
+    },
+    "textbox2": {
+      "x": "85%",
+      "y": "20%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "30px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Come and see my new products!",
+        "zh-hant": "快來看看我的新產品!",
+        "ja": "私の新製品を見に来てください!",
+        "es": "¡Ven a ver mis nuevos productos!",
+        "fr": "Venez voir mes nouveaux produits !",
+        "th": "มาดูผลิตภัณฑ์ใหม่ของฉัน!"
+      }
+    },
+    "textbox3": {
+      "x": "15%",
+      "y": "85%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "28px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "0px solid black",
+      "text": {
+        "en": "Scaling Kitty",
+        "zh-hant": "洗牙貓貓",
+        "ja": "洗牙貓貓",
+        "es": "Limpieza de gatos",
+        "fr": "Nettoyage des chats",
+        "th": "ทําความสะอาดแมว"
+      }
+    },
+    "textbox4": {
+      "x": "65%",
+      "y": "87%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "28px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "0px solid black",
+      "text": {
+        "en": "His dad,\nFounder of \"Yeshi\" Beverage Co., Ltd",
+        "zh-hant": "他爸，\n\"冶世\"飲料股份有限公司\n創辦人",
+        "ja": "彼のお父さん、\n「冶世」Beverage Co.、Ltdの創設者",
+        "es": "Su papá,\nFundador de \"冶世\" Beverage Co., Ltd",
+        "fr": "Son père,\nFondateur de « 冶世 » Beverage Co., Ltd",
+        "th": "พ่อของเขา\nผู้ก่อตั้ง \"冶世\" Beverage Co., Ltd"
+      }
+    }
+  },
+  "TerribleDad02": {
+    "textbox1": {
+      "x": "15%",
+      "y": "45%",
+      "width": "270px",
+      "height": "auto",
+      "fontSize": "35px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "2px solid black",
+      "text": {
+        "en": "In order to simulate the smooth taste of fresh milk, I specially adjusted the functional groups of sugar substitutes; the taste is amazing!\n\nMoreover, the affinity of the new sugar substitute with the salivary protein membrane and S. aureus is 10 times stronger !",
+        "zh-hant": "這款熱銷奶茶，為了模擬鮮乳的滑順口感，我特地調整了代糖的官能基；效果顯著!\n\n而且新代糖和\n唾液蛋白膜、\nS. aureus 的親和力，強了不只10倍!",
+        "ja": "新鮮な牛乳のなめらかな味をシミュレートするために、砂糖代替品の官能基を特別に調整しました。その結果は驚くべきものです!\nさらに、新しい砂糖代替品と唾液タンパク質膜と黄色ブドウ球菌の親和性は10倍以上強いです!",
+        "es": "Para simular el sabor suave de la leche fresca, ajusté especialmente los grupos funcionales de los sustitutos del azúcar; ¡Los resultados son notables!\nAdemás, la afinidad del nuevo sustituto del azúcar y la membrana de proteínas salivales y el S. aureus es más de 10 veces más fuerte.",
+        "fr": "Afin de simuler le goût doux du lait frais, j'ai spécialement ajusté les groupes fonctionnels des substituts de sucre ; Les résultats sont remarquables !\nDe plus, l'affinité du nouveau substitut du sucre et de la membrane protéique salivaire et de S. aureus est plus de 10 fois plus forte !",
+        "th": "เพื่อจําลองรสชาติที่นุ่มนวลของนมสดฉันได้ปรับกลุ่มการทํางานของสารทดแทนน้ําตาลเป็นพิเศษ ผลลัพธ์ที่น่าทึ่ง!\nยิ่งไปกว่านั้นความสัมพันธ์ของสารทดแทนน้ําตาลชนิดใหม่และเยื่อหุ้มโปรตีนในน้ําลายและ S. aureus นั้นแข็งแกร่งกว่า 10 เท่า!"
+      }
+    }
+  },
+  "TerribleDad03": {
+    "textbox1": {
+      "x": "85%",
+      "y": "50%",
+      "width": "250px",
+      "height": "auto",
+      "fontSize": "35px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "2px solid black",
+      "text": {
+        "en": "This best-selling soda overshadows the sweetness with a sourness, so you can double the syrup to induce double dopamine!\n\nOne can a day, pre-diabetic in 3 years !!!",
+        "zh-hant": "這款熱銷汽水，用酸味蓋過甜味，所以可以加入雙倍糖漿，誘發雙倍多巴胺!\n\n每天一罐，有希望在3年內進入糖尿病前期!",
+        "ja": "甘みを酸味で覆い隠す売れ筋ソーダなので、シロップを2倍加えるとダブルドーパミンを誘発できます!\n1日1回、うまくいけば3年以内に前糖尿病になることを願っています!",
+        "es": "Este refresco de venta caliente eclipsa la dulzura con una acidez, por lo que puede agregar el doble de jarabe para inducir el doble de dopamina.\n¡Uno puede hacerlo al día y, con suerte, entrar en prediabetes en 3 años!",
+        "fr": "Ce soda très vendu éclipse la douceur d'une acidité, vous pouvez donc ajouter le double de sirop pour induire une double dopamine !\nOn peut le faire par jour et, espérons-le, entrer dans le prédiabète dans 3 ans !",
+        "th": "โซดาที่ขายดีนี้บดบังความหวานด้วยความเปรี้ยว คุณจึงสามารถเพิ่มน้ําเชื่อมเป็นสองเท่าเพื่อกระตุ้นให้เกิดโดปามีนสองเท่า!\nวันละหนึ่งกระป๋องและหวังว่าจะเข้าสู่ภาวะก่อนเบาหวานใน 3 ปี!"
+      }
+    }
+  },
+  "TerribleDad04": {
+    "textbox1": {
+      "x": "50%",
+      "y": "10%",
+      "width": "1000px",
+      "height": "auto",
+      "maxHeight": "200px",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "2px solid black",
+      "text": {
+        "en": "I aggravate periodontitis and you treat periodontitis; we are basically a completely family-run demand-supply chain!",
+        "zh-hant": "我加重牙周病，你治療牙周病，\n我們也算是一脈相承的家族企業了吧!",
+        "ja": "私は歯周病を悪化させ、あなたは歯周病を治療し、私たちは同じ血統の家族経営と見なすことができます!",
+        "es": "Agravo la enfermedad periodontal, usted trata la enfermedad periodontal, ¡y podemos ser considerados como un negocio familiar en el mismo linaje!",
+        "fr": "J'aggrave les maladies parodontales, vous traitez les maladies parodontales, et nous pouvons être considérés comme une entreprise familiale dans la même lignée !",
+        "th": "ฉันทําให้โรคปริทันต์รุนแรงขึ้น คุณรักษาโรคปริทันต์ และเราถือได้ว่าเป็นธุรกิจครอบครัวในเชื้อสายเดียวกัน!"
+      }
+    },
+    "textbox2": {
+      "x": "25%",
+      "y": "25%",
+      "width": "auto",
+      "maxWidth": "600px",
+      "height": "auto",
+      "fontSize": "55px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Are you proud of MEEEE ?",
+        "zh-hant": "我讓你驕傲了嗎?兒子?",
+        "ja": "私はあなたを誇りに思っていますか? 息子。",
+        "es": "¿Te estoy haciendo sentir orgulloso? ¿Hijo?",
+        "fr": "Est-ce que je vous rends fier ? Fils?",
+        "th": "ฉันทําให้คุณภูมิใจหรือไม่? ลูกชาย"
+      }
+    }
+  },
+  "TerribleDad05": {
+    "textbox1": {
+      "x": "15%",
+      "y": "30%",
+      "width": "300px",
+      "height": "auto",
+      "maxHeight": "200px",
+      "fontSize": "60px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "2px solid black",
+      "text": {
+        "en": "I AM NOT YOUR SON",
+        "zh-hant": "我不是\n你兒子",
+        "ja": "私はあなたの息子ではありません",
+        "es": "No soy tu hijo",
+        "fr": "Je ne suis pas ton fils",
+        "th": "ฉันไม่ใช่ลูกชายของคุณ"
+      }
+    },
+    "textbox2": {
+      "x": "88%",
+      "y": "46%",
+      "width": "250px",
+      "height": "auto",
+      "fontSize": "35px",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "border": "2px solid black",
+      "text": {
+        "en": "I'm sorry~\nWhat am I doing wrong?\nTell me, I promise I'll change~",
+        "zh-hant": "對不起嘛~\n我做錯了什麼?\n跟我說，我可以改~",
+        "ja": "ごめんなさい~\n何が間違っているのですか?\n教えて、私はそれを変えることができます~",
+        "es": "Lo siento~\n¿Qué estoy haciendo mal?\nDime, puedo cambiarlo ~",
+        "fr": "Désolé~\nQu'est-ce que je fais de mal ?\nDis-moi, je peux le changer~",
+        "th": "ขอโทษ~\nฉันทําอะไรผิด?\nบอกฉันหน่อย เปลี่ยนได้~"
+      }
+    }
+  }
+}

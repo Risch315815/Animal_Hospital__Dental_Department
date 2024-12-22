@@ -1,8 +1,8 @@
 ---
-layout: 2024-03-16-terrible-dad_post
-title: "Terrible Dad"
-date: 2024-03-16
-description: "A story about a terrible dad"
+layout: 2024-12-21-questionable-characters_post
+title: "Questionable Characters"
+date: 2024-12-21
+description: "A story about questionable characters"
 ---
 
 

@@ -85,116 +85,18 @@ body {
 
 .text-overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: black;
-    /* text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.7); */
-    font-size: 24px;
     text-align: center;
     z-index: 1;
     padding: 6px;
     margin: 3px;
-    background-color: rgba(0,0,0,0.05);
     border-radius: 10px;
-    border: 2px solid black; /* Debug border */
 }
 
 .text-overlay[lang="zh-hant"] {
     font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
-    font-size: 24px;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid black;
 }
 
-/* --------------------------------------------------- */
-
-/* Specific styles for individual overlays */
-.text-overlay[data-position="01A"] {
-    top: 10%;
-    left: 41.5%;
-    background-color: rgba(0,0,0,0.02);
-    border: 2px solid black;
-    font-size: 40px;
-}
-
-.text-overlay[data-position="01B"] {
-    top: 20%;
-    left: 85%;
-    background-color: rgba(0,0,0,0.02);
-    border: 2px solid black;
-    font-size: 30px;
-}
-
-.text-overlay[data-position="01C"] {
-    top: 85%;
-    left: 15%;
-    background-color: rgba(0,0,0,0);
-    border: 0px solid black;
-    font-size: 28px;
-}
-
-.text-overlay[data-position="01D"] {
-    top: 87%;
-    left: 65%;
-    background-color: rgba(0,0,0,0);
-    border: 0px solid black;
-    font-size: 28px;
-}
-/* --------------------------------------------------- */
-.text-overlay[data-position="02A"] {
-    top: 45%;
-    left: 15%;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid black;
-    font-size: 35px;
-    width: 270px;
-}
-/* --------------------------------------------------- */
-.text-overlay[data-position="03A"] {
-    top: 50%;
-    left: 85%;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid black;
-    font-size: 35px;
-    width: 250px;
-}
-/* --------------------------------------------------- */
-.text-overlay[data-position="04A"] {
-    top: 10%;
-    left: 50%;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid black;
-    font-size: 40px;
-    width: 1000px;
-    max-height: 200px;
-}
-.text-overlay[data-position="04B"] {
-    top: 25%;
-    left: 25%;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid black;
-    font-size: 55px;
-    max-width: 600px;
-}
-/* --------------------------------------------------- */
-.text-overlay[data-position="05A"] {
-    top: 30%;
-    left: 15%;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid black;
-    font-size: 60px;
-    width: 300px;
-    max-height: 200px;
-}
-.text-overlay[data-position="05B"] {
-    top: 46%;
-    left: 88%;
-    background-color: rgba(0,0,0,0);
-    border: 2px solid black;
-    font-size: 35px;
-    width: 250px;
-}
 /* --------------------------------------------------- */
 
 /* Footer styles */

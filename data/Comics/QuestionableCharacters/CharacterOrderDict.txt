@@ -1,0 +1,10 @@
+{
+QuestionableCharacters01:Extractosaurus,
+QuestionableCharacters02:ScalingKitty,
+QuestionableCharacters03:ProsthoWolf,
+QuestionableCharacters04:R3_5Cow,
+QuestionableCharacters05:CaptainFrontalLobotomy,
+QuestionableCharacters06:OralPathAnteater_text,
+QuestionableCharacters07:PedoRabbit,
+QuestionableCharacters08:Lavisheep
+}
