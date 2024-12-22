@@ -6,30 +6,29 @@ let translations = {};
 async function loadTranslations() {
     try {
         const baseUrl = document.head.querySelector('meta[name="base-url"]')?.content || '';
-        
-        // Get the current page path
         const path = window.location.pathname;
-        
-        // Determine which translation file to load based on the URL
+        console.log('Current path:', path);
+
         let translationFile = '';
-        if (path.includes('terrible-dad')) {
+        if (path.includes('scaling-kitty')) {
+            translationFile = '/data/Comics/ScalingKitty_BS/ScalingKitty_BS.json';
+            console.log('Loading Scaling Kitty translations');
+        } else if (path.includes('terrible-dad')) {
             translationFile = '/data/Comics/TerribleDad/translatedTD.json';
         } else if (path.includes('questionable-characters')) {
             translationFile = '/data/Comics/QuestionableCharacters/translatedQC.json';
         } else if (path.includes('extractosaurus')) {
             translationFile = '/data/Comics/Extractosaurus_BS/Extractosaurus_BS.json';
-        } else if (path.includes('scaling-kitty')) {
-            translationFile = '/data/Comics/ScalingKitty_BS/ScalingKitty_BS.json';
         } else {
             throw new Error('Unknown post type');
         }
         
         const response = await fetch(`${baseUrl}${translationFile}`);
         translations = await response.json();
-        console.log('Translations loaded:', translations); // Debug log
+        console.log('Loaded translations:', translations);
         changeLanguage('zh-hant');
     } catch (error) {
-        console.error('Error loading translations:', error);
+        console.error('Error details:', error);
     }
 }
 
@@ -54,9 +53,16 @@ function changeLanguage(lang) {
 // Function to update text overlays
 function updateTextOverlays() {
     const overlayContainers = document.querySelectorAll('.text-overlays');
+    console.log('Found overlay containers:', overlayContainers.length);
     
     overlayContainers.forEach(container => {
         const imageId = container.getAttribute('data-image-id');
+        console.log('Processing container:', {
+            id: imageId,
+            translations: translations[imageId],
+            container: container
+        });
+        
         container.innerHTML = ''; // Clear existing overlays
         
         if (translations[imageId]) {
