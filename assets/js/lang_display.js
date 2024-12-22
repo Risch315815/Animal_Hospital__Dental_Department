@@ -6,7 +6,21 @@ let translations = {};
 async function loadTranslations() {
     try {
         const baseUrl = document.head.querySelector('meta[name="base-url"]')?.content || '';
-        const response = await fetch(`${baseUrl}/data/translated.json`);
+        
+        // Get the current page path
+        const path = window.location.pathname;
+        
+        // Determine which translation file to load based on the URL
+        let translationFile = '';
+        if (path.includes('terrible-dad')) {
+            translationFile = '/data/Comics/TerribleDad/translatedTD.json';
+        } else if (path.includes('questionable-characters')) {
+            translationFile = '/data/Comics/QuestionableCharacters/translatedQC.json';
+        } else {
+            throw new Error('Unknown post type');
+        }
+        
+        const response = await fetch(`${baseUrl}${translationFile}`);
         translations = await response.json();
         console.log('Translations loaded:', translations); // Debug log
         changeLanguage('zh-hant');
@@ -41,34 +55,37 @@ function updateTextOverlays() {
         const imageId = container.getAttribute('data-image-id');
         container.innerHTML = ''; // Clear existing overlays
         
-        if (translations[imageId]?.overlays) {
-            translations[imageId].overlays.forEach(overlayData => {
-                if (overlayData[currentLang]) {
-                    const overlay = document.createElement('div');
-                    overlay.className = 'text-overlay';
-                    overlay.setAttribute('data-position', overlayData.position);
-                    overlay.setAttribute('data-width', overlayData.width || 'narrow');
-                    overlay.setAttribute('lang', currentLang);
-                    overlay.textContent = overlayData[currentLang];
+        if (translations[imageId]) {
+            const textboxes = translations[imageId];
+            
+            Object.entries(textboxes).forEach(([boxId, boxData]) => {
+                const overlay = document.createElement('div');
+                overlay.className = 'text-overlay';
+                overlay.setAttribute('lang', currentLang);
+                overlay.textContent = boxData.text[currentLang];
 
-                    // Append to container first to get computed styles
-                    container.appendChild(overlay);
+                // Apply positioning and styling from JSON
+                overlay.style.left = boxData.x;
+                overlay.style.top = boxData.y;
+                overlay.style.width = boxData.width;
+                overlay.style.height = boxData.height;
+                overlay.style.backgroundColor = boxData.backgroundColor;
+                overlay.style.border = boxData.border;
 
-                   // Apply all styles from the zh-hant version
-                   
-                   // Adjust font size based on language
-                   console.log(currentLang, parseFloat(window.getComputedStyle(overlay).fontSize))
-                   const baseFontSize = parseFloat(window.getComputedStyle(overlay).fontSize);
-                   if (currentLang === 'zh-hant') {
-                       overlay.style.fontSize = baseFontSize + 'px';
-                   } else if (currentLang === 'en') {
-                       overlay.style.fontSize = (baseFontSize - 7) + 'px';
-                   } else {
-                       overlay.style.fontSize = (baseFontSize - 12) + 'px';
-                   }
-
-                    console.log('Overlay added:', overlay); // Debug log
+                // Adjust font size based on language
+                const baseFontSize = parseInt(boxData.fontSize);
+                if (currentLang === 'zh-hant') {
+                    overlay.style.fontSize = boxData.fontSize;
+                } else if (currentLang === 'en') {
+                    overlay.style.fontSize = `${baseFontSize - 7}px`;
+                } else {
+                    overlay.style.fontSize = `${baseFontSize - 12}px`;
                 }
+
+                // Add the overlay to the container
+                container.appendChild(overlay);
+                
+                console.log('Overlay added:', overlay); // Debug log
             });
         }
     });
