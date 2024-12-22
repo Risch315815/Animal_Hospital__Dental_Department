@@ -1,0 +1,40 @@
+{
+  "Extractosaurus_BS01": {
+    "textbox1": {
+      "x": "80%",
+      "y": "30%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "It won't hurt at all after the local anesthesia~",
+        "zh-hant": "打麻醉以後\n就不會痛囉~",
+        "ja": "局所麻酔後も全然痛くないよ~",
+        "es": "No dolerá en absoluto después de la anestesia local ~",
+        "fr": "Cela ne fera pas mal du tout après l’anesthésie locale ~",
+        "th": "ไม่เจ็บเลยหลังจากดมยาสลบเฉพาะที่ ~"
+      }
+    }
+  },
+  "Extractosaurus_BS02": {
+    "textbox1": {
+      "x": "80%",
+      "y": "30%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Nice~\nIt went smoothly~",
+        "zh-hant": "我們很順利地\n拔起來囉~",
+        "ja": "ナイス~\nスムーズに進みました~",
+        "es": "Muy bien~\nSalió sin problemas ~",
+        "fr": "Gentil~\nTout s’est bien passé~",
+        "th": "ดี~\nมันราบรื่น~"
+      }
+    }
+  }
+}

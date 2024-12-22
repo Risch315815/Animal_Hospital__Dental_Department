@@ -73,6 +73,8 @@ body {
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    max-width: 90%;
 }
 
 .image-container img {
@@ -116,4 +118,14 @@ body {
     color: #666;
     text-decoration: none;
     margin-left: 1rem;
+}
+
+.comic-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.comic-panel {
+    margin: 2rem 0;
 }

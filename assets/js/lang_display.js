@@ -16,6 +16,8 @@ async function loadTranslations() {
             translationFile = '/data/Comics/TerribleDad/translatedTD.json';
         } else if (path.includes('questionable-characters')) {
             translationFile = '/data/Comics/QuestionableCharacters/translatedQC.json';
+        } else if (path.includes('extractosaurus')) {
+            translationFile = '/data/Comics/Extractosaurus_BS/Extractosaurus_BS.json';
         } else {
             throw new Error('Unknown post type');
         }

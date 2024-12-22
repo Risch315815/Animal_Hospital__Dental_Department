@@ -1,0 +1,40 @@
+{
+  "ScalingKitty_BS01": {
+    "textbox1": {
+      "x": "80%",
+      "y": "30%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Stage? Grade?",
+        "zh-hant": "Stage幾?\nGrade幾?",
+        "ja": "舞台。等級。",
+        "es": "¿Etapa? ¿Grado?",
+        "fr": "Étape? Grade?",
+        "th": "เวที  เกรด "
+      }
+    }
+  },
+  "ScalingKitty_BS02": {
+    "textbox1": {
+      "x": "80%",
+      "y": "30%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Have you read the AAPD 2017 Classification of Periodontal Diseases?",
+        "zh-hant": "有看 AAPD 2017 了嗎？",
+        "ja": "AAPD 2017を読んだことがありますか?",
+        "es": "¿Has leído la Clasificación AAPD 2017?",
+        "fr": "Avez-vous lu la classification AAPD 2017?",
+        "th": "คุณได้อ่าน AAPD 2017 แล้วหรือยัง?"
+      }
+    }
+  }
+} 
