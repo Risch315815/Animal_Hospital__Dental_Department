@@ -1,11 +1,11 @@
 {
-  "ProsthoWolf_BS01": {
+  "ProsthoWolf_BS1": {
     "textbox1": {
-      "x": "70%",
-      "y": "15%",
-      "width": "500px",
+      "x": "50%",
+      "y": "50%",
+      "width": "auto",
       "height": "auto",
-      "fontSize": "40px",
+      "fontSize": "26px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
@@ -16,13 +16,15 @@
         "fr": "Je refuse.\nAvec votre mauvaise hygiène bucco-dentaire, votre dent ne ferait que se décomposer jusqu’à ce qu’elle se fracture, même si elle est protégée par une couronne.",
         "th": "ฉันปฏิเสธ\nด้วยสุขอนามัยในช่องปากที่ไม่ดีฟันของคุณจะผุจนหักแม้ว่าจะได้รับการปกป้องด้วยครอบฟันก็ตาม"
       }
-    },
-    "textbox2": {
-      "x": "70%",
-      "y": "40%",
-      "width": "400px",
+    }
+  },
+  "ProsthoWolf_BS2": {
+    "textbox1": {
+      "x": "50%",
+      "y": "50%",
+      "width": "auto",
       "height": "auto",
-      "fontSize": "35px",
+      "fontSize": "26px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
@@ -33,18 +35,20 @@
         "fr": "Hé!\nComment osez-vous dire que mon hygiène bucco-dentaire est mauvaise !",
         "th": "หวัดดี!\nคุณกล้าเรียกสุขอนามัยในช่องปากของฉันว่าไม่ดีได้อย่างไร!"
       }
-    },
-    "textbox3": {
-      "x": "40%",
-      "y": "90%",
+    }
+  },
+  "ProsthoWolf_BS3": {
+    "textbox1": {
+      "x": "50%",
+      "y": "50%",
       "width": "auto",
       "height": "auto",
-      "fontSize": "40px",
+      "fontSize": "26px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
-        "en": "Please do not let your food drop onto the floor.",
-        "zh-hant": "請不要讓食物滴到診間地板。",
+        "en": "Please do not let you food drop onto the floor.",
+        "zh-hant": "請不要讓食物掉到診間地板。",
         "ja": "食べ物を床に落とさないでください。",
         "es": "Por favor, no deje que la comida caiga al suelo.",
         "fr": "Veuillez ne pas laisser tomber votre nourriture sur le sol.",
@@ -52,13 +56,13 @@
       }
     }
   },
-  "ProsthoWolf_BS02": {
+  "ProsthoWolf_BS4": {
     "textbox1": {
-      "x": "80%",
-      "y": "20%",
-      "width": "400px",
+      "x": "50%",
+      "y": "50%",
+      "width": "auto",
       "height": "auto",
-      "fontSize": "50px",
+      "fontSize": "26px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
@@ -69,18 +73,20 @@
         "fr": "Vous placez votre implant dentaire trop peu profond !",
         "th": "คุณวางรากฟันเทียมตื้นเกินไป!"
       }
-    },
-    "textbox2": {
-      "x": "25%",
-      "y": "10%",
+    }
+  },
+  "ProsthoWolf_BS5": {
+    "textbox1": {
+      "x": "50%",
+      "y": "50%",
       "width": "auto",
       "height": "auto",
-      "fontSize": "40px",
+      "fontSize": "26px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
-        "en": "The emergence profile\n of your crown is ugly.",
-        "zh-hant": "是你的\nemergence profile 醜~",
+        "en": "The emergence profile of your crown is ugly.",
+        "zh-hant": "是你的 emergence profile 醜~",
         "ja": "あなたの王冠の出現プロファイルは醜いです。",
         "es": "El perfil de emergencia de su corona es feo.",
         "fr": "Le profil d’émergence de votre couronne est moche.",
