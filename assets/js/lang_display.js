@@ -25,10 +25,12 @@ async function loadTranslations() {
         } else if (path.includes('prostho-wolf')) {
             translationFile = '/data/Comics/ProsthoWolf_BS/ProsthoWolf_BS.json';
             console.log('Loading <ProsthoWolf> translations');
-        } else if (path.includes('r3-5-cow')) {
+        } else if (path.includes('2024/12/22/R3_5Cow')) {
             translationFile = '/data/Comics/R3_5Cow_BS/R3_5Cow_BS.json';
             console.log('Loading <R3.5 Cow> translations');
+            console.log('Translation file path:', translationFile);
         } else {
+            console.error('Path not matched:', path);
             throw new Error('Unknown post type');
         }
         
