@@ -10,17 +10,21 @@ async function loadTranslations() {
         console.log('Current path:', path);
 
         let translationFile = '';
-        if (path.includes('scaling-kitty')) {
-            translationFile = '/data/Comics/ScalingKitty_BS/ScalingKitty_BS.json';
-            console.log('Loading Scaling Kitty translations');
+        if (path.includes('questionable-characters')) {
+            translationFile = '/data/Comics/QuestionableCharacters/translatedQC.json';
+            console.log('Loading <Questionable Characters> translations');
         } else if (path.includes('terrible-dad')) {
             translationFile = '/data/Comics/TerribleDad/translatedTD.json';
-        } else if (path.includes('questionable-characters')) {
-            translationFile = '/data/Comics/QuestionableCharacters/translatedQC.json';
+            console.log('Loading <Terrible Dad> translations');
+        } else if (path.includes('scaling-kitty')) {
+            translationFile = '/data/Comics/ScalingKitty_BS/ScalingKitty_BS.json';
+            console.log('Loading <Scaling Kitty> translations');
         } else if (path.includes('extractosaurus')) {
             translationFile = '/data/Comics/Extractosaurus_BS/Extractosaurus_BS.json';
+            console.log('Loading <Extractosaurus> translations');
         } else if (path.includes('prostho-wolf')) {
             translationFile = '/data/Comics/ProsthoWolf_BS/ProsthoWolf_BS.json';
+            console.log('Loading <ProsthoWolf> translations');
         } else {
             throw new Error('Unknown post type');
         }
