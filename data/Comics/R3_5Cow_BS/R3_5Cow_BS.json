@@ -1,0 +1,40 @@
+{
+  "R3_5Cow_BS01": {
+    "textbox1": {
+      "x": "75%",
+      "y": "40%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "What do you mean you won't let me do\n[some extremely challenging case]? \n How long have I been doing this?",
+        "zh-hant": "什麼叫你不放\n[某種很難的case]\n給我?\n我都R幾了?",
+        "ja": "これを任せないとはどういう意味ですか?\n私には十分な資格がありませんか?",
+        "es": "¿Qué quieres decir con que no me dejarás manejar esto?\n¿No estoy lo suficientemente calificado?",
+        "fr": "Qu’est-ce que tu veux dire que tu ne me laisseras pas gérer ça ?\nNe suis-je pas assez qualifié ?",
+        "th": "หมายความว่าอย่างไรที่คุณจะไม่ยอมให้ฉันจัดการกับเรื่องนี้?\nฉันมีคุณสมบัติไม่เพียงพอหรือไม่?"
+      }
+    }
+  },
+  "R3_5Cow_BS02": {
+    "textbox1": {
+      "x": "80%",
+      "y": "50%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "80px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Crap",
+        "zh-hant": "欸乾",
+        "ja": "くそ",
+        "es": "¡Mierda!",
+        "fr": "Merde!",
+        "th": "โธ่เว้ย!"
+      }
+    }
+  }
+} 
