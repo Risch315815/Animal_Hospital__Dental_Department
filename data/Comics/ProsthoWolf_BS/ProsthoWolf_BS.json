@@ -1,0 +1,91 @@
+{
+  "ProsthoWolf_BS01": {
+    "textbox1": {
+      "x": "70%",
+      "y": "15%",
+      "width": "500px",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "I refuse.\nWith your poor oral hygiene, your tooth would just decay until it fractures even if it is protected by a crown.",
+        "zh-hant": "我拒絕。\n口腔衛生這麼差，做了牙冠也是蛀掉。",
+        "ja": "私は拒否します。\n口腔衛生状態が悪いと、歯冠で保護されていても、歯が骨折するまで虫歯になってしまいます。",
+        "es": "Me niego.\nCon una mala higiene bucal, su diente simplemente se deterioraría hasta fracturarse, incluso si está protegido por una corona.",
+        "fr": "Je refuse.\nAvec votre mauvaise hygiène bucco-dentaire, votre dent ne ferait que se décomposer jusqu’à ce qu’elle se fracture, même si elle est protégée par une couronne.",
+        "th": "ฉันปฏิเสธ\nด้วยสุขอนามัยในช่องปากที่ไม่ดีฟันของคุณจะผุจนหักแม้ว่าจะได้รับการปกป้องด้วยครอบฟันก็ตาม"
+      }
+    },
+    "textbox2": {
+      "x": "70%",
+      "y": "40%",
+      "width": "400px",
+      "height": "auto",
+      "fontSize": "35px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Hey!\nHow dare you call my oral hygiene bad!",
+        "zh-hant": "欸！\n說誰的口腔衛生差呢！?",
+        "ja": "ねえ！\n私の口腔衛生を悪いと呼ぶなんて!",
+        "es": "¡Eh!\n¡Cómo te atreves a decir que mi higiene bucal es mala!",
+        "fr": "Hé!\nComment osez-vous dire que mon hygiène bucco-dentaire est mauvaise !",
+        "th": "หวัดดี!\nคุณกล้าเรียกสุขอนามัยในช่องปากของฉันว่าไม่ดีได้อย่างไร!"
+      }
+    },
+    "textbox3": {
+      "x": "40%",
+      "y": "90%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Please do not let your food drop onto the floor.",
+        "zh-hant": "請不要讓食物滴到診間地板。",
+        "ja": "食べ物を床に落とさないでください。",
+        "es": "Por favor, no deje que la comida caiga al suelo.",
+        "fr": "Veuillez ne pas laisser tomber votre nourriture sur le sol.",
+        "th": "โปรดอย่าปล่อยให้อาหารหล่นลงบนพื้น"
+      }
+    }
+  },
+  "ProsthoWolf_BS02": {
+    "textbox1": {
+      "x": "80%",
+      "y": "20%",
+      "width": "400px",
+      "height": "auto",
+      "fontSize": "50px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "You place your dental implant too shallow!",
+        "zh-hant": "你植的太淺了！",
+        "ja": "歯科インプラントを浅くしすぎます!",
+        "es": "¡Colocas tu implante dental demasiado poco profundo!",
+        "fr": "Vous placez votre implant dentaire trop peu profond !",
+        "th": "คุณวางรากฟันเทียมตื้นเกินไป!"
+      }
+    },
+    "textbox2": {
+      "x": "25%",
+      "y": "10%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "The emergence profile\n of your crown is ugly.",
+        "zh-hant": "是你的\nemergence profile 醜~",
+        "ja": "あなたの王冠の出現プロファイルは醜いです。",
+        "es": "El perfil de emergencia de su corona es feo.",
+        "fr": "Le profil d’émergence de votre couronne est moche.",
+        "th": "โปรไฟล์การเกิดขึ้นของมงกุฎของคุณน่าเกลียด"
+      }
+    }
+  }
+}

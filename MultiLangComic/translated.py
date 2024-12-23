@@ -2,8 +2,8 @@ import pandas as pd
 import json
 from typing import Dict, List
 
-excel_file_path = r"D://Coding//GitHubTranslation//Risch315815.github.io//MultiLangComic//Excel翻譯_ScalingKitty_BS.xlsx"
-img_name = "ScalingKitty_BS"
+excel_file_path = r"D://Coding//GitHubTranslation//Risch315815.github.io//MultiLangComic//Excel翻譯_ProsthoWolf_BS.xlsx"
+img_name = "ProsthoWolf_BS"
 output_file = f"D://Coding//GitHubTranslation//Risch315815.github.io//data//Comics//{img_name}//{img_name}.json"
 
 def get_translations(excel_file_path):
