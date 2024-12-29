@@ -52,17 +52,17 @@
         <div class="container">
             <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             <nav class="site-nav">
-                <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
-                <a href="{{ '/about' | relative_url }}" {% if page.url == "/about/" %}class="active"{% endif %}>About</a>
-                <a href="{{ '/blog' | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a>
-                <a href="{{ '/contact' | relative_url }}" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a>
+                <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="0"></a>
+                <a href="{{ '/news' | relative_url }}" {% if page.url == "/news/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="1"></a>
+                <a href="{{ '/team' | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="2"></a>
+                <a href="{{ '/contact' | relative_url }}" {% if page.url == "/contact/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="3"></a>
             </nav>
         </div>
     </header>
 
     <div class="language-selector">
         <div class="container">
-            <label for="language-select">Choose Language:</label>
+            <label for="language-select" id="language-label">選擇語言</label>
             <select id="language-select" onchange="changeLanguage(this.value)">
                 <option value="zh-hant" {% if page.lang == 'zh-hant' %}selected{% endif %}>中文</option>
                 <option value="en" {% if page.lang == 'en' %}selected{% endif %}>English</option>

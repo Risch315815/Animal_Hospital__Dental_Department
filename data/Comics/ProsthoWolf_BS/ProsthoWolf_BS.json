@@ -1,11 +1,45 @@
 {
-  "ProsthoWolf_BS1": {
+  "character_story": {
+    "text": {
+      "en": [
+        "ProsthoWolf is a prosthodontist who is gregariously amiable.",
+        "However, he never compromises his bottom line and would reprimand those who brush over them.",
+        "Occasionally, he has to cooperate with Extractosaurus over implant rehabilitation, and would argue with him fiercely."
+      ],
+      "zh-hant": [
+        "波索沃是一位處事圓滑的補綴科醫師。",
+        "然而，他絕對堅守自己的治療原則，並且會嚴厲斥責那些想敷衍了事的患者。",
+        "偶爾需要和拔牙暴龍合作植牙重建，但兩人總是會爭論不休。"
+      ],
+      "ja": [
+        "プロストウルフは、社交的で親しみやすい補綴専門医です。",
+        "しかし、彼は原則を決して妥協せず、それを軽視する人々を叱責します。",
+        "時にはエクストラクトサウルスとインプラントリハビリで協力する必要がありますが、激しく議論することになります。"
+      ],
+      "es": [
+        "ProsthoWolf es un prostodoncista que es gregariamente amable.",
+        "Sin embargo, nunca compromete sus principios y reprende a aquellos que los pasan por alto.",
+        "Ocasionalmente, tiene que cooperar con Extractosaurus en la rehabilitación con implantes, y discute ferozmente con él."
+      ],
+      "fr": [
+        "ProsthoWolf est un prothésiste dentaire qui est très sociable.",
+        "Cependant, il ne compromet jamais ses principes et réprimande ceux qui les négligent.",
+        "Occasionnellement, il doit coopérer avec Extractosaurus pour la réhabilitation implantaire, et ils se disputent férocement."
+      ],
+      "th": [
+        "โพรสโธวูล์ฟเป็นทันตแพทย์ด้านฟันเทียมที่เป็นมิตรและเข้าสังคมเก่ง",
+        "อย่างไรก็ตาม เขาไม่เคยประนีประนอมในหลักการของเขา และจะตำหนิผู้ที่ละเลยหลักการเหล่านั้น",
+        "บางครั้งเขาต้องร่วมมือกับเอ็กซ์แทรคโตซอรัสในการฟื้นฟูด้วยรากฟันเทียม และมักจะโต้เถียงกันอย่างดุเดือด"
+      ]
+    }
+  },
+  "ProsthoWolf_BS01": {
     "textbox1": {
-      "x": "50%",
-      "y": "50%",
+      "x": "60%",
+      "y": "15%",
       "width": "auto",
       "height": "auto",
-      "fontSize": "26px",
+      "fontSize": "32px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
@@ -16,12 +50,10 @@
         "fr": "Je refuse.\nAvec votre mauvaise hygiène bucco-dentaire, votre dent ne ferait que se décomposer jusqu’à ce qu’elle se fracture, même si elle est protégée par une couronne.",
         "th": "ฉันปฏิเสธ\nด้วยสุขอนามัยในช่องปากที่ไม่ดีฟันของคุณจะผุจนหักแม้ว่าจะได้รับการปกป้องด้วยครอบฟันก็ตาม"
       }
-    }
-  },
-  "ProsthoWolf_BS2": {
-    "textbox1": {
-      "x": "50%",
-      "y": "50%",
+    },
+    "textbox2": {
+      "x": "68%",
+      "y": "40%",
       "width": "auto",
       "height": "auto",
       "fontSize": "26px",
@@ -35,15 +67,13 @@
         "fr": "Hé!\nComment osez-vous dire que mon hygiène bucco-dentaire est mauvaise !",
         "th": "หวัดดี!\nคุณกล้าเรียกสุขอนามัยในช่องปากของฉันว่าไม่ดีได้อย่างไร!"
       }
-    }
-  },
-  "ProsthoWolf_BS3": {
-    "textbox1": {
+    },
+    "textbox3": {
       "x": "50%",
-      "y": "50%",
+      "y": "90%",
       "width": "auto",
       "height": "auto",
-      "fontSize": "26px",
+      "fontSize": "35px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
@@ -56,13 +86,13 @@
       }
     }
   },
-  "ProsthoWolf_BS4": {
+  "ProsthoWolf_BS02": {
     "textbox1": {
-      "x": "50%",
-      "y": "50%",
+      "x": "70%",
+      "y": "10%",
       "width": "auto",
       "height": "auto",
-      "fontSize": "26px",
+      "fontSize": "40px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {
@@ -73,15 +103,13 @@
         "fr": "Vous placez votre implant dentaire trop peu profond !",
         "th": "คุณวางรากฟันเทียมตื้นเกินไป!"
       }
-    }
-  },
-  "ProsthoWolf_BS5": {
-    "textbox1": {
-      "x": "50%",
-      "y": "50%",
+    },
+    "textbox2": {
+      "x": "25%",
+      "y": "10%",
       "width": "auto",
       "height": "auto",
-      "fontSize": "26px",
+      "fontSize": "30px",
       "backgroundColor": "rgba(0,0,0,0.02)",
       "border": "2px solid black",
       "text": {

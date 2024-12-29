@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="news-section">
+    <div class="section-header">
+        <h2 class="section-title" data-story-id="news_title"></h2>
+    </div>
+    
+    <div class="news-content">
+        <!-- Latest News -->
+        <div class="news-grid">
+            {% for post in site.posts %}
+                <article class="news-item">
+                    <div class="news-meta">
+                        <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                    </div>
+                    <h3 class="news-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    {% if post.description %}
+                        <p class="news-excerpt">{{ post.description }}</p>
+                    {% endif %}
+                </article>
+            {% endfor %}
+        </div>
+    </div>
+</div> 

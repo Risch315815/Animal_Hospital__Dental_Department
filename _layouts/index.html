@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="post-header"></div>
+    <h1>科室剪影 / Our Department</h1>
+    <br>
+</div>
+
+<!-- Main Content -->
+<main class="site-content">
+    <div class="container">
+        <!-- Main Image -->
+        <div class="main-image-section">
+            <img src="{{ '/data/Homepage01.png' | relative_url }}" alt="Animal Hospital Logo" class="main-logo">
+        </div>
+
+        <!-- About Section -->
+        <div class="about-section">
+            <div class="section-header">
+                <h2 class="section-title" data-story-id="about_section_title"></h2>
+            </div>
+            <div class="section-content" data-story-id="about_section_content">
+                <!-- Content will be inserted here by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Recent Posts -->
+        <div class="recent-posts">
+            <h2 class="section-title" data-story-id="recent_posts"></h2>
+            <ul>
+                {% for post in site.posts %}
+                    <li>
+                        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                        <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</main> 

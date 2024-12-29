@@ -1,0 +1,36 @@
+{
+    "about_content": {
+        "text": {
+            "zh-hant": [
+                "動物醫院牙科部是一個階級護體的伊甸園。",
+                "一群專科醫生仗著病人信任他們有能力處理難症，大刀闊斧施展他們的才華。",
+                "歡迎約診。我們會好好治療你。"
+            ],
+            "en": [
+                "The Animal Hospital's Dental Department is paradise shielded by privilege.",
+                "Wielding the trust of patients in need, specialists here unleash any treatment they deem necessary.",
+                "Welcome. We shall treat you well."
+            ],
+            "ja": [
+                "動物病院歯科部門は特権に守られた楽園です。",
+                "専門医たちは、患者からの信頼を盾に、必要と判断したあらゆる治療を躊躇なく実施します。",
+                "ようこそ。私たちが適切に治療いたします。"
+            ],
+            "es": [
+                "El Departamento Dental del Hospital Animal es un paraíso protegido por privilegios.",
+                "Empuñando la confianza de los pacientes necesitados, los especialistas aquí desatan cualquier tratamiento que consideren necesario.",
+                "Bienvenido. Le trataremos bien."
+            ],
+            "fr": [
+                "Le service dentaire de l'hôpital pour animaux est un paradis protégé par ses privilèges.",
+                "Armés de la confiance des patients dans le besoin, les spécialistes ici déploient tous les traitements qu'ils jugent nécessaires.",
+                "Bienvenue. Nous vous traiterons comme il se doit."
+            ],
+            "th": [
+                "แผนกทันตกรรมของโรงพยาบาลสัตว์คือสวรรค์ที่ได้รับการปกป้องด้วยเอกสิทธิ์",
+                "ด้วยความไว้วางใจจากผู้ป่วยที่ต้องการความช่วยเหลือ ผู้เชี่ยวชาญที่นี่พร้อมใช้การรักษาใดๆ ที่พวกเขาเห็นว่าจำเป็น",
+                "ยินดีต้อนรับ เราจะดูแลคุณเป็นอย่างดี"
+            ]
+        }
+    }
+} 
