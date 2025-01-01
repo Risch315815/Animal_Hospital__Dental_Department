@@ -1,4 +1,70 @@
 {
+  "character_title": {
+    "text": {
+      "zh-hant": "R3.5牛",
+      "en": "R3.5 Cow",
+      "ja": "R3.5カウ",
+      "es": "Vaca R3.5",
+      "fr": "Vache R3.5",
+      "th": "อาร์3.5คาว"
+    }
+  },
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>專科: </strong>家庭牙醫<br><br><strong>名言: </strong>太簡單我不接",
+      "en": "<strong>Specialty: </strong>Family Dentistry<br><br><strong>Catchphrase: </strong>If it's too easy I won't take it.",
+      "ja": "<strong>専門: </strong>家庭歯科<br><br><strong>名言: </strong>簡単すぎるケースは受け付けません",
+      "es": "<strong>Especialidad: </strong>Odontología Familiar<br><br><strong>Catchphrase: </strong>Si es demasiado fácil, no lo acepto.",
+      "fr": "<strong>Spécialité: </strong>Dentisterie Familiale<br><br><strong>Catchphrase: </strong>Si c'est trop facile, je ne le prends pas.",
+      "th": "<strong>สาขา: </strong>ทันตกรรมครอบครัว<br><br><strong>ประโยคประจำตัว: </strong>ถ้าง่ายเกินไปฉันจะไม่รับ"
+    }
+  },
+  "character_story": {
+    "text": {
+      "en": [
+        "R3.5 Cow is an ambitious family dentistry resident who thinks that he is able to take on any case since he is training in family dentistry.",
+        "He thinks that his cases thus far are too simple, and constantly asks his moderator for more challenging cases.",
+        "He'll learn."
+      ],
+      "zh-hant": [
+        "R3.5牛是一位 '很積極' 的家牙住院醫師；他覺得自己什麼 case 都能接，因為 train 家牙就是要當大GP。",
+        "他覺得目前的 case 都太簡單了，老是跟主治醫師要更難的病例。",
+        "初生之犢。"
+      ],
+      "ja": [
+        "R3.5カウは、家族歯科研修医として意欲的で、家族歯科の研修を受けているため、どんなケースでも対応できると考えています。",
+        "これまでのケースは簡単すぎると考え、常により困難なケースを指導医に求めています。",
+        "彼は学ぶでしょう。"
+      ],
+      "es": [
+        "R3.5 Cow es un residente ambicioso de odontología familiar que cree que puede manejar cualquier caso ya que está entrenando en odontología familiar.",
+        "Piensa que sus casos hasta ahora son demasiado simples y constantemente pide a su moderador casos más desafiantes.",
+        "Ya aprenderá."
+      ],
+      "fr": [
+        "R3.5 Cow est un résident ambitieux en dentisterie familiale qui pense pouvoir prendre en charge n'importe quel cas puisqu'il suit une formation en dentisterie familiale.",
+        "Il trouve que ses cas jusqu'à présent sont trop simples et demande constamment à son modérateur des cas plus difficiles.",
+        "Il apprendra."
+      ],
+      "th": [
+        "R3.5 Cow เป็นแพทย์ประจำบ้านทันตกรรมครอบครัวที่มีความทะเยอทะยาน เขาคิดว่าเขาสามารถรับมือกับทุกกรณีได้เนื่องจากเขากำลังฝึกอบรมด้านทันตกรรมครอบครัว",
+        "เขาคิดว่ากรณีของเขาจนถึงตอนนี้ง่ายเกินไป และขอให้ผู้ดูแลของเขาให้กรณีที่ท้าทายมากขึ้นอย่างต่อเนื่อง",
+        "เขาจะได้เรียนรู้"
+      ]
+    }
+  },
+
+
   "R3_5Cow_BS01": {
     "textbox1": {
       "x": "75%",
@@ -35,40 +101,6 @@
         "fr": "Merde!",
         "th": "โธ่เว้ย!"
       }
-    }
-  },
-  "character_story": {
-    "text": {
-      "en": [
-        "R3.5 Cow is an ambitious family dentistry resident who thinks that he is able to take on any case since he is training in family dentistry.",
-        "He thinks that his cases thus far are too simple, and constantly asks his moderator for more challenging cases.",
-        "He'll learn."
-      ],
-      "zh-hant": [
-        "R3.5牛是一位'很積極'的家牙住院醫師；他覺得自己什麼 case 都能接，因為 train 家牙就是要當大GP。",
-        "他覺得目前的 case 都太簡單了，老是跟主治醫師要更難的病例。",
-        "初生之犢。"
-      ],
-      "ja": [
-        "R3.5カウは、家族歯科研修医として意欲的で、家族歯科の研修を受けているため、どんなケースでも対応できると考えています。",
-        "これまでのケースは簡単すぎると考え、常により困難なケースを指導医に求めています。",
-        "彼は学ぶでしょう。"
-      ],
-      "es": [
-        "R3.5 Cow es un residente ambicioso de odontología familiar que cree que puede manejar cualquier caso ya que está entrenando en odontología familiar.",
-        "Piensa que sus casos hasta ahora son demasiado simples y constantemente pide a su moderador casos más desafiantes.",
-        "Ya aprenderá."
-      ],
-      "fr": [
-        "R3.5 Cow est un résident ambitieux en dentisterie familiale qui pense pouvoir prendre en charge n'importe quel cas puisqu'il suit une formation en dentisterie familiale.",
-        "Il trouve que ses cas jusqu'à présent sont trop simples et demande constamment à son modérateur des cas plus difficiles.",
-        "Il apprendra."
-      ],
-      "th": [
-        "R3.5 Cow เป็นแพทย์ประจำบ้านทันตกรรมครอบครัวที่มีความทะเยอทะยาน เขาคิดว่าเขาสามารถรับมือกับทุกกรณีได้เนื่องจากเขากำลังฝึกอบรมด้านทันตกรรมครอบครัว",
-        "เขาคิดว่ากรณีของเขาจนถึงตอนนี้ง่ายเกินไป และขอให้ผู้ดูแลของเขาให้กรณีที่ท้าทายมากขึ้นอย่างต่อเนื่อง",
-        "เขาจะได้เรียนรู้"
-      ]
     }
   }
 } 

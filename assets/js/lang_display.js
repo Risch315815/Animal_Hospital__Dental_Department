@@ -80,6 +80,9 @@ async function loadTranslations() {
         } else if (currentPath.includes('captainfrontallobotomy')) {
             translationFile = '/data/Comics/CaptainFrontalLobotomy_BS/CaptainFrontalLobotomy_BS.json';
             console.log('Loading <CaptainFrontalLobotomy> translations');
+        } else if (currentPath.includes('WorkplaceInjury')) {
+            translationFile = '/data/Comics/WorkplaceInjury/WorkplaceInjury.json';
+            console.log('Loading <WorkplaceInjury> translations');
         } else {
             console.error('Path not matched:', currentPath);
             throw new Error('Unknown post type');
@@ -123,34 +126,45 @@ function updateTextOverlays() {
     overlayContainers.forEach(container => {
         const imageId = container.getAttribute('data-image-id');
         console.log('Processing image ID:', imageId);
+        console.log('Available translations:', translations);
         
-        container.innerHTML = ''; // Clear existing overlays
+        // Clear existing overlays
+        container.innerHTML = ''; 
         
-        if (translations.text_overlays && translations.text_overlays[imageId]) {
-            const textboxes = translations.text_overlays[imageId];
-            Object.entries(textboxes).forEach(([boxId, boxData]) => {
+        // Add debug logging
+        console.log('Translations:', translations);
+        console.log('Current language:', currentLang);
+        
+        if (translations[imageId]) {
+            console.log('Found translations for:', imageId);
+            Object.entries(translations[imageId]).forEach(([boxId, boxData]) => {
+                console.log('Creating overlay for:', boxId, boxData);
+                
                 const overlay = document.createElement('div');
                 overlay.className = 'text-overlay';
                 overlay.setAttribute('lang', currentLang);
-                overlay.textContent = boxData.text[currentLang];
-
-                // Apply all styling from JSON
-                overlay.style.left = boxData.x;
-                overlay.style.top = boxData.y;
-                overlay.style.width = boxData.width;
-                overlay.style.height = boxData.height;
-                overlay.style.fontSize = boxData.fontSize;
-                overlay.style.backgroundColor = boxData.backgroundColor;
-                overlay.style.border = boxData.border;
-                overlay.style.fontWeight = boxData.fontWeight || 'normal';
                 
-                // Add transform for centering if needed
-                if (boxData.transform) {
-                    overlay.style.transform = boxData.transform;
+                // Set text content
+                if (boxData.text && boxData.text[currentLang]) {
+                    overlay.textContent = boxData.text[currentLang];
+                } else {
+                    console.warn(`Missing translation for ${currentLang} in ${imageId}.${boxId}`);
                 }
 
+                // Apply all styling from JSON
+                if (boxData.x) overlay.style.left = boxData.x;
+                if (boxData.y) overlay.style.top = boxData.y;
+                if (boxData.width) overlay.style.width = boxData.width;
+                if (boxData.height) overlay.style.height = boxData.height;
+                if (boxData.fontSize) overlay.style.fontSize = boxData.fontSize;
+                if (boxData.backgroundColor) overlay.style.backgroundColor = boxData.backgroundColor;
+                if (boxData.border) overlay.style.border = boxData.border;
+                if (boxData.fontWeight) overlay.style.fontWeight = boxData.fontWeight;
+                
                 container.appendChild(overlay);
             });
+        } else {
+            console.warn('No translations found for:', imageId);
         }
     });
 }
@@ -200,11 +214,19 @@ function updateMemberProfiles() {
     
     memberProfiles.forEach(profile => {
         const memberId = profile.getAttribute('data-member-id');
-        if (translations.team_members && translations.team_members[memberId]) {
-            profile.innerHTML = translations.team_members[memberId].text[currentLang];
+        if (translations[memberId] && translations[memberId].text) {
+            profile.innerHTML = translations[memberId].text[currentLang];
         }
     });
 }
 
 // Initialize when the page loads
 document.addEventListener('DOMContentLoaded', loadTranslations); 
+
+// Add this to help debug
+document.addEventListener('DOMContentLoaded', () => {
+    loadTranslations().then(() => {
+        console.log('Initial translations loaded');
+        console.log('Available translations:', translations);
+    });
+}); 

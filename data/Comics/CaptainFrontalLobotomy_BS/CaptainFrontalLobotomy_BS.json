@@ -1,57 +1,32 @@
 {
-  "CaptainFrontalLobotomy_BS01": {
-    "textbox1": {
-      "x": "70%",
-      "y": "25%",
-      "width": "auto",
-      "height": "auto",
-      "fontSize": "30px",
-      "backgroundColor": "rgba(0,0,0,0.02)",
-      "border": "2px solid black",
-      "text": {
-        "en": "A 50-year-old female patient complains of continuous burning sensation in her mouth for months. After extensive blood tests and fungus cluture, I still can find nothing. What should I do?",
-        "zh-hant": "50歲婦女抱怨口腔燒灼感；已經做了血液檢查和真菌培養都找不到原因。該怎麼辦呢？",
-        "ja": "50歳の女性患者が、口の痛みを数ヶ月続けていると訴えています。広範な血液検査と真菌培養を行った後、まだ原因が見つかりません。どうすればいいですか？",
-        "es": "Una paciente de 50 años se queja de una sensación de ardor continuo en la boca durante meses. Después de extensas pruebas de sangre y cultivos de hongos, todavía no puedo encontrar nada. ¿Qué debo hacer?",
-        "fr": "Une patiente de 50 ans se plaint d'une sensation de brûlure continue dans la bouche depuis des mois. Après des tests sanguins approfondis et des cultures fongiques, je ne trouve toujours rien. Que dois-je faire ?",
-        "th": "ผู้ป่วยหญิงอายุ 50 ปีบ่นว่ามีอาการแสบร้อนในปากต่อเนื่องมาหลายเดือน หลังจากการตรวจเลือดอย่างละเอียดและการเพาะเชื้อรา ฉันก็ยังไม่พบสาเหตุ ฉันควรทำอย่างไร?"
-      }
+  "character_title": {
+    "text": {
+      "zh-hant": "前額葉切除隊長",
+      "en": "Captain Frontal Lobotomy",
+      "ja": "キャプテン・フロンタル・ロボトミー",
+      "es": "Capitán Lobotomía Frontal",
+      "fr": "Capitaine Lobotomie Frontale",
+      "th": "กัปตันโลโบโตมี"
     }
   },
-  "CaptainFrontalLobotomy_BS02": {
-    "textbox1": {
-      "x": "25%",
-      "y": "20%",
-      "width": "auto",
-      "height": "auto",
-      "fontSize": "40px",
-      "backgroundColor": "rgba(0,0,0,0.02)",
-      "border": "2px solid black",
-      "text": {
-        "en": "That serious already?\nHave you considered frontal lobotomy?",
-        "zh-hant": "這麼嚴重啊？\n有考慮過\n前額葉切除術嗎？",
-        "ja": "もうそんなに深刻?\n前頭葉ロボトミーを\n検討したことがありますか?",
-        "es": "¿Tan serio ya?\n¿Has considerado la lobotomía frontal?",
-        "fr": "Déjà si sérieux ?\nAvez-vous envisagé la lobotomie frontale ?",
-        "th": "จริงจังแล้วเหรอ?\nคุณเคยพิจารณาการผ่าตัด lobotomy หน้าผากหรือไม่?"
-      }
-    },
-    "textbox2": {
-      "x": "30%",
-      "y": "55%",
-      "width": "auto",
-      "height": "auto",
-      "fontSize": "25px",
-      "backgroundColor": "rgba(0,0,0,0.02)",
-      "border": "2px solid black",
-      "text": {
-        "en": "Yeah~\nConsultation~",
-        "zh-hant": "耶~\n來會診~",
-        "ja": "よし~\n相談しましょう~",
-        "es": "¡Ja~\nConsultación~",
-        "fr": "Oui~\nConsultation~",
-        "th": "ใช่เลย~\nมาปรึกษากัน~"
-      }
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>專科: </strong>神經外科<br><br><strong>名言: </strong>你有考慮過前額葉切除術嗎？",
+      "en": "<strong>Specialty: </strong>Neurosurgery<br><br><strong>Catchphrase: </strong>Have you considered frontal lobotomy?",
+      "ja": "<strong>専門: </strong>神経外科<br><br><strong>名言: </strong>前頭葉ロボトミーを検討しましたか？",
+      "es": "<strong>Especialidad: </strong>Neurocirugía<br><br><strong>Catchphrase: </strong>¿Has considerado la lobotomía frontal?",
+      "fr": "<strong>Spécialité: </strong>Neurochirurgie<br><br><strong>Catchphrase: </strong>Avez-vous envisagé la lobotomie frontale ?",
+      "th": "<strong>สาขา: </strong>ประสาทศัลยแพทย์ 'แบบดั้งเดิม'<br><br><strong>ประโยคประจำตัว: </strong>คุณเคยพิจารณาการผ่าตัด lobotomy หน้าผากหรือไม่?"
     }
   },
   "character_story": {
@@ -86,6 +61,63 @@
         "ไม่ว่าอาการหลักจะเป็นอะไร เขาก็มักจะแทรกการผ่าตัดสมองส่วนหน้าเข้าไปในตัวเลือกการรักษาเสมอ",
         "เขาได้รับการปฏิบัติเสมือนมาสคอตของโรงพยาบาลเนื่องจากอาวุโส แต่มีเพียงเอ็กซ์แทรคโตซอรัสเท่านั้นที่จะปรึกษาเขาเมื่อหมดทางแก้ไขแล้ว"
       ]
+    }
+  },
+
+  
+  "CaptainFrontalLobotomy_BS01": {
+    "textbox1": {
+      "x": "70%",
+      "y": "25%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "30px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "A 50-year-old female patient complains of continuous burning sensation in her mouth for months. After extensive blood tests and fungus cluture, I still can find nothing. What should I do?",
+        "zh-hant": "50歲婦女抱怨口腔燒灼感；已經做了血液檢查和真菌培養都找不到原因。該怎麼辦呢？",
+        "ja": "50歳の女性患者が、口の痛みを数ヶ月続けていると訴えています。広範な血液検査と真菌培養を行った後、まだ原因が見つかりません。どうすればいいですか？",
+        "es": "Una paciente de 50 años se queja de una sensación de ardor continuo en la boca durante meses. Después de extensas pruebas de sangre y cultivos de hongos, todavía no puedo encontrar nada. ¿Qué debo hacer?",
+        "fr": "Une patiente de 50 ans se plaint d'une sensation de brûlure continue dans la bouche depuis des mois. Après des tests sanguins approfondis et des cultures fongiques, je ne trouve toujours rien. Que dois-je faire ?",
+        "th": "ผู้ป่วยหญิงอายุ 50 ปีบ่นว่ามีอาการแสบร้อนในปากต่อเนื่องมาหลายเดือน หลังจากการตรวจเลือดอย่างละเอียดและการเพาะเชื้อรา ฉันก็ยังไม่พบสาเหตุ ฉันควรทำอย่างไร?"
+      }
+    }
+  },
+  "CaptainFrontalLobotomy_BS02": {
+    "textbox1": {
+      "x": "25%",
+      "y": "20%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0, 0, 0, 0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "That serious already?\nHave you considered frontal lobotomy?",
+        "zh-hant": "這麼嚴重啊？\n有考慮過\n前額葉切除術嗎？",
+        "ja": "もうそんなに深刻?\n前頭葉ロボトミーを\n検討したことがありますか?",
+        "es": "¿Tan serio ya?\n¿Has considerado la lobotomía frontal?",
+        "fr": "Déjà si sérieux?\nAvez-vous envisagé la lobotomie frontale?",
+        "th": "จริงจังแล้วเหรอ?\nคุณเคยพิจารณาการผ่าตัด lobotomy หน้าผากหรือไม่?"
+      }
+    },
+    "textbox2": {
+      "x": "30%",
+      "y": "55%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "25px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Yeah~\nConsultation~",
+        "zh-hant": "耶~\n來會診~",
+        "ja": "よし~\n相談しましょう~",
+        "es": "¡Ja~\nConsultación~",
+        "fr": "Oui~\nConsultation~",
+        "th": "ใช่เลย~\nมาปรึกษากัน~"
+      }
     }
   }
 }

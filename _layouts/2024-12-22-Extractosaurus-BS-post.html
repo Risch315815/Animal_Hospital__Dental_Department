@@ -2,36 +2,33 @@
 layout: default
 ---
 <div class="post-header">
-    <h1>拔牙暴龍 / Extractosaurus</h1>
-    <br>
+    <h1 data-story-id="character_title"></h1>
 </div>
 
 <hr>
 <br>
 
-<!-- Character Introduction -->
-<div class="character-story"></div>
-    <h2>Background Story</h2>
-    <p>
-        Extractosaurus is a dentist known for his... unique approach to tooth extraction. 
-    </p>
-    <p>
-        With his powerful arms and questionable techniques, teeth tend to "just come off" during his procedures. 
-    </p>
-    <p>
-        Whether this is due to his natural Extracrosaurus strength or his dental expertise remains a topic of debate.
-    </p>
+<div class="character-story">
+    <h2 data-story-id="background_story_title"></h2>
+    <div class="story-content" data-story-id="character-description">
+        <!-- Story paragraphs will be inserted here by JavaScript -->
+    </div>
+
+    <br>
+
+    <div class="story-content" data-story-id="character_story">
+        <!-- Story paragraphs will be inserted here by JavaScript -->
+    </div>
 </div>
 
+<hr>
 
 <div class="comic-container">
-
     <!-- Scene 1 -->
     <div class="comic-panel">
         <div class="image-container">
             <img src="{{ '/data/Comics/Extractosaurus_BS/Extractosaurus_BS01.png' | relative_url }}" alt="Scene 1">
             <div class="text-overlays" data-image-id="Extractosaurus_BS01">
-                <!-- Overlays will be created dynamically by JavaScript -->
             </div>
         </div>
     </div>
@@ -41,18 +38,8 @@ layout: default
         <div class="image-container">
             <img src="{{ '/data/Comics/Extractosaurus_BS/Extractosaurus_BS02.png' | relative_url }}" alt="Scene 2">
             <div class="text-overlays" data-image-id="Extractosaurus_BS02">
-                <!-- Overlays will be created dynamically by JavaScript -->
             </div>
         </div>
     </div>
-</div>
 
-<div class="character-description">
-    <h2>Character Profile</h2>
-    <ul>
-        <li><strong>Chinese Name:</strong> 拔牙暴龍</li>
-        <li><strong>English Name:</strong> Extractosaurus</li>
-        <li><strong>Specialty:</strong> Maxillofacial Surgery</li>
-        <li><strong>Catchphrase:</strong> "It just came off!"</li>
-    </ul>
 </div>

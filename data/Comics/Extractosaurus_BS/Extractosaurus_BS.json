@@ -1,4 +1,67 @@
 {
+  "character_title": {
+    "text": {
+      "zh-hant": "拔牙暴龍",
+      "en": "Extractosaurus",
+      "ja": "エクストラクトサウルス",
+      "es": "Extractosaurus",
+      "fr": "Extractosaurus",
+      "th": "เอ็กซ์แทรคโตซอรัส"
+    }
+  },
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>專科: </strong>口腔外科<br><br><strong>名言: </strong>不知道耶，就起來了",
+      "en": "<strong>Specialty: </strong>Maxillofacial Surgery<br><br><strong>Catchphrase: </strong>It just fell off.",
+      "ja": "<strong>専門: </strong>口外科<br><br><strong>名言: </strong>知らないけど、起きたよ",
+      "es": "<strong>Especialidad: </strong>Cirugía Maxilofacial<br><br><strong>Catchphrase: </strong>Simplemente se cayó.",
+      "fr": "<strong>Spécialité: </strong>Chirurgie Maxillo-Faciale<br><br><strong>Catchphrase: </strong>Il est tombé tout simplement.",
+      "th": "<strong>สาขา: </strong>ศัลยกรรมช่องปากและแม็กซิลโลเฟเชียล<br><br><strong>ประโยคประจำตัว: </strong>มันหลุดออกมาเฉยๆ"
+    }
+  },
+  "character_story": {
+    "text": {
+      "en": [
+        "Extractosaurus is a dentist known for his... unique approach to tooth extraction.",
+        "With his powerful arms and questionable techniques, teeth tend to 'just come off' during his procedures.",
+        "Whether this is due to his natural Extracrosaurus strength or his dental expertise remains a topic of debate."       ],
+      "zh-hant": [
+        "拔牙暴龍以其暗黑拔牙法聞名: 他從來不知道為什麼他可以把牙齒拔下來，但就是拔下來了。",
+        "關於他的特殊能力是物種優勢還是專業素養，至今仍是個謎。"
+      ],
+      "ja": [
+        "エクストラクトサウルスは、その独特な抜歯法で知られています：なぜ歯が抜けたのか分からないまま、歯は抜けてしまうのです。",
+        "彼の特殊な能力が種の特性によるものなのか、専門的な技術によるものなのか、今でも謎のままです。"
+      ],
+      "es": [
+        "Extractosaurus es un dentista conocido por su... enfoque único en la extracción de dientes.",
+        "Con sus poderosos brazos y técnicas cuestionables, los dientes tienden a 'simplemente caerse' durante sus procedimientos.", 
+        "Si esto se debe a su fuerza natural de Extractosaurus o a su experiencia dental sigue siendo tema de debate."
+      ],
+      "fr": [
+        "Extractosaurus est un dentiste connu pour son... approche unique de l'extraction dentaire.",
+        "Avec ses bras puissants et ses techniques discutables, les dents ont tendance à 'simplement tomber' pendant ses procédures.",
+        "La question de savoir si cela est dû à sa force naturelle d'Extractosaurus ou à son expertise dentaire reste un sujet de débat."
+      ],
+      "th": [
+        "เอ็กซ์แทรคโตซอรัสเป็นทันตแพทย์ที่มีชื่อเสียงในด้าน... วิธีการถอนฟันที่เป็นเอกลักษณ์",
+        "ด้วยแขนอันทรงพลังและเทคนิคที่น่าสงสัย ฟันมักจะ 'หลุดออกมาเอง' ระหว่างการรักษา",
+        "ไม่ว่าสิ่งนี้จะเป็นผลมาจากพละกำลังตามธรรมชาติของเอ็กซ์แทรคโตซอรัส หรือความเชี่ยวชาญทางทันตกรรมของเขา ก็ยังคงเป็นหัวข้อที่ถกเถียงกันอยู่"
+      ]
+    }
+  },
+
+
   "Extractosaurus_BS01": {
     "textbox1": {
       "x": "80%",

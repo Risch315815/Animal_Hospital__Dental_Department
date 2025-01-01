@@ -1,4 +1,54 @@
 {
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>西醫歐 (洗牙貓貓他爸)</strong><br><br><strong>專科: </strong>耳鼻喉科<br><br><strong>名言: </strong>兒子你有為我感到驕傲嗎?",
+      "en": "<strong>CEO(Scaling Kitty's Dad)</strong><br><br><strong>Specialty: </strong>Otolaryngology<br><br><strong>Catchphrase: </strong>Are you proud of ME, SON?",
+      "ja": "<strong>CEO(スケーリングキティのお父さん)</strong><br><br><strong>専門: </strong>耳鼻喉科<br><br><strong>名言: </strong>息子、私を誇りに思っていますか？",
+      "es": "<strong>CEO(Padre del Gatito Escamoso)</strong><br><br><strong>Especialidad: </strong>Otorrinolaringología<br><br><strong>Catchphrase: </strong>¿Estás orgulloso de mí, HIJO?",
+      "fr": "<strong>CEO(Père du Chaton Détartreur)</strong><br><br><strong>Spécialité: </strong>Otorhinolaryngologie<br><br><strong>Catchphrase: </strong>Êtes-vous fier de moi, MON FILS ?",
+      "th": "<strong>CEO(พ่อของสเกลลิ่งคิตตี้)</strong><br><br><strong>สาขา: </strong>ENT<br><br><strong>ประโยคประจำตัว: </strong>คุณเคยพิจารณาการผ่าตัด lobotomy หน้าผากหรือไม่?"
+    }
+  },
+  "character_story": {
+    "text": {
+      "en": [
+        "After graduating from medical school, passing the otolaryngological board test, founding \"Yeshi\" Beverage Co., Ltd, getting the company listed and gaining over 35% market share, CEO still seeks his son's approval.",
+        "He seems to be unaware that it is his questionable attempts to draw his son's attention which push his son away."
+      ],
+      "zh-hant": [
+        "西醫歐在醫學系畢業、通過耳鼻喉科專科、創立「冶世」飲料公司、將公司上市、取得超過35%的市場佔額後，仍然渴求兒子的認可。",
+        "他似乎沒有意識到是他試圖引起兒子注意力的方式太奇葩，才讓兒子看不下去。"
+      ],
+      "ja": [
+        "医学部を卒業し、耳鼻咽喉科の専門医試験に合格し、「冶世」飲料会社を設立し、上場を果たし、35%以上の市場シェアを獲得した後も、CEOは息子の承認を求め続けています。",
+        "彼は、息子の注意を引こうとする自身の疑わしい試みが、むしろ息子を遠ざけていることに気付いていないようです。"
+      ],
+      "es": [
+        "Después de graduarse de la facultad de medicina, aprobar el examen de otorrinolaringología, fundar \"Yeshi\" Beverage Co., Ltd, hacer que la empresa cotice en bolsa y obtener más del 35% de la cuota de mercado, el CEO todavía busca la aprobación de su hijo.",
+        "Parece no darse cuenta de que son sus cuestionables intentos de llamar la atención de su hijo los que lo alejan."
+             ],
+      "fr": [
+        "Après avoir obtenu son diplôme de médecine, réussi l'examen du conseil d'otolaryngologie, fondé \"Yeshi\" Beverage Co., Ltd, fait entrer l'entreprise en bourse et obtenu plus de 35 % de parts de marché, le PDG cherche toujours l'approbation de son fils.",
+        "Il ne semble pas se rendre compte que ce sont ses tentatives douteuses d'attirer l'attention de son fils qui l'éloignent."
+      ],
+      "th": [
+        "หลังจากจบการศึกษาจากโรงเรียนแพทย์ สอบผ่านการทดสอบคณะกรรมการโสต ศอ นาสิก ก่อตั้งบริษัท \"Yeshi\" Beverage Co., Ltd นำบริษัทเข้าตลาดหลักทรัพย์และได้ส่วนแบ่งการตลาดมากกว่า 35% CEO ยังคงแสวงหาการยอมรับจากลูกชายของเขา",
+        "เขาดูเหมือนจะไม่ตระหนักว่าความพยายามที่น่าสงสัยในการดึงดูดความสนใจของลูกชายนั้นกลับผลักไสลูกชายออกห่าง"
+      ]
+    }
+  },
+
+
   "TerribleDad01": {
     "textbox1": {
       "x": "41.5%",

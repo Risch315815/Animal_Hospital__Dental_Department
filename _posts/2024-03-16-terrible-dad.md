@@ -1,8 +1,8 @@
 ---
 layout: 2024-03-16-terrible-dad_post
-title: "Terrible Dad"
+title: "西醫歐"
 date: 2024-03-16
-description: "A story about a terrible dad"
+description: "西醫歐 (洗牙貓貓他爸) / CEO (Scaling Kitty's Dad)"
 ---
 
 

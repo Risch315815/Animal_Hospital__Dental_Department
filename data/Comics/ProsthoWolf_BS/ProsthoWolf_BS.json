@@ -1,4 +1,34 @@
 {
+  "character_title": {
+    "text": {
+      "zh-hant": "波索沃",
+      "en": "ProsthoWolf",
+      "ja": "プロストウルフ",
+      "es": "ProsthoWolf",
+      "fr": "ProsthoWolf",
+      "th": "โพรสโธวูล์"
+    }
+  },
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>專科: </strong>補綴科<br><br><strong>名言: </strong>就再也不會掉下來了",
+      "en": "<strong>Specialty: </strong>Prosthodontics<br><br><strong>Catchphrase: </strong>It will never fall off.",
+      "ja": "<strong>専門: </strong>補綴科<br><br><strong>名言: </strong>二度と外れることはありません",
+      "es": "<strong>Especialidad: </strong>Prostodoncia<br><br><strong>Catchphrase: </strong>Nunca se caerá.",
+      "fr": "<strong>Spécialité: </strong>Prothèse Dentaire<br><br><strong>Catchphrase: </strong>Ça ne tombera jamais.",
+      "th": "<strong>สาขา: </strong>ทันตกรรมประดิษฐ์<br><br><strong>ประโยคประจำตัว: </strong>มันจะไม่หลุดอีกต่อไป"
+    }
+  },
   "character_story": {
     "text": {
       "en": [

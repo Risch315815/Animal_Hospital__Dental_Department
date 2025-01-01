@@ -1,4 +1,69 @@
 {
+  "character_title": {
+    "text": {
+      "zh-hant": "洗牙貓貓",
+      "en": "Scaling Kitty",
+      "ja": "スケーリングキャット",
+      "es": "Scaling Kitty",
+      "fr": "Scaling Kitty",
+      "th": "สกัลลิงกิ้นกาย"
+    }
+  },
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>專科: </strong>牙周病科<br><br><strong>名言: </strong>有看 AAPD 2017 了嗎？",
+      "en": "<strong>Specialty: </strong>Periodontics<br><br><strong>Catchphrase: </strong>Have you read the AAPD 2017 guidelines?",
+      "ja": "<strong>専門: </strong>歯周病科<br><br><strong>名言: </strong>AAPD 2017 のガイドラインを読んでいますか？",
+      "es": "<strong>Especialidad: </strong>Periodontología<br><br><strong>Catchphrase: </strong>¿Has leído las directrices de la AAPD 2017?",
+      "fr": "<strong>Spécialité: </strong>Periodontologie<br><br><strong>Catchphrase: </strong>Avez-vous lu les directives de la AAPD 2017 ?",
+      "th": "<strong>สาขา: </strong>ปริทันตวิทยา<br><br><strong>ประจำตัว:</strong> มีการอ่านคู่มือของ AAPD 2017 หรือไม่?"
+    }
+  },
+  "character_story": {
+    "text": {
+      "en": [
+        "Scaling Kitty is a periodontal specialist who takes great pride in his minimally invasive procedures and up-to-date knowledge.",
+        "He hates Extractosaurus for his excessively aggressive approach, and the collateral damage he causes.",
+        "They have been frenemies for forever."
+      ],
+      "zh-hant": [
+        "洗牙貓貓是一位牙周病專科醫師，以手術的微創程度和專業知識的更新速度為傲。",
+        "他討厭拔牙暴龍暴力的手法，以及他丟給自己的爛攤子。",
+        "他又恨又愛著拔牙暴龍很長一段時間了。"
+      ],
+      "ja": [
+        "スケーリングキャットは、低侵襲治療と最新の知識を誇りにする歯周病専門医です。",
+        "過度に攻撃的なアプローチと、引き起こす付随的な被害のため、エクストラクトサウルスを嫌っています。",
+        "彼らは永遠のフレネミーです。"
+      ],
+      "es": [
+        "Scaling Kitty es un especialista periodontal que se enorgullece de sus procedimientos mínimamente invasivos y conocimientos actualizados.",
+        "Odia a Extractosaurus por su enfoque excesivamente agresivo y el daño colateral que causa.",
+        "Han sido enemigos amistosos desde siempre."
+      ],
+      "fr": [
+        "Scaling Kitty est un spécialiste parodontal qui tire une grande fierté de ses procédures minimalement invasives et de ses connaissances à jour.",
+        "Il déteste Extractosaurus pour son approche excessivement agressive et les dommages collatéraux qu'il cause.",
+        "Ils ont toujours été des frères ennemis."
+      ],
+      "th": [
+        "สกัลลิงกิ้นกายเป็นผู้เชี่ยวชาญด้านปริทันตวิทยาที่ภาคภูมิใจในวิธีการผ่าตัดแบบเล็กและความรู้ที่ทันสมัย",
+        "เขาเกลียดเอ็กซ์แทรคโตซอรัสเพราะวิธีการรักษาที่ก้าวร้าวเกินไป และความเสียหายที่เขาก่อขึ้น",
+        "พวกเขาเป็นทั้งเพื่อนและศัตรูกันมาตลอด"
+      ]
+    }
+  },
+
   "ScalingKitty_BS01": {
     "textbox1": {
       "x": "55%",
