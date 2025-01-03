@@ -1,0 +1,208 @@
+{
+    "character_title": {
+      "text": {
+        "zh-hant": "公告: 2025年2月 牙科部休診科別與時段",
+        "en": "2025/02: Off-duty Sub-department and Schedule for Dental Department",
+        "ja": "お知らせ: 2025年2月の歯科部門休診スケジュール",
+        "es": "2025/02: Horario y subdepartamentos fuera de servicio del Departamento Dental",
+        "fr": "2025/02: Sous-départements et horaires de fermeture du Service Dentaire",
+        "th": "2025/02: ตารางเวลาและแผนกย่อยที่ปิดทำการของแผนกทันตกรรม"
+      }
+    },
+    "character_story": {
+      "text": {
+        "en": [
+          "The off-duty sub-department and schedule would be as follows:",
+          "Periodontal dept., Oral Surgery dept.: closed for morning session on 2/13, 2/20",
+          "General Dentistry dept. (Prosthetic dept., Endodontic dept., Dental Restoration dept.): closed from 2/10 to 2/22",
+          "******************************************************************************************",
+          "Dr. ProsthoWolf of General dentistry dept. will be on break from 2/10 to 2/22, and his lecture for the morning sessions on 2/13, 2/20 at the University will be covered by Dr. Scaling Kitty of Periodontal dept. and Dr. Extractosaurus of Oral Surgery dept.",
+          "Please send the referral form to the Oral Pathology dept. during these periods; if Dr. Anteater has any suggestions for the reason of referral, please reply briefly and return to your position as soon as possible.",
+          "Thank you,",
+          "Dental Department"
+        ],
+        "zh-hant": [
+          "科別與休診時段如下:",
+          "- 牙周病科，口腔外科: 2月13日、20日 上午診",
+          "- 一般牙科 (義齒補綴科，牙髓病科，牙體復形科): 2月10日至22日 全日關診",
+          "***************************************************************************************",
+          "一般牙科波索沃醫師於 2月10日至22日 特別休假，由牙周病科洗牙貓貓醫師與口腔外科拔牙暴龍醫師代理2月13日、20日上午大學部課程。",
+          "期間若有轉診事宜，請將轉診單投放至口腔病理科；若是食蟻獸醫師對轉診單上標記之轉診原因有調整之建議，請簡短答覆並迅速返回工作崗位。",
+          "謝謝",
+          "牙科部敬上"
+        ],
+        "ja": [
+          "休診科と休診スケジュールは以下の通りです：",
+          "- 歯周病科、口腔外科：2月13日、20日の午前診療",
+          "- 一般歯科（補綴科、歯内療法科、保存修復科）：2月10日から22日まで終日休診",
+          "*********************************************************************************************",
+          "一般歯科のプロストウルフ医師は2月10日から22日まで特別休暇を取得し、2月13日、20日の午前の大学での講義は歯周病科のスケーリングキティ医師と口腔外科のエクストラクトサウルス医師が代理を務めます。",
+          "この期間中の紹介状は口腔病理科へ提出してください。アリクイ医師が紹介理由について提案がある場合は、簡潔に回答し、速やかに業務に戻るようお願いします。",
+          "よろしくお願いいたします。",
+          "歯科部門"
+        ],
+        "es": [
+          "Los subdepartamentos y horarios fuera de servicio serán los siguientes:",
+          "- Departamento Periodontal, Departamento de Cirugía Oral: cerrado en sesión matutina el 13 y 20 de febrero",
+          "- Departamento de Odontología General (Departamento de Prótesis, Departamento de Endodoncia, Departamento de Restauración Dental): cerrado del 10 al 22 de febrero",
+          "*********************************************************************************************",
+          "El Dr. ProsthoWolf del Departamento de Odontología General estará de descanso del 10 al 22 de febrero, y sus clases matutinas del 13 y 20 de febrero en la Universidad serán cubiertas por la Dra. Scaling Kitty del Departamento Periodontal y el Dr. Extractosaurus del Departamento de Cirugía Oral.",
+          "Por favor, envíe el formulario de referencia al Departamento de Patología Oral durante estos períodos; si el Dr. Anteater tiene alguna sugerencia sobre el motivo de la referencia, responda brevemente y regrese a su puesto lo antes posible.",
+          "Gracias,",
+          "Departamento Dental"
+        ],
+        "fr": [
+          "Les sous-départements et horaires de fermeture seront les suivants :",
+          "- Département de Parodontologie, Département de Chirurgie Orale : fermé pour les sessions matinales les 13 et 20 février",
+          "- Département de Dentisterie Générale (Département de Prothèse, Département d'Endodontie, Département de Restauration Dentaire) : fermé du 10 au 22 février",
+          "*********************************************************************************************",
+          "Le Dr ProsthoWolf du département de Dentisterie Générale sera en congé du 10 au 22 février, et ses cours du matin des 13 et 20 février à l'Université seront assurés par le Dr Scaling Kitty du département de Parodontologie et le Dr Extractosaurus du département de Chirurgie Orale.",
+          "Veuillez envoyer le formulaire de référence au département de Pathologie Orale pendant ces périodes ; si le Dr Anteater a des suggestions concernant le motif de référence, veuillez répondre brièvement et retourner à votre poste dès que possible.",
+          "Merci,",
+          "Département Dentaire"
+        ],
+        "th": [
+          "ตารางเวลาและแผนกย่อยที่ปิดทำการมีดังนี้:",
+          "- แผนกปริทันตวิทยา, แผนกศัลยกรรมช่องปาก: ปิดทำการช่วงเช้าวันที่ 13 และ 20 กุมภาพันธ์",
+          "- แผนกทันตกรรมทั่วไป (แผนกทันตกรรมประดิษฐ์, แผนกรักษารากฟัน, แผนกทันตกรรมบูรณะ): ปิดทำการตั้งแต่วันที่ 10-22 กุมภาพันธ์",
+          "*********************************************************************************************",
+          "ดร.พรอสโธวูล์ฟ จากแผนกทันตกรรมทั่วไปจะลาพักตั้งแต่วันที่ 10-22 กุมภาพันธ์ และการบรรยายช่วงเช้าวันที่ 13 และ 20 กุมภาพันธ์ที่มหาวิทยาลัยจะมี ดร.สเกลลิ่งคิตตี้ จากแผนกปริทันตวิทยา และ ดร.เอ็กซ์แทรคโตซอรัส จากแผนกศัลยกรรมช่องปากเป็นผู้สอนแทน",
+          "กรุณาส่งแบบฟอร์มการส่งต่อผู้ป่วยไปยังแผนกพยาธิวิทยาช่องปากในช่วงเวลาดังกล่าว หาก ดร.แอนท์อีทเตอร์ มีข้อเสนอแนะเกี่ยวกับเหตุผลในการส่งต่อ กรุณาตอบกลับสั้นๆ และกลับเข้าประจำการโดยเร็วที่สุด",
+          "ขอบคุณค่ะ",
+          "แผนกทันตกรรม"
+        ]
+      }
+    },
+    "SubstituteTeacher01": {
+      "textbox1": {
+        "x": "77%",
+        "y": "50%",
+        "width": "auto",
+        "height": "auto",
+        "fontSize": "60px",
+        "backgroundColor": "rgba(0,0,0,0)",
+        "border": "0px solid black",
+
+        "text": {
+          "en": "Thank you for the lecture on\n<strong>Dental Surgery for Prosthodontics</strong>,\n<strong>Esteemed Professor Scaling Kitty</strong>\nand\n<strong>Esteemed Professor Extractosaurus</strong>",
+          "zh-hant": "關於\n<strong>牙科手術在補綴學的運用</strong>\n\n就要麻煩兩位\n<strong>大師</strong>\n了",
+          "ja": "歯科補綴のための歯科手術について、\n<strong>尊敬する教授スケーリングキティ</strong>\nと\n<strong>尊敬する教授エクストラクトサウルス</strong>、\nご講義ありがとうございます",
+          "es": "Gracias por la conferencia sobre\n<strong>Cirugía Dental para Prostodoncia</strong>\n<strong>Estimada Profesora Scaling Kitty</strong>\nと\n<strong>Estimado Profesor Extractosaurus</strong>",
+          "fr": "Merci pour la conférence sur la\n<strong>Chirurgie Dentaire pour la Prothèse</strong>\n<strong>Estimée Professeure Scaling Kitty</strong>\net\n<strong>Estimé Professeur Extractosaurus</strong>",
+          "th": "ขอบคุณสำหรับการบรรยายเรื่อง<strong>ศัลยกรรมทางทันตกรรมสำหรับทันตกรรมประดิษฐ์</strong> <strong>ศาสตราจารย์ผู้ทรงเกียรติสเกลลิ่งคิตตี้</strong>และ<strong>ศาสตราจารย์ผู้ทรงเกียรติเอ็กซ์แทรคโตซอรัส</strong>"
+        }
+      },
+      "textbox2": {
+        "x": "5%",
+        "y": "10%",
+        "width": "auto",
+        "height": "auto",
+        "fontSize": "40px",
+        "backgroundColor": "rgba(0,0,0,0)",
+        "border": "0px solid black",
+
+        "text": {
+          "en": "going on a two-week vacation abroad",
+          "zh-hant": "打算出國度假2週",
+          "ja": "2週間の海外旅行を予定しています",
+          "es": "planeando una vacación de dos semanas en el extranjero", 
+          "fr": "prévoyant une vacance de deux semaines à l'étranger",
+          "th": "วางแผนไปพักร้อนต่างประเทศสองสัปดาห์"
+        }
+      }
+    },
+    "SubstituteTeacher02": {
+      "textbox1": {
+        "x": "80%",
+        "y": "30%",
+        "width": "auto",
+        "height": "auto",
+        "fontSize": "70px",
+        "backgroundColor": "rgba(0,0,0,0)",
+        "border": "0px solid black",
+
+        "text": {
+          "en": "Dental surgery, is\n<strong>ART</strong>",
+          "zh-hant": "牙科手術呢\n是一門\n<strong>藝術</strong>",
+          "ja": "歯科手術は\n<strong>芸術</strong>です",
+          "es": "La cirugía dental es\nuna\n<strong>arte</strong>",
+          "fr": "La chirurgie dentaire est\nune\n<strong>art</strong>",
+          "th": "ศัลยกรรมทางทันตกรรม\nเป็น\n<strong>ศิลปะ</strong>"
+        }
+      },
+      "textbox2": {
+        "x": "10%",
+        "y": "13%",
+        "width": "auto",
+        "height": "auto",
+        "fontSize": "40px",
+        "backgroundColor": "rgba(0,0,0,0)",
+        "border": "0px solid black",
+
+        "text": {
+          "en": "3-minute-long\nbombastic opening speech",
+          "zh-hant": "華麗的\n三分鐘開場白",
+          "ja": "華麗な3分間のオープニングスピーチ",
+          "es": "La glamorosa charla de 3 minutos",
+          "fr": "La charlade glamorante de 3 minutes",
+          "th": "ครุณากรอกแบบรายงานอุบัติเหตุที่ทำงาน"
+        }
+      }
+    },
+    "SubstituteTeacher03": {
+        "textbox1": {
+          "x": "80%",
+          "y": "30%",
+          "width": "auto",
+          "height": "auto",
+          "fontSize": "80px",
+          "backgroundColor": "rgba(0,0,0,0)",
+          "border": "0px solid black",
+  
+          "text": {
+            "en": "Open your book to chapter 13.",
+            "zh-hant": "打開課本第13章",
+            "ja": "教科書の第13章を開いてください。",
+            "es": "Abran el libro en el capítulo 13.",
+            "fr": "Ouvrez votre livre au chapitre 13.",
+            "th": "เปิดหนังสือบทที่ 13."
+          }
+        },
+        "textbox2": {
+            "x": "80%",
+            "y": "65%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "0px solid black",
+    
+            "text": {
+              "en": "everything I say goes on the test sheet",
+              "zh-hant": "我說的每一句話都會考",
+              "ja": "私の言うことは全て試験に出ます",
+              "es": "todo lo que digo estará en el examen",
+              "fr": "tout ce que je dis sera dans l'examen",
+              "th": "ทุกอย่างที่ฉันพูดจะอยู่ในข้อสอบ"
+            }
+        },
+        "textbox3": {
+            "x": "20%",
+            "y": "16%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "0px solid black",
+    
+            "text": {
+              "en": "200-page presentation",
+              "zh-hant": "200頁的簡報",
+              "ja": "200ページのプレゼンテーション",
+              "es": "Presentación de 200 páginas",
+              "fr": "Présentation de 200 pages",
+              "th": "ครุณากรอกแบบรายงานอุบัติเหตุที่ทำงาน"
+            }
+        }
+      }
+  }

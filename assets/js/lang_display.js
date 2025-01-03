@@ -83,6 +83,12 @@ async function loadTranslations() {
         } else if (currentPath.includes('WorkplaceInjury')) {
             translationFile = '/data/Comics/WorkplaceInjury/WorkplaceInjury.json';
             console.log('Loading <WorkplaceInjury> translations');
+        } else if (currentPath.includes('SubstituteTeacher')) {
+            translationFile = '/data/Comics/SubstituteTeacher/SubstituteTeacher.json';
+            console.log('Loading <SubstituteTeacher> translations');
+        } else if (currentPath.includes('pedo-rabbit')) {
+            translationFile = '/data/Comics/PedoRabbit_BS/PedoRabbit_BS.json';
+            console.log('Loading <PedoRabbit> translations');
         } else {
             console.error('Path not matched:', currentPath);
             throw new Error('Unknown post type');
@@ -146,7 +152,7 @@ function updateTextOverlays() {
                 
                 // Set text content
                 if (boxData.text && boxData.text[currentLang]) {
-                    overlay.textContent = boxData.text[currentLang];
+                    overlay.innerHTML = boxData.text[currentLang];
                 } else {
                     console.warn(`Missing translation for ${currentLang} in ${imageId}.${boxId}`);
                 }
