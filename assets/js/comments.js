@@ -1,5 +1,14 @@
 class CommentSystem {
     constructor() {
+        // Check if config exists
+        if (typeof CONFIG === 'undefined') {
+            console.error('CONFIG is not defined. Make sure config.js is loaded.');
+            return;
+        }
+        if (!CONFIG.GITHUB_TOKEN) {
+            console.error('GitHub token is not configured.');
+            return;
+        }
         this.form = document.getElementById('comment-form');
         this.container = document.getElementById('comments-container');
         // Define moderation labels
@@ -96,7 +105,22 @@ class CommentSystem {
 
     async moderateComment(issueNumber, newLabel) {
         try {
-            // Remove existing moderation labels
+            // Get the current page path from the issue before updating
+            const issueResponse = await fetch(
+                `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
+                {
+                    headers: {
+                        'Authorization': `token ${CONFIG.GITHUB_TOKEN}`
+                    }
+                }
+            );
+            const issue = await issueResponse.json();
+            
+            // Find the page-specific label (starts with 'comment:/')
+            const pageLabel = issue.labels
+                .find(label => label.name.startsWith('comment:/'))?.name;
+
+            // Update with both labels
             const response = await fetch(
                 `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
                 {
@@ -106,7 +130,7 @@ class CommentSystem {
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        labels: [`comment:${window.location.pathname}`, newLabel]
+                        labels: [pageLabel, newLabel].filter(Boolean)
                     })
                 }
             );
@@ -154,6 +178,16 @@ class CommentSystem {
                 border-radius: 4px;
                 cursor: pointer;
             }
+            .comment-body {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                padding: 10px;
+            }
+            .comment-header .date {
+                font-size: 0.9em;
+                color: #666;
+                margin-left: 10px;
+            }
         `;
         document.head.appendChild(style);
     }
@@ -166,17 +200,41 @@ class CommentSystem {
             return;
         }
 
+        // Helper function to format date and time
+        const formatDateTime = (dateString) => {
+            const date = new Date(dateString);
+            return date.toLocaleString('zh-TW', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            }).replace(/\//g, '-');
+        };
+
         this.container.innerHTML = comments
-            .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
-            .map(comment => `
-                <div class="comment">
-                    <div class="comment-header">
-                        <span class="username">${this.escapeHtml(comment.user.login)}</span>
-                        <span class="date">${new Date(comment.created_at).toLocaleDateString()}</span>
+            .sort((a, b) => new Date(a.created_at) - new Date(b.created_at))  // Oldest first
+            .map(comment => {
+                // Extract commenter name from title "Comment by {name} on {path}"
+                const commenterName = comment.title.match(/Comment by (.*?) on/)?.[1] || comment.user.login;
+                
+                // Convert line breaks to <br> tags and preserve whitespace
+                const formattedComment = this.escapeHtml(comment.body)
+                    .replace(/\n/g, '<br>')
+                    .replace(/\s{2,}/g, space => ' ' + '&nbsp;'.repeat(space.length - 1));
+                
+                return `
+                    <div class="comment">
+                        <div class="comment-header">
+                            <span class="username">${this.escapeHtml(commenterName)}</span>
+                            <span class="date">${formatDateTime(comment.created_at)}</span>
+                        </div>
+                        <div class="comment-body">${formattedComment}</div>
                     </div>
-                    <div class="comment-body">${this.escapeHtml(comment.body)}</div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
     }
 
     // Helper function to prevent XSS
@@ -188,6 +246,50 @@ class CommentSystem {
             .replace(/"/g, "&quot;")
             .replace(/'/g, "&#039;");
     }
+
+    // Static method to create admin instance
+    static createAdminInstance() {
+        const system = new CommentSystem();
+        // Override methods for admin use
+        system.approveComment = async (issueNumber) => {
+            try {
+                // Get the current issue to preserve its page label
+                const issueResponse = await fetch(
+                    `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
+                    {
+                        headers: {
+                            'Authorization': `token ${CONFIG.GITHUB_TOKEN}`
+                        }
+                    }
+                );
+                const issue = await issueResponse.json();
+                const pageLabel = issue.labels
+                    .find(label => label.name.startsWith('comment:/'))?.name;
+
+                const response = await fetch(
+                    `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
+                    {
+                        method: 'PATCH',
+                        headers: {
+                            'Authorization': `token ${CONFIG.GITHUB_TOKEN}`,
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            labels: [pageLabel, 'comment:approved'].filter(Boolean)
+                        })
+                    }
+                );
+                if (response.ok) {
+                    console.log('Comment approved:', issueNumber);
+                    // Refresh the pending comments list
+                    window.loadPendingComments?.();
+                }
+            } catch (error) {
+                console.error('Error approving comment:', error);
+            }
+        };
+        return system;
+    }
 }
 
 // Initialize when DOM is loaded
@@ -195,8 +297,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('comment-form')) {
         const commentSystem = new CommentSystem();
         commentSystem.addStyles();
-        
-        // Make available globally for admin controls
         window.commentSystem = commentSystem;
+    } else if (window.location.pathname === '/admin/') {
+        // Initialize admin version
+        window.commentSystem = CommentSystem.createAdminInstance();
     }
-}); 
+});
+
+console.log('CommentSystem initialized:', window.commentSystem); 

@@ -43,6 +43,9 @@ async function loadTranslations() {
         const baseUrl = document.head.querySelector('meta[name="base-url"]')?.content || '';
         console.log('Current path:', currentPath);
 
+        // Skip translation for admin page
+        if (currentPath === '/admin/') return;
+
         // Always load navigation translations
         const navResponse = await fetch(`${baseUrl}/data/nav.json`);
         const navTranslations = await navResponse.json();

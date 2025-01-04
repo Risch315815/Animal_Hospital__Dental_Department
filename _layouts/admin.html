@@ -4,6 +4,9 @@ layout: default
 <div class="admin-dashboard">
     <h1>Admin Dashboard</h1>
     
+    <!-- Hidden elements needed for CommentSystem -->
+    <div id="comments-container" style="display: none;"></div>
+    
     <!-- Stats Overview -->
     <div class="stats-panel">
         <div class="stat-card pending-count">
@@ -21,6 +24,7 @@ layout: default
         <button onclick="bulkApprove()" class="btn-approve">Approve Selected</button>
         <button onclick="bulkSpam()" class="btn-spam">Mark as Spam</button>
         <button onclick="bulkDelete()" class="btn-delete">Delete Selected</button>
+        <button onclick="window.runTests()" class="btn-test">Run Tests</button>
     </div>
 
     <!-- Comment Moderation -->
@@ -31,19 +35,19 @@ layout: default
         <h3>Email Notifications</h3>
         <div class="notification-options">
             <label>
-                <input type="checkbox" name="notify-new" checked>
+                <input type="checkbox" id="notify-new" name="notify-new" checked>
                 New comments
             </label>
             <label>
-                <input type="checkbox" name="notify-spam" checked>
+                <input type="checkbox" id="notify-spam" name="notify-spam" checked>
                 Spam detected
             </label>
             <label>
-                <input type="checkbox" name="notify-bulk" checked>
+                <input type="checkbox" id="notify-bulk" name="notify-bulk" checked>
                 Bulk actions
             </label>
         </div>
-        <input type="email" id="notification-email" placeholder="Email address" value="${CONFIG.NOTIFICATION_EMAIL || ''}" >
+        <input type="email" id="notification-email" placeholder="Email address" value="{% raw %}{{ site.email }}{% endraw %}" >
         <button onclick="saveNotificationSettings()">Save Settings</button>
     </div>
 </div>
@@ -185,22 +189,49 @@ class AdminDashboard {
     }
 
     setupNotifications() {
+        // Get elements
+        const emailInput = document.getElementById('notification-email');
+        const newCheck = document.getElementById('notify-new');
+        const spamCheck = document.getElementById('notify-spam');
+        const bulkCheck = document.getElementById('notify-bulk');
+        
+        // Exit if elements don't exist
+        if (!emailInput || !newCheck || !spamCheck || !bulkCheck) {
+            console.warn('Notification elements not found');
+            return;
+        }
+        
         // Load saved settings
         const email = localStorage.getItem('notificationEmail');
         const enabled = localStorage.getItem('notificationsEnabled') === 'true';
         
-        document.getElementById('notification-email').value = email || '';
-        document.getElementById('email-notifications').checked = enabled;
+        emailInput.value = email || CONFIG.NOTIFICATION_EMAIL || '';
+        newCheck.checked = enabled;
+        spamCheck.checked = enabled;
+        bulkCheck.checked = enabled;
     }
 
     async saveNotificationSettings() {
-        const email = document.getElementById('notification-email').value;
-        const enabled = document.getElementById('email-notifications').checked;
+        const emailInput = document.getElementById('notification-email');
+        const newCheck = document.getElementById('notify-new');
+        const spamCheck = document.getElementById('notify-spam');
+        const bulkCheck = document.getElementById('notify-bulk');
+        
+        if (!emailInput || !newCheck || !spamCheck || !bulkCheck) {
+            console.warn('Notification elements not found');
+            return;
+        }
+        
+        const email = emailInput.value;
+        const notifications = {
+            new: newCheck.checked,
+            spam: spamCheck.checked,
+            bulk: bulkCheck.checked
+        };
         
         localStorage.setItem('notificationEmail', email);
-        localStorage.setItem('notificationsEnabled', enabled);
+        localStorage.setItem('notificationSettings', JSON.stringify(notifications));
 
-        // Here you would typically set up a server endpoint to handle email notifications
         alert('Notification settings saved!');
     }
 }

@@ -3,4 +3,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-config.js
+# Config files with sensitive data
++ assets/js/config.js
