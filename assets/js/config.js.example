@@ -1,0 +1,4 @@
+const CONFIG = {
+    GITHUB_TOKEN: 'YOUR_TOKEN_HERE',
+    NOTIFICATION_EMAIL: 'rmkkewec@gmail.com'
+}; 

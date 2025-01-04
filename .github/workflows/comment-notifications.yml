@@ -1,0 +1,41 @@
+name: Comment Notifications
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'comment:pending')
+    
+    steps:
+      - name: Check if notification needed
+        id: check
+        run: |
+          if [[ "${{ github.event.action }}" == "opened" ]] || 
+             [[ "${{ github.event.action }}" == "labeled" && "${{ github.event.label.name }}" == "comment:pending" ]]; then
+            echo "send_notification=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send notification email
+        if: steps.check.outputs.send_notification == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: New Comment Pending Review
+          body: |
+            A new comment is waiting for your review:
+            
+            Title: ${{ github.event.issue.title }}
+            Comment: ${{ github.event.issue.body }}
+            
+            View and moderate at: ${{ github.event.issue.html_url }}
+            
+            ---
+            This is an automated notification.
+          to: your-email@example.com
+          from: GitHub Comment System 
