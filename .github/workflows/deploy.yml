@@ -1,0 +1,44 @@
+name: Deploy
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+
+      - name: Create config.js
+        run: |
+          echo "const CONFIG = {
+            GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}',
+            NOTIFICATION_EMAIL: '${{ secrets.NOTIFICATION_EMAIL }}'
+          };" > assets/js/config.js
+
+      - name: Install dependencies
+        run: |
+          bundle install
+          
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages 

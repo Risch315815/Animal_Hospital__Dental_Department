@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 vendor
 # Config files with sensitive data
-+ assets/js/config.js
+assets/js/config.js
