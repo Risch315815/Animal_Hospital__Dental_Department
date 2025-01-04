@@ -1,5 +1,11 @@
 class CommentSystem {
     constructor() {
+        // Try to get token from environment or prompt user
+        this.token = CONFIG?.GITHUB_TOKEN || prompt('Please enter your GitHub token:');
+        if (!this.token) {
+            console.error('No GitHub token available');
+            return;
+        }
         // Check if config exists
         if (typeof CONFIG === 'undefined') {
             console.error('CONFIG is not defined. Make sure config.js is loaded.');
