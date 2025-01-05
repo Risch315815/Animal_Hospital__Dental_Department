@@ -36,6 +36,12 @@ jobs:
           ruby-version: '3.0'
           bundler-cache: true
 
+      # Fix platform issue
+      - name: Update bundle platforms
+        run: |
+          bundle lock --add-platform x86_64-linux
+          bundle install
+
       - name: Create config.js
         run: |
           mkdir -p _site/assets/js
@@ -51,18 +57,11 @@ jobs:
           grep -v GITHUB_TOKEN _site/assets/js/config.js
           chmod 644 _site/assets/js/config.js
 
-      - name: Install dependencies
-        run: |
-          bundle install
-          
       - name: Build site
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
           JEKYLL_PAT: ${{ secrets.GH_TOKEN }}
-          # Verify the build output
-        id: build
-        continue-on-error: true
 
       - name: Verify build output
         run: |
@@ -82,4 +81,4 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
-          force_orphan: true  # Clean deployment
+          force_orphan: true

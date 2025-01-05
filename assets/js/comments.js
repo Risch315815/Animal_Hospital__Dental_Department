@@ -258,7 +258,7 @@ class CommentSystem {
                     `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
                     {
                         headers: {
-                            'Authorization': `token ${CONFIG.GITHUB_TOKEN}`
+                            'Authorization': `token ${this.token}`
                         }
                     }
                 );
@@ -271,7 +271,7 @@ class CommentSystem {
                     {
                         method: 'PATCH',
                         headers: {
-                            'Authorization': `token ${CONFIG.GITHUB_TOKEN}`,
+                            'Authorization': `token ${this.token}`,
                             'Content-Type': 'application/json',
                         },
                         body: JSON.stringify({
