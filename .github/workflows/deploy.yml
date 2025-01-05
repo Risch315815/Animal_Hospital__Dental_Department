@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       # Verify secrets exist
       - name: Check secrets
@@ -69,6 +71,8 @@ jobs:
         env:
           JEKYLL_ENV: production
           JEKYLL_PAT: ${{ secrets.GH_TOKEN }}
+          PAGES_REPO_NWO: Risch315815/Risch315815.github.io
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       # Additional verification after build
       - name: Verify config.js after build
@@ -100,4 +104,15 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
           force_orphan: true
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote -v
+          if ! git remote | grep -q 'origin'; then
+            git remote add origin "https://github.com/Risch315815/Risch315815.github.io.git"
+          fi
