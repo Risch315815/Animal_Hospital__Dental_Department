@@ -67,17 +67,15 @@ jobs:
           echo "$CONFIG_CONTENT" > assets/js/config.js
           echo "$CONFIG_CONTENT" > _site/assets/js/config.js
           
-          # Set permissions
-          chmod 644 assets/js/config.js
-          chmod 644 _site/assets/js/config.js
+          # Debug file locations
+          echo "File locations:"
+          find . -name config.js
           
-          # Verify files
-          echo "Checking source config.js:"
+          echo "File permissions:"
           ls -la assets/js/config.js
-          echo "Checking build config.js:"
           ls -la _site/assets/js/config.js
           
-          echo "Content verification (redacted):"
+          echo "File contents (redacted):"
           cat assets/js/config.js | sed 's/GITHUB_TOKEN.*/GITHUB_TOKEN = [REDACTED];/'
 
       - name: Build site

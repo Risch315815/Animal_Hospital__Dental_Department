@@ -4,6 +4,10 @@ class CommentSystem {
         console.log('Loading CommentSystem...');
         console.log('Base URL:', document.querySelector('meta[name="base-url"]')?.content);
         console.log('Config path:', '/assets/js/config.js');
+        console.log('Script paths:', {
+            config: document.querySelector('script[src*="config.js"]')?.src,
+            comments: document.querySelector('script[src*="comments.js"]')?.src
+        });
 
         // Wait for token to be available
         const maxAttempts = 5;

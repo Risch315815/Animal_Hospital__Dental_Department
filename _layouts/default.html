@@ -18,10 +18,12 @@
         window.NOTIFICATION_EMAIL = null;
         console.log('Initial config setup');
     </script>
+    <!-- Load config first -->
     <script src="{{ '/assets/js/config.js' | relative_url }}" 
-            onload="console.log('Config script loaded')"
-            onerror="console.error('Failed to load config.js')"
-            type="text/javascript"></script>
+            onload="console.log('✓ Config loaded successfully')"
+            onerror="console.error('✗ Failed to load config.js - check file path')"
+            type="text/javascript"
+            async="false"></script>
     <script src="{{ '/assets/js/create_labels.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/lang_display.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/comments.js' | relative_url }}"></script>
