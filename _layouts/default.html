@@ -17,6 +17,16 @@
         window.GITHUB_TOKEN = null;
         window.NOTIFICATION_EMAIL = null;
         console.log('Initial config setup');
+        
+        // Debug script loading
+        function checkConfig() {
+            console.log('Config check:', {
+                token: window.GITHUB_TOKEN ? 'present' : 'missing',
+                email: window.NOTIFICATION_EMAIL ? 'present' : 'missing',
+                configScript: document.querySelector('script[src*="config.js"]')?.src
+            });
+        }
+        setTimeout(checkConfig, 1000);
     </script>
     <!-- Load config first -->
     <script src="{{ '/assets/js/config.js' | relative_url }}" 

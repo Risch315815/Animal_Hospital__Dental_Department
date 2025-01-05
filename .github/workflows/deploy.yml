@@ -60,8 +60,7 @@ jobs:
           
           # Create config file content
           CONFIG_CONTENT="// GitHub token injected by GitHub Actions
-          window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';
-          window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';"
+          window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';"
           
           # Write to both locations
           echo "$CONFIG_CONTENT" > assets/js/config.js
@@ -75,8 +74,11 @@ jobs:
           ls -la assets/js/config.js
           ls -la _site/assets/js/config.js
           
-          echo "File contents (redacted):"
-          cat assets/js/config.js | sed 's/GITHUB_TOKEN.*/GITHUB_TOKEN = [REDACTED];/'
+          # Verify file contents
+          echo "Content of assets/js/config.js:"
+          cat assets/js/config.js
+          echo "Content of _site/assets/js/config.js:"
+          cat _site/assets/js/config.js
 
       - name: Build site
         run: bundle exec jekyll build
