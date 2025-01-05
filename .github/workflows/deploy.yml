@@ -51,7 +51,6 @@ jobs:
         run: |
           # Create directories
           mkdir -p _site/assets/js
-          mkdir -p assets/js
           
           # Create config file content with obfuscated token
           CONFIG_CONTENT=$(cat << 'EOL'
@@ -61,44 +60,42 @@ jobs:
           EOL
           )
           
-          # Write to source directory first
-          echo "$CONFIG_CONTENT" > assets/js/config.js
-          chmod 644 assets/js/config.js
+          # Write directly to _site directory
+          echo "$CONFIG_CONTENT" > _site/assets/js/config.js
+          chmod 644 _site/assets/js/config.js
           
-          # Verify source file exists
-          echo "Verifying source config.js:"
-          ls -la assets/js/config.js
-          
-          echo "Content verification (redacted):"
-          cat assets/js/config.js | sed 's/GITHUB_TOKEN.*/GITHUB_TOKEN = [REDACTED];/'
+          echo "Created config.js:"
+          ls -la _site/assets/js/config.js
 
       - name: Build site
         run: |
           bundle exec jekyll clean
           bundle exec jekyll build
           
-          # Copy config.js again after build to ensure it exists
-          mkdir -p _site/assets/js
-          cp assets/js/config.js _site/assets/js/config.js
-          chmod 644 _site/assets/js/config.js
+          # Ensure config.js exists after build
+          if [ ! -f "_site/assets/js/config.js" ]; then
+            echo "Recreating config.js after build"
+            echo "$CONFIG_CONTENT" > _site/assets/js/config.js
+            chmod 644 _site/assets/js/config.js
+          fi
 
       - name: Verify build output
         run: |
-          echo "Current directory structure:"
-          find . -type f -name "config.js"
+          echo "Checking site structure:"
+          tree _site/assets/js || find _site/assets/js -type f
           
           if [ ! -d "_site" ]; then
             echo "::error::_site directory not created"
             exit 1
           fi
           
-          echo "Contents of _site/assets/js:"
-          ls -la _site/assets/js/
-          
           if [ ! -f "_site/assets/js/config.js" ]; then
             echo "::error::config.js not in build output"
             exit 1
           fi
+          
+          echo "Config.js contents (redacted):"
+          cat _site/assets/js/config.js | sed 's/window.GITHUB_TOKEN.*/window.GITHUB_TOKEN = [REDACTED];/'
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

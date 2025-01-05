@@ -9,6 +9,15 @@ class CommentSystem {
             comments: document.querySelector('script[src*="comments.js"]')?.src
         });
 
+        // Add error handler for config.js
+        window.addEventListener('error', (event) => {
+            if (event.target.src && event.target.src.includes('config.js')) {
+                console.error('Failed to load config.js:', event);
+                // Retry loading config.js
+                this.retryLoadConfig();
+            }
+        }, true);
+
         // Wait for token to be available
         const maxAttempts = 5;
         let attempts = 0;
