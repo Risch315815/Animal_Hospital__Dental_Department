@@ -2,13 +2,18 @@ class CommentSystem {
     constructor() {
         // Add loading status
         console.log('Loading CommentSystem...');
-        console.log('Config status:', {
-            defined: typeof CONFIG !== 'undefined',
-            hasToken: CONFIG?.GITHUB_TOKEN ? 'yes' : 'no'
-        });
 
         // Token will be injected by GitHub Actions
         this.token = window.GITHUB_TOKEN;
+        console.log('Token status:', {
+            defined: typeof window.GITHUB_TOKEN !== 'undefined'
+        });
+
+        if (!this.token) {
+            console.error('GitHub token is not available');
+            return;
+        }
+
         this.form = document.getElementById('comment-form');
         this.container = document.getElementById('comments-container');
         // Define moderation labels
@@ -258,7 +263,7 @@ class CommentSystem {
                     `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
                     {
                         headers: {
-                            'Authorization': `token ${this.token}`
+                            'Authorization': `token ${system.token}`
                         }
                     }
                 );
@@ -271,7 +276,7 @@ class CommentSystem {
                     {
                         method: 'PATCH',
                         headers: {
-                            'Authorization': `token ${this.token}`,
+                            'Authorization': `token ${system.token}`,
                             'Content-Type': 'application/json',
                         },
                         body: JSON.stringify({

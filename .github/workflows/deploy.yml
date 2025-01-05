@@ -52,9 +52,8 @@ jobs:
             echo "::error::config.js was not created"
             exit 1
           fi
-          # Verify content (without showing the token)
-          echo "Checking config.js structure:"
-          grep -v GITHUB_TOKEN _site/assets/js/config.js
+          echo "Content of config.js (without token):"
+          cat _site/assets/js/config.js | sed 's/window.GITHUB_TOKEN.*/window.GITHUB_TOKEN = [REDACTED];/'
           chmod 644 _site/assets/js/config.js
 
       - name: Build site
