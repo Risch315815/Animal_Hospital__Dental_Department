@@ -7,16 +7,8 @@ class CommentSystem {
             hasToken: CONFIG?.GITHUB_TOKEN ? 'yes' : 'no'
         });
 
-        // Check if config exists
-        if (typeof CONFIG === 'undefined') {
-            console.error('CONFIG is not defined. Make sure config.js is loaded.');
-            return;
-        }
-        if (!CONFIG.GITHUB_TOKEN) {
-            console.error('GitHub token is not configured.');
-            return;
-        }
-        this.token = CONFIG.GITHUB_TOKEN;
+        // Token will be injected by GitHub Actions
+        this.token = window.GITHUB_TOKEN;
         this.form = document.getElementById('comment-form');
         this.container = document.getElementById('comments-container');
         // Define moderation labels
@@ -76,7 +68,7 @@ class CommentSystem {
             const response = await fetch('https://api.github.com/repos/Risch315815/Risch315815.github.io/issues', {
                 method: 'POST',
                 headers: {
-                    'Authorization': `token ${CONFIG.GITHUB_TOKEN}`,
+                    'Authorization': `token ${this.token}`,
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
@@ -118,7 +110,7 @@ class CommentSystem {
                 `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
                 {
                     headers: {
-                        'Authorization': `token ${CONFIG.GITHUB_TOKEN}`
+                        'Authorization': `token ${this.token}`
                     }
                 }
             );
@@ -134,7 +126,7 @@ class CommentSystem {
                 {
                     method: 'PATCH',
                     headers: {
-                        'Authorization': `token ${CONFIG.GITHUB_TOKEN}`,
+                        'Authorization': `token ${this.token}`,
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({

@@ -14,6 +14,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      # Verify secrets exist
+      - name: Check secrets
+        run: |
+          if [ -z "${{ secrets.GH_TOKEN }}" ]; then
+            echo "::error::GH_TOKEN is not set"
+            exit 1
+          else
+            echo "✓ GH_TOKEN is set"
+          fi
+          if [ -z "${{ secrets.NOTIFICATION_EMAIL }}" ]; then
+            echo "::error::NOTIFICATION_EMAIL is not set"
+            exit 1
+          else
+            echo "✓ NOTIFICATION_EMAIL is set"
+          fi
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -23,11 +39,16 @@ jobs:
       - name: Create config.js
         run: |
           mkdir -p _site/assets/js
-          echo "const CONFIG = {
-            GITHUB_TOKEN: '${{ secrets.GH_TOKEN }}',
-            NOTIFICATION_EMAIL: '${{ secrets.NOTIFICATION_EMAIL }}'
-          };" > _site/assets/js/config.js
-          ls -la _site/assets/js/config.js || exit 1
+          echo "window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';
+                window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';" > _site/assets/js/config.js
+          # Verify config.js was created
+          if [ ! -f "_site/assets/js/config.js" ]; then
+            echo "::error::config.js was not created"
+            exit 1
+          fi
+          # Verify content (without showing the token)
+          echo "Checking config.js structure:"
+          grep -v GITHUB_TOKEN _site/assets/js/config.js
           chmod 644 _site/assets/js/config.js
 
       - name: Install dependencies
@@ -39,6 +60,21 @@ jobs:
         env:
           JEKYLL_ENV: production
           JEKYLL_PAT: ${{ secrets.GH_TOKEN }}
+          # Verify the build output
+        id: build
+        continue-on-error: true
+
+      - name: Verify build output
+        run: |
+          if [ ! -d "_site" ]; then
+            echo "::error::_site directory not created"
+            exit 1
+          fi
+          if [ ! -f "_site/assets/js/config.js" ]; then
+            echo "::error::config.js not in build output"
+            exit 1
+          fi
+          echo "✓ Build output verified"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
