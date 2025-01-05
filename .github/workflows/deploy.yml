@@ -34,54 +34,38 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
-          bundler-cache: true
+          bundler-cache: false
 
       # Fix platform issue before bundle install
       - name: Fix bundle platforms
         run: |
-          echo "Current platform: $(ruby -e 'puts RUBY_PLATFORM')"
-          echo "Bundle platforms before:"
-          bundle platform --ruby
-          
+          gem install bundler
+          bundle config set --local path 'vendor/bundle'
           bundle config --local build.sassc --disable-march-tune-native
-          bundle lock --add-platform x86_64-linux
-          bundle lock --add-platform ruby
+          bundle config set --local force_ruby_platform true
           bundle install
-          
-          echo "Bundle platforms after:"
-          bundle platform --ruby
-        continue-on-error: false
 
       - name: Create config.js
         run: |
           # Create directories
           mkdir -p _site/assets/js
-          mkdir -p assets/js
           
           # Create config file content
           CONFIG_CONTENT="// GitHub token injected by GitHub Actions
-          window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';"
+          window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';
+          window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';"
           
-          # Write to both locations
-          echo "$CONFIG_CONTENT" > assets/js/config.js
+          # Write directly to _site directory
           echo "$CONFIG_CONTENT" > _site/assets/js/config.js
+          chmod 644 _site/assets/js/config.js
           
-          # Debug file locations
-          echo "File locations:"
-          find . -name config.js
-          
-          echo "File permissions:"
-          ls -la assets/js/config.js
+          echo "Created config.js at: $(pwd)/_site/assets/js/config.js"
           ls -la _site/assets/js/config.js
-          
-          # Verify file contents
-          echo "Content of assets/js/config.js:"
-          cat assets/js/config.js
-          echo "Content of _site/assets/js/config.js:"
-          cat _site/assets/js/config.js
 
       - name: Build site
-        run: bundle exec jekyll build
+        run: |
+          bundle exec jekyll clean
+          bundle exec jekyll build
         env:
           JEKYLL_ENV: production
           JEKYLL_PAT: ${{ secrets.GH_TOKEN }}
