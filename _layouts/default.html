@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
     <!-- Scripts -->
+    <script>
+        // Initialize empty config in case script fails to load
+        window.GITHUB_TOKEN = null;
+        window.NOTIFICATION_EMAIL = null;
+    </script>
+    <script src="{{ '/assets/js/config.js' | relative_url }}" type="text/javascript"></script>
     <script src="{{ '/assets/js/create_labels.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/lang_display.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/comments.js' | relative_url }}"></script>

@@ -3,8 +3,26 @@ class CommentSystem {
         // Add loading status
         console.log('Loading CommentSystem...');
 
-        // Token will be injected by GitHub Actions
-        this.token = window.GITHUB_TOKEN;
+        // Wait for token to be available
+        const maxAttempts = 5;
+        let attempts = 0;
+        
+        const checkToken = () => {
+            if (window.GITHUB_TOKEN) {
+                this.token = window.GITHUB_TOKEN;
+                this.initializeSystem();
+            } else if (attempts < maxAttempts) {
+                attempts++;
+                setTimeout(checkToken, 1000); // Try again in 1 second
+            } else {
+                console.error('GitHub token not available after multiple attempts');
+            }
+        };
+        
+        checkToken();
+    }
+    
+    initializeSystem() {
         console.log('Token status:', {
             defined: typeof window.GITHUB_TOKEN !== 'undefined'
         });
