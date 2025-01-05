@@ -23,7 +23,7 @@ jobs:
       - name: Create config.js
         run: |
           echo "const CONFIG = {
-            GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}',
+            GITHUB_TOKEN: '${{ secrets.GH_TOKEN }}',
             NOTIFICATION_EMAIL: '${{ secrets.NOTIFICATION_EMAIL }}'
           };" > assets/js/config.js
 
