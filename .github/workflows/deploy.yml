@@ -45,13 +45,13 @@ jobs:
       - name: Create config.js
         run: |
           mkdir -p _site/assets/js
-          echo "window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';
-                window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';" > _site/assets/js/config.js
-          # Verify config.js was created
-          if [ ! -f "_site/assets/js/config.js" ]; then
-            echo "::error::config.js was not created"
-            exit 1
-          fi
+          cat > _site/assets/js/config.js << 'EOL'
+          // GitHub token injected by GitHub Actions
+          window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';
+          window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';
+          console.log('Config loaded, token available:', !!window.GITHUB_TOKEN);
+          EOL
+
           echo "Content of config.js (without token):"
           cat _site/assets/js/config.js | sed 's/window.GITHUB_TOKEN.*/window.GITHUB_TOKEN = [REDACTED];/'
           chmod 644 _site/assets/js/config.js
