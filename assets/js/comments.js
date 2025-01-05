@@ -15,20 +15,17 @@ class CommentSystem {
         
         const checkToken = () => {
             console.log(`Checking token (attempt ${attempts + 1}/${maxAttempts})...`);
-            if (window.GITHUB_TOKEN) {
+            try {
+                // Token is already decoded by config.js
                 this.token = window.GITHUB_TOKEN;
                 console.log('Token found, initializing system');
                 this.initializeSystem();
-            } else if (attempts < maxAttempts) {
-                attempts++;
-                console.log('Token not found, retrying in 1s');
-                setTimeout(checkToken, 1000); // Try again in 1 second
-            } else {
-                console.error('GitHub token not available after multiple attempts');
-                console.log('Window state:', {
-                    hasToken: !!window.GITHUB_TOKEN,
-                    configScriptLoaded: document.querySelector('script[src*="config.js"]')?.loaded
-                });
+            } catch(e) {
+                if (attempts < maxAttempts) {
+                    attempts++;
+                    console.log('Token not found, retrying in 1s');
+                    setTimeout(checkToken, 1000);
+                }
             }
         };
         

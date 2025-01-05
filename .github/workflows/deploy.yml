@@ -53,18 +53,16 @@ jobs:
           mkdir -p _site/assets/js
           mkdir -p assets/js
           
-          # Create config file content
+          # Create config file content with obfuscated token
           CONFIG_CONTENT=$(cat << 'EOL'
           // GitHub token injected by GitHub Actions
-          window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';
+          window.GITHUB_TOKEN = atob('${{ secrets.GH_TOKEN_BASE64 }}'); // Base64 encoded token
           window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';
           EOL
           )
           
           # Write to source directory first
           echo "$CONFIG_CONTENT" > assets/js/config.js
-          
-          # Set permissions
           chmod 644 assets/js/config.js
           
           # Verify source file exists
