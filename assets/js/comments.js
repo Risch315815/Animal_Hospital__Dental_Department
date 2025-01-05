@@ -2,6 +2,8 @@ class CommentSystem {
     constructor() {
         // Add loading status
         console.log('Loading CommentSystem...');
+        console.log('Base URL:', document.querySelector('meta[name="base-url"]')?.content);
+        console.log('Config path:', '/assets/js/config.js');
 
         // Wait for token to be available
         const maxAttempts = 5;

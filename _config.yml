@@ -57,3 +57,4 @@ plugins:
 
 include:
   - assets/js/create_labels.js
+  - assets/js/config.js

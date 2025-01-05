@@ -36,31 +36,63 @@ jobs:
           ruby-version: '3.0'
           bundler-cache: true
 
-      # Fix platform issue
-      - name: Update bundle platforms
+      # Fix platform issue before bundle install
+      - name: Fix bundle platforms
         run: |
+          echo "Current platform: $(ruby -e 'puts RUBY_PLATFORM')"
+          echo "Bundle platforms before:"
+          bundle platform --ruby
+          
+          bundle config --local build.sassc --disable-march-tune-native
           bundle lock --add-platform x86_64-linux
+          bundle lock --add-platform ruby
           bundle install
+          
+          echo "Bundle platforms after:"
+          bundle platform --ruby
+        continue-on-error: false
 
       - name: Create config.js
         run: |
+          # Create directories
           mkdir -p _site/assets/js
-          cat > _site/assets/js/config.js << 'EOL'
-          // GitHub token injected by GitHub Actions
+          mkdir -p assets/js
+          
+          # Create config file content
+          CONFIG_CONTENT="// GitHub token injected by GitHub Actions
           window.GITHUB_TOKEN = '${{ secrets.GH_TOKEN }}';
-          window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';
-          console.log('Config loaded, token available:', !!window.GITHUB_TOKEN);
-          EOL
-
-          echo "Content of config.js (without token):"
-          cat _site/assets/js/config.js | sed 's/window.GITHUB_TOKEN.*/window.GITHUB_TOKEN = [REDACTED];/'
+          window.NOTIFICATION_EMAIL = '${{ secrets.NOTIFICATION_EMAIL }}';"
+          
+          # Write to both locations
+          echo "$CONFIG_CONTENT" > assets/js/config.js
+          echo "$CONFIG_CONTENT" > _site/assets/js/config.js
+          
+          # Set permissions
+          chmod 644 assets/js/config.js
           chmod 644 _site/assets/js/config.js
+          
+          # Verify files
+          echo "Checking source config.js:"
+          ls -la assets/js/config.js
+          echo "Checking build config.js:"
+          ls -la _site/assets/js/config.js
+          
+          echo "Content verification (redacted):"
+          cat assets/js/config.js | sed 's/GITHUB_TOKEN.*/GITHUB_TOKEN = [REDACTED];/'
 
       - name: Build site
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
           JEKYLL_PAT: ${{ secrets.GH_TOKEN }}
+
+      # Additional verification after build
+      - name: Verify config.js after build
+        run: |
+          echo "Checking final config.js location:"
+          find _site -name config.js
+          echo "Checking final config.js content (redacted):"
+          cat _site/assets/js/config.js | sed 's/GITHUB_TOKEN.*/GITHUB_TOKEN = [REDACTED];/'
 
       - name: Verify build output
         run: |
@@ -72,6 +104,10 @@ jobs:
             echo "::error::config.js not in build output"
             exit 1
           fi
+          echo "Checking config.js in output:"
+          ls -la _site/assets/js/config.js
+          echo "File contents (redacted):"
+          cat _site/assets/js/config.js | sed 's/GITHUB_TOKEN.*$/GITHUB_TOKEN = [REDACTED]/'
           echo "✓ Build output verified"
 
       - name: Deploy to GitHub Pages
