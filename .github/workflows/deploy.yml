@@ -22,10 +22,13 @@ jobs:
 
       - name: Create config.js
         run: |
+          mkdir -p _site/assets/js
           echo "const CONFIG = {
             GITHUB_TOKEN: '${{ secrets.GH_TOKEN }}',
             NOTIFICATION_EMAIL: '${{ secrets.NOTIFICATION_EMAIL }}'
-          };" > assets/js/config.js
+          };" > _site/assets/js/config.js
+          ls -la _site/assets/js/config.js || exit 1
+          chmod 644 _site/assets/js/config.js
 
       - name: Install dependencies
         run: |
@@ -35,10 +38,12 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+          JEKYLL_PAT: ${{ secrets.GH_TOKEN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages 
+          publish_branch: gh-pages
+          force_orphan: true  # Clean deployment

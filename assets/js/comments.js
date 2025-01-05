@@ -1,5 +1,12 @@
 class CommentSystem {
     constructor() {
+        // Add loading status
+        console.log('Loading CommentSystem...');
+        console.log('Config status:', {
+            defined: typeof CONFIG !== 'undefined',
+            hasToken: CONFIG?.GITHUB_TOKEN ? 'yes' : 'no'
+        });
+
         // Check if config exists
         if (typeof CONFIG === 'undefined') {
             console.error('CONFIG is not defined. Make sure config.js is loaded.');

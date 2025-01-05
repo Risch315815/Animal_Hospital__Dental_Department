@@ -12,7 +12,16 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
     <!-- Scripts -->
-    <script src="{{ '/assets/js/config.js' | relative_url }}"></script>
+    <!-- Config must load first -->
+    <script src="{{ '/assets/js/config.js' | relative_url }}" type="text/javascript"></script>
+    <!-- Wait for config before loading other scripts -->
+    <script>
+      window.addEventListener('load', function() {
+        if (typeof CONFIG === 'undefined') {
+          console.error('Config failed to load!');
+        }
+      });
+    </script>
     <script src="{{ '/assets/js/create_labels.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/lang_display.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/comments.js' | relative_url }}"></script>
