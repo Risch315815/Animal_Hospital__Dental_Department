@@ -104,15 +104,24 @@
     },
     "TerribleDad_profile": {
         "text": {
-            "zh-hant": "<strong>姓名：</strong>西醫歐(洗牙貓貓他爸)<br><br><strong>專科：</strong>耳鼻喉科<br><br><strong>特殊能力：</strong> 因為太常來探兒子的班已成為非正式員工，拔牙暴龍常常和他討論口腔癌治療計畫；洗牙貓貓卻常態性巧立名目將他支開",
-            "en": "<strong>Name:</strong> CEO (Scaling Kitty's Dad)<br><br><strong>Specialty:</strong> ENT<br><br><strong>Special Ability:</strong> Visiting his son way too odten that he has become an unofficial employee, Extractosaurus often discuss treatment plan for oral cancer with him; Scaling Kitty, on the other hand, would rather distance him with miscellaneous excuses.",
+            "zh-hant": "<strong>姓名：</strong>西醫歐(洗牙貓貓他爸)<br><br><strong>專科：</strong>耳鼻喉科<br><br><strong>特殊能力：</strong> 口腔癌、鼻咽癌切除專家(拔牙暴龍的偶像)；洗牙貓貓覺得他很煩",
+            "en": "<strong>Name:</strong> CEO (Scaling Kitty's Dad)<br><br><strong>Specialty:</strong> ENT<br><br><strong>Special Ability:</strong> Expert in oral and nasopharyngeal cancer surgery (Extractosaurus is a fan). Scaling Kitty finds him annoying.",
             "ja": "<strong>名前：</strong>CEO（スケーリングキティの父）<br><br><strong>専門：</strong>耳鼻咽喉科<br><br><strong>特殊能力：</strong>世間の基準では息子を全面的に上回る能力と実績を持つが、それでも自分なりの方法で息子の承認を得ようとする",
             "es": "<strong>Nombre:</strong> CEO (Padre de Gatito Escamoso)<br><br><strong>Especialidad:</strong> Otorrinolaringología<br><br><strong>Habilidad Especial:</strong>Superior a su hijo en todos los aspectos (según los estándares mundanos), pero aún así intenta ganar su aprobación",
             "fr": "<strong>Nom:</strong> PDG (Père du Chaton Détartreur)<br><br><strong>Spécialité:</strong> ORL<br><br><strong>Capacité Spéciale:</strong>Supérieur à son fils dans tous les domaines (selon les standards mondains), mais cherche toujours à gagner son approbation",
             "th": "<strong>ชื่อ:</strong> ซีอีโอ (พ่อของสเกลลิ่งคิตตี้)<br><br><strong>ความเชี่ยวชาญ:</strong> หู คอ จมูก<br><br><strong>ความสามารถพิเศษ:</strong>เหนือกว่าลูกชายในทุกด้านตามมาตรฐานทางโลก แต่ยังคงพยายามที่จะได้รับการยอมรับจากลูกชายในแบบของตัวเอง"
         }
     },
-
+    "Manager_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>管理層<br><br><strong>專科：</strong>管理科<br><br><strong>特殊能力：</strong>替醫院賺$$",
+            "en": "<strong>Name:</strong> Manager<br><br><strong>Specialty:</strong> Administration<br><br><strong>Special Ability:</strong> Profittability.",
+            "ja": "<strong>名前：</strong>マネージャー<br><br><strong>専門：</strong>管理<br><br><strong>特殊能力：</strong>収益の厳格な監視、自費診療の目標達成の確保",
+            "es": "<strong>Nombre:</strong> Gerente<br><br><strong>Especialidad:</strong> Gestión Sanitaria<br><br><strong>Habilidad Especial:</strong>Control estricto de ingresos, asegurando que los tratamientos no asegurados alcancen los objetivos",
+            "fr": "<strong>Nom:</strong> Gestionnaire<br><br><strong>Spécialité:</strong> Gestion des soins de santé<br><br><strong>Capacité Spéciale:</strong>Suivi strict des revenus, garantissant que les traitements non assurés atteignent les objectifs",
+            "th": "<strong>ชื่อ:</strong> ผู้จัดการ<br><br><strong>ความเชี่ยวชาญ:</strong> การบริหารจัดการด้านสุขภาพ<br><br><strong>ความสามารถพิเศษ:</strong>การติดตามรายได้อย่างเข้มงวด ทำให้มั่นใจว่าการรักษาที่ไม่มีประกันบรรลุเป้าหมาย"
+        }
+    },
 
 
 
@@ -138,11 +147,11 @@
     },
     "2": {
             "text": {
-                "zh-hant": "不知道耶~\n就下來了~",
+      "zh-hant": "不知道耶~\n就下來了~",
       "en": "I don't know.\nIt just came off.",
       "ja": "知りません。\nそれはただ外れました。",
       "es": "No sé.\nSimplemente se desprendió.",
-                "fr": "Je ne sais pas.\nC'est juste sorti.",
+      "fr": "Je ne sais pas.\nC'est juste sorti.",
       "th": "ฉันไม่รู้ \nมันเพิ่งหลุดออกมา"
             },
             "x": "15%",
@@ -158,10 +167,10 @@
     "1": {
             "text": {
       "zh-hant": "洗牙貓貓",
-                "en": "Scaling Kitty",
+      "en": "Scaling Kitty",
       "ja": "スケーリング子猫",
       "es": "Gatito escamoso",
-                "fr": "Mise à l'échelle du chaton",
+      "fr": "Mise à l'échelle du chaton",
       "th": "ลูกแมวขูดหินปูน"
             },
             "x": "80%",
@@ -175,7 +184,7 @@
     },
     "2": {
             "text": {
-                "zh-hant": "Stage幾?\nGrade幾?",
+      "zh-hant": "Stage幾?\nGrade幾?",
       "en": "Stage?\nGrade?",
       "ja": "舞台。等級。",
       "es": "¿Etapa? ¿Grado?",
@@ -484,18 +493,6 @@
             "border": "2px solid black"
     }
   },
-  
-  "Manager_profile": {
-        "text": {
-            "zh-hant": "<strong>姓名：</strong>管理層<br><br><strong>專科：</strong>管理科<br><br><strong>特殊能力：</strong>替醫院賺$$",
-            "en": "<strong>Name:</strong> Manager<br><br><strong>Specialty:</strong> Administration<br><br><strong>Special Ability:</strong> Profittability.",
-            "ja": "<strong>名前：</strong>マネージャー<br><br><strong>専門：</strong>管理<br><br><strong>特殊能力：</strong>収益の厳格な監視、自費診療の目標達成の確保",
-            "es": "<strong>Nombre:</strong> Gerente<br><br><strong>Especialidad:</strong> Gestión Sanitaria<br><br><strong>Habilidad Especial:</strong>Control estricto de ingresos, asegurando que los tratamientos no asegurados alcancen los objetivos",
-            "fr": "<strong>Nom:</strong> Gestionnaire<br><br><strong>Spécialité:</strong> Gestion des soins de santé<br><br><strong>Capacité Spéciale:</strong>Suivi strict des revenus, garantissant que les traitements non assurés atteignent les objectifs",
-            "th": "<strong>ชื่อ:</strong> ผู้จัดการ<br><br><strong>ความเชี่ยวชาญ:</strong> การบริหารจัดการด้านสุขภาพ<br><br><strong>ความสามารถพิเศษ:</strong>การติดตามรายได้อย่างเข้มงวด ทำให้มั่นใจว่าการรักษาที่ไม่มีประกันบรรลุเป้าหมาย"
-        }
-    },
-    
     "Manager_overlay": {
         "1": {
             "text": {
@@ -506,7 +503,7 @@
                 "fr": "Gestionnaire",
                 "th": "ผู้จัดการ"
             },
-            "x": "75%",
+            "x": "25%",
             "y": "25%",
             "width": "auto",
             "height": "auto",
@@ -517,8 +514,8 @@
         },
         "2": {
             "text": {
-                "zh-hant": "自費項目為什麼還佔不到一半？",
-                "en": "Why haven't the uninsured treatment reached 50% of the total revenue?",
+                "zh-hant": "自費項目為什麼\n還佔不到一半？",
+                "en": "Why haven't the uninsured treatment\n reached 50% of the total revenue?",
                 "ja": "自費治療が総収入の50%に達していませんか？",
                 "es": "¿Por qué el tratamiento no asegurado no ha alcanzado el 50% de los ingresos totales?",
                 "fr": "Pourquoi le traitement non assuré n'a pas atteint 50% des revenus totaux ?",
