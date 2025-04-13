@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="contact-page">
+    <h1 class="page-title" data-story-id="contact_title"></h1>
+    
+    <div class="calendar-section">
+        <div class="calendar-controls">
+            <button id="prev-week">&lt; Previous</button>
+            <h2 id="current-week"></h2>
+            <button id="next-week">Next &gt;</button>
+        </div>
+        
+        <div id="calendar-loading" class="calendar-loading"></div>
+        <div class="schedule-grid" id="schedule-grid">
+            <!-- Schedule will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <div class="legend">
+        <div class="legend-item">
+            <span class="status available"></span> <span data-translate="available" data-category="status"></span>
+        </div>
+        <div class="legend-item">
+            <span class="status full"></span> <span data-translate="full" data-category="status"></span>
+        </div>
+        <div class="legend-item">
+            <span class="status unavailable"></span> <span data-translate="unavailable" data-category="status"></span>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}">
+<script type="module" src="{{ '/assets/js/calendar.js' | relative_url }}"></script> 

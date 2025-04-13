@@ -100,13 +100,27 @@ async function loadTranslations() {
             translationPath = '/data/default.json';
         }
 
+        if (translationFile) {
+            translationPath = translationFile;
+        }
+
+        console.log('Loading translations from:', translationPath);
+        
         const response = await fetch(window.location.origin + translationPath);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         
-        const translations = await response.json();
-        console.log('Translations loaded successfully:', translations);
+        const pageTranslations = await response.json();
+        console.log('Translations loaded successfully:', pageTranslations);
+        translations = { ...translations, ...pageTranslations };
+        
+        // Update the page content with the loaded translations
+        updateTextOverlays();
+        updateStoryContent();
+        updateNavContent();
+        updateMemberProfiles();
+        
         return translations;
     } catch (error) {
         console.warn('Translation loading fallback:', error);

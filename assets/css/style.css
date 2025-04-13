@@ -404,3 +404,81 @@ hr {
     margin-bottom: 0.5rem;
     color: #666;
 }
+
+.site-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.site-nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.site-nav a.active {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+#schedule-grid {
+    display: grid;
+    grid-template-columns: auto auto auto repeat(6, 1fr);
+    gap: 1px;
+    background: #ddd;
+    padding: 1px;
+    margin: 20px 0;
+}
+
+.grid-cell {
+    background: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.grid-header {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+.time-slot {
+    padding: 4px;
+    margin: 2px 0;
+    border-radius: 4px;
+}
+
+.time-slot.available {
+    background: #a8e6cf;
+}
+
+.time-slot.unavailable {
+    background: #ffd3b6;
+}
+
+.time-slot.full {
+    background: #ff8b94;
+}
+
+.specialty-name {
+    font-weight: bold;
+    background: #f8f9fa;
+}
+
+.doctor-name {
+    background: #f8f9fa;
+}
+
+#calendar-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 1.2em;
+    color: #666;
+}

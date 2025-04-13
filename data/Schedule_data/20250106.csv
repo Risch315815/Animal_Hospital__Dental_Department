@@ -1,0 +1,25 @@
+,,,Mon,Tue,Wed,Thur,Fri,Sat
+Department,Doctor,Timeslots,01/27,01/28,01/29,01/30,01/31,02/01
+Oral Pathology,OralPathAnteater,Morning,V,V,,,,
+,,Afternoon,V,V,,,,
+,,Evening,,,,,,
+Oral Surgery,Extractosaurus,Morning,V,V,V,V,V,
+,,Afternoon,V,V,V,V,V,
+,,Evening,,,,,,
+Periodontology,Scaling Kitty,Morning,V,V,V,V,V,V
+,,Afternoon,V,V,V,V,V,V
+,,Evening,V,V,V,V,V,V
+"Operative Dentistry
+Endodontics
+Prosthodontics",ProsthoWolf,Morning,V,V,V,V,V,V
+,,Afternoon,V,V,V,V,V,V
+,,Evening,V,V,V,V,V,V
+Pedodontics,PedoRabbit,Morning,V,,V,,V,V
+,,Afternoon,V,,V,,V,V
+,,Evening,V,V,V,V,V,V
+Orthodontics,Lavisheep,Morning,V,,V,,V,V
+,,Afternoon,V,,V,,V,V
+,,Evening,V,V,V,V,V,V
+Neurosurgery,Captain Frontal Lobotomy,Morning,V,V,,,,
+,,Afternoon,V,V,,,,
+,,Evening,,,,,,

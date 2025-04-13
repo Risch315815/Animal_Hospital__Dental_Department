@@ -320,5 +320,41 @@
         "th": "ไม่แพงขนาดนั้น~"
       }
     }
+  },
+  "Manager": {
+    "textbox1": {
+      "x": "75%",
+      "y": "25%",
+      "width": "auto",
+      "height": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0.02)",
+      "border": "2px solid black",
+      "fontSize": "80px",
+      "text": {
+        "en": "Manager",
+        "zh-hant": "管理層",
+        "ja": "マネージャー",
+        "es": "Gerente",
+        "fr": "Gestionnaire",
+        "th": "ผู้จัดการ"
+      }
+    },
+    "textbox2": {
+      "x": "20%",
+      "y": "40%",
+      "width": "auto",
+      "height": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0.02)",
+      "border": "2px solid black",
+      "fontSize": "40px",
+      "text": {
+        "en": "Why haven't the uninsured treatment reached 50% of the total revenue?",
+        "zh-hant": "自費項目為什麼還佔不到一半？",
+        "ja": "自費治療が総収入の50%に達していませんか？",
+        "es": "¿Por qué el tratamiento no asegurado no ha alcanzado el 50% de los ingresos totales?",
+        "fr": "Pourquoi le traitement non assuré n'a pas atteint 50% des revenus totaux ?",
+        "th": "ทำไมการรักษาที่ไม่รวมถึงค่ารักษายังไม่ถึง 50% ของรายได้รวม?"
+      }
+    }
   }
 }

@@ -76,13 +76,26 @@
         <div class="container">
             <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             <nav class="site-nav">
-                <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="0"></a>
-                <a href="{{ '/news' | relative_url }}" {% if page.url == "/news/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="1"></a>
-                <a href="{{ '/team' | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="2"></a>
-                <a href="{{ '/contact' | relative_url }}" {% if page.url == "/contact/" %}class="active"{% endif %} data-nav-id="nav_content" data-nav-index="3"></a>
+                <a href="{{ '/' | relative_url }}" 
+                   {% if page.url == "/" %}class="active"{% endif %} 
+                   data-nav-id="nav_content" 
+                   data-nav-index="0">首頁</a>
+                <a href="{{ '/news' | relative_url }}" 
+                   {% if page.url == "/news/" %}class="active"{% endif %} 
+                   data-nav-id="nav_content" 
+                   data-nav-index="1">公告</a>
+                <a href="{{ '/team' | relative_url }}" 
+                   {% if page.url == "/team/" %}class="active"{% endif %} 
+                   data-nav-id="nav_content" 
+                   data-nav-index="2">團隊成員</a>
+                <a href="{{ '/contact' | relative_url }}" 
+                   {% if page.url == "/contact/" %}class="active"{% endif %} 
+                   data-nav-id="nav_content" 
+                   data-nav-index="3">聯絡我們</a>
             </nav>
         </div>
     </header>
+
 
     <div class="language-selector">
         <div class="container">
