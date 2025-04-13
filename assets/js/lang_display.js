@@ -166,6 +166,14 @@ function updateTextOverlays() {
         // Clear existing overlays
         container.innerHTML = ''; 
         
+        // Special debug for Manager character
+        if (imageId === 'Manager') {
+            debug('MANAGER DEBUG - Processing Manager container:', container);
+            debug('MANAGER DEBUG - Is Manager in translations:', !!translations['Manager']);
+            debug('MANAGER DEBUG - Available translation keys:', Object.keys(translations));
+            console.log('MANAGER DEBUG - Full translations object:', translations);
+        }
+        
         // Debug translation data
         debug('Current language:', currentLang);
         debug('Translation keys available:', Object.keys(translations));
