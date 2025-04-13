@@ -2,6 +2,12 @@
 let currentLang = document.documentElement.lang || 'zh-hant';
 let currentPath = window.location.pathname;
 let translations = {};
+let baseUrl = ''; // Define baseUrl if it's undefined
+
+// Add debugging function
+function debug(message, data) {
+    console.log(`[DEBUG] ${message}`, data || '');
+}
 
 // Language labels for "Choose Language:"
 const languageLabels = {
@@ -15,7 +21,7 @@ const languageLabels = {
 
 // Function to change the language of the page
 function changeLanguage(lang) {
-    console.log('Changing language to:', lang);
+    debug('Changing language to:', lang);
     currentLang = lang;
     document.documentElement.lang = lang;
     
@@ -40,6 +46,7 @@ function changeLanguage(lang) {
 // Function to load translations
 async function loadTranslations() {
     try {
+        debug('Starting loadTranslations, current path:', currentPath);
         const path = window.location.pathname;
         let translationPath;
 
@@ -48,82 +55,97 @@ async function loadTranslations() {
 
         // Always load navigation translations
         const navResponse = await fetch(`${baseUrl}/data/nav.json`);
-        const navTranslations = await navResponse.json();
-        translations = { ...navTranslations };  // Start with nav translations
+        if (!navResponse.ok) {
+            debug('Nav response not OK:', navResponse.status);
+        } else {
+            const navTranslations = await navResponse.json();
+            translations = { ...navTranslations };  // Start with nav translations
+            debug('Nav translations loaded:', Object.keys(translations));
+        }
         
         // Then load page-specific translations
         let translationFile = '';
         if (currentPath === '/' || currentPath.endsWith('index.html')) {
             translationFile = '/data/home.json';
-            console.log('Loading Home page translations');
+            debug('Loading Home page translations');
         } else if (currentPath.includes('team')) {
             translationFile = '/data/team.json';
-            console.log('Loading Team page translations');
+            debug('Loading Team page translations');
         } else if (currentPath.includes('about')) {
             translationFile = '/data/about.json';
-            console.log('Loading About page translations');
+            debug('Loading About page translations');
         } else if (currentPath.includes('questionable-characters')) {
             translationFile = '/data/Comics/QuestionableCharacters/translatedQC.json';
-            console.log('Loading <Questionable Characters> translations');
+            debug('Loading <Questionable Characters> translations');
         } else if (currentPath.includes('terrible-dad')) {
             translationFile = '/data/Comics/TerribleDad/translatedTD.json';
-            console.log('Loading <Terrible Dad> translations');
+            debug('Loading <Terrible Dad> translations');
         } else if (currentPath.includes('scaling-kitty')) {
             translationFile = '/data/Comics/ScalingKitty_BS/ScalingKitty_BS.json';
-            console.log('Loading <Scaling Kitty> translations');
+            debug('Loading <Scaling Kitty> translations');
         } else if (currentPath.includes('extractosaurus')) {
             translationFile = '/data/Comics/Extractosaurus_BS/Extractosaurus_BS.json';
-            console.log('Loading <Extractosaurus> translations');
+            debug('Loading <Extractosaurus> translations');
         } else if (currentPath.includes('prosthowolf')) {
             translationFile = '/data/Comics/ProsthoWolf_BS/ProsthoWolf_BS.json';
-            console.log('Loading <ProsthoWolf> translations:', translationFile);
+            debug('Loading <ProsthoWolf> translations:', translationFile);
         } else if (currentPath.includes('r3-5-cow')) {
             translationFile = '/data/Comics/R3_5Cow_BS/R3_5Cow_BS.json';
-            console.log('Loading R3.5 Cow translations:', translationFile);
+            debug('Loading R3.5 Cow translations:', translationFile);
         } else if (currentPath.includes('captainfrontallobotomy')) {
             translationFile = '/data/Comics/CaptainFrontalLobotomy_BS/CaptainFrontalLobotomy_BS.json';
-            console.log('Loading <CaptainFrontalLobotomy> translations');
+            debug('Loading <CaptainFrontalLobotomy> translations');
         } else if (currentPath.includes('WorkplaceInjury')) {
             translationFile = '/data/Comics/WorkplaceInjury/WorkplaceInjury.json';
-            console.log('Loading <WorkplaceInjury> translations');
+            debug('Loading <WorkplaceInjury> translations');
         } else if (currentPath.includes('SubstituteTeacher')) {
             translationFile = '/data/Comics/SubstituteTeacher/SubstituteTeacher.json';
-            console.log('Loading <SubstituteTeacher> translations');
+            debug('Loading <SubstituteTeacher> translations');
         } else if (currentPath.includes('pedo-rabbit')) {
             translationFile = '/data/Comics/PedoRabbit_BS/PedoRabbit_BS.json';
-            console.log('Loading <PedoRabbit> translations');
+            debug('Loading <PedoRabbit> translations');
         } else if (currentPath.includes('manager')) {
             translationFile = '/data/Comics/Manager_BS/Manager_BS.json';
-            console.log('Loading <Manager> translations');
+            debug('Loading <Manager> translations');
         } else {
             // Default translation path if needed
             translationPath = '/data/default.json';
+            debug('No specific translations found, using default');
         }
 
         if (translationFile) {
             translationPath = translationFile;
         }
 
-        console.log('Loading translations from:', translationPath);
+        debug('Loading translations from:', translationPath);
         
-        const response = await fetch(window.location.origin + translationPath);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+        try {
+            const response = await fetch(window.location.origin + translationPath);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const pageTranslations = await response.json();
+            debug('Translations loaded successfully from:', translationPath);
+            debug('Translation keys:', Object.keys(pageTranslations));
+            
+            // Merge translations
+            translations = { ...translations, ...pageTranslations };
+            
+            // Update the page content with the loaded translations
+            updateTextOverlays();
+            updateStoryContent();
+            updateNavContent();
+            updateMemberProfiles();
+        } catch (fetchError) {
+            debug('Error fetching translation file:', fetchError);
+            throw fetchError;
         }
-        
-        const pageTranslations = await response.json();
-        console.log('Translations loaded successfully:', pageTranslations);
-        translations = { ...translations, ...pageTranslations };
-        
-        // Update the page content with the loaded translations
-        updateTextOverlays();
-        updateStoryContent();
-        updateNavContent();
-        updateMemberProfiles();
         
         return translations;
     } catch (error) {
         console.warn('Translation loading fallback:', error);
+        debug('Translation loading error:', error);
         // Return default structure instead of throwing
         return {
             nav_content: {},
@@ -135,24 +157,25 @@ async function loadTranslations() {
 // Function to update text overlays
 function updateTextOverlays() {
     const overlayContainers = document.querySelectorAll('.text-overlays');
-    console.log('Found overlay containers:', overlayContainers.length);
+    debug('Found overlay containers:', overlayContainers.length);
     
     overlayContainers.forEach(container => {
         const imageId = container.getAttribute('data-image-id');
-        console.log('Processing image ID:', imageId);
-        console.log('Available translations:', translations);
+        debug('Processing image ID:', imageId);
         
         // Clear existing overlays
         container.innerHTML = ''; 
         
-        // Add debug logging
-        console.log('Translations:', translations);
-        console.log('Current language:', currentLang);
+        // Debug translation data
+        debug('Current language:', currentLang);
+        debug('Translation keys available:', Object.keys(translations));
         
         if (translations[imageId]) {
-            console.log('Found translations for:', imageId);
+            debug('Found translations for:', imageId);
+            debug('Translation data:', translations[imageId]);
+            
             Object.entries(translations[imageId]).forEach(([boxId, boxData]) => {
-                console.log('Creating overlay for:', boxId, boxData);
+                debug('Creating overlay for:', boxId);
                 
                 const overlay = document.createElement('div');
                 overlay.className = 'text-overlay';
@@ -161,8 +184,10 @@ function updateTextOverlays() {
                 // Set text content
                 if (boxData.text && boxData.text[currentLang]) {
                     overlay.innerHTML = boxData.text[currentLang];
+                    debug('Setting text content:', boxData.text[currentLang]);
                 } else {
                     console.warn(`Missing translation for ${currentLang} in ${imageId}.${boxId}`);
+                    debug('Missing translation:', { imageId, boxId, currentLang });
                 }
 
                 // Apply all styling from JSON
@@ -176,23 +201,24 @@ function updateTextOverlays() {
                 if (boxData.fontWeight) overlay.style.fontWeight = boxData.fontWeight;
                 
                 container.appendChild(overlay);
+                debug('Overlay added to container');
             });
         } else {
             console.warn('No translations found for:', imageId);
+            debug('No translations found for image ID:', imageId);
         }
     });
 }
 
 function updateStoryContent() {
     const storyContainers = document.querySelectorAll('[data-story-id]');
-    console.log('Found story containers:', storyContainers.length);
-    console.log('Current language:', currentLang);
+    debug('Found story containers:', storyContainers.length);
     
     storyContainers.forEach(container => {
         const storyId = container.getAttribute('data-story-id');
-        console.log('Processing story ID:', storyId);
+        debug('Processing story ID:', storyId);
         
-        if (translations[storyId] && translations[storyId].text[currentLang]) {
+        if (translations[storyId] && translations[storyId].text && translations[storyId].text[currentLang]) {
             // Check if it's an array or single text
             if (Array.isArray(translations[storyId].text[currentLang])) {
                 container.innerHTML = ''; // Clear existing content
@@ -202,10 +228,14 @@ function updateStoryContent() {
                     p.innerHTML = paragraph; // Use innerHTML instead of textContent
                     container.appendChild(p);
                 });
+                debug('Added array of paragraphs for:', storyId);
             } else {
                 // Single text item - use innerHTML to parse HTML tags
                 container.innerHTML = translations[storyId].text[currentLang];
+                debug('Added single text for:', storyId);
             }
+        } else {
+            debug('No translation found for story ID:', storyId);
         }
     });
 }
@@ -235,12 +265,16 @@ function updateMemberProfiles() {
 }
 
 // Initialize when the page loads
-document.addEventListener('DOMContentLoaded', loadTranslations); 
-
-// Add this to help debug
 document.addEventListener('DOMContentLoaded', () => {
+    debug('DOM loaded, initializing translations');
     loadTranslations().then(() => {
-        console.log('Initial translations loaded');
-        console.log('Available translations:', translations);
+        debug('Initial translations loaded and processed');
+        debug('Available translation keys:', Object.keys(translations));
+        
+        // Force refresh the content after translation loading
+        updateTextOverlays();
+        updateStoryContent();
+        updateNavContent();
+        updateMemberProfiles();
     });
 }); 
