@@ -1,0 +1,115 @@
+{
+  "character_title": {
+    "text": {
+      "zh-hant": "管理層",
+      "en": "Manager",
+      "ja": "マネージャー",
+      "es": "Gerente",
+      "fr": "Gestionnaire",
+      "th": "ผู้จัดการ"
+    }
+  },
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>專科: </strong>管理層<br><br><strong>名言: </strong>不要偷懶",
+      "en": "<strong>Specialty: </strong>Administration<br><br><strong>Catchphrase: </strong>Stop Idling",
+      "ja": "<strong>専門: </strong>経営管理<br><br><strong>名言: </strong>怠けるのをやめなさい",
+      "es": "<strong>Especialidad: </strong>Administración de Empresas<br><br><strong>Catchphrase: </strong>Deja de holgazanear",
+      "fr": "<strong>Spécialité: </strong>Administration des Affaires<br><br><strong>Catchphrase: </strong>Arrêtez de vous tourner les pouces",
+      "th": "<strong>สาขา: </strong>การบริหารธุรกิจ<br><br><strong>ประโยคประจำตัว: </strong>หยุดเกียจคร้านได้แล้ว"
+    }
+  },
+  "character_story": {
+    "text": {
+      "en": [
+        "Manager is the guardian of the profit of the animal hospital dental department, the kind that would demand that dentists clamp the teeth that can not withstand a rubber dam for radiographic record, only to qualify the treatment for a 3.3.1 subsidy.",
+        "Protect the residents so as not to loose the government funding, while exploiting the visiting staff to the bone."
+      ],
+      "zh-hant": [
+        "管理層是動物醫院牙科部的利潤守護神，會叫醫師在沒辦法上橡皮障的牙齒上夾clamp照X光以申報3.3.1那種。",
+        "強勢保護受訓醫師以避免政府補助被削減，同時把主治醫師壓榨到想離職。"
+      ],
+      "ja": [
+        "マネージャーは動物病院の歯科部の利益守護神です。ラバーダム設置が難しい歯にクランプを強制的に使用させてX線撮影を行わせ、3.3.1補助金を申請するような人物です。",
+        "政府からの資金カットを避けるために研修医を強力に保護する一方で、主治医を過酷に酷使します。"
+      ],
+      "es": [
+        "Gerente es el guardián de las ganancias del departamento dental del hospital animal, el tipo que exigiría a los dentistas sujetar los dientes que no pueden soportar un dique de goma para el registro radiográfico, solo para calificar el tratamiento para un subsidio 3.3.1.",
+        "Protege a los residentes para no perder la financiación gubernamental, mientras explota al personal visitante hasta los huesos."
+      ],
+      "fr": [
+        "Gestionnaire est le gardien des profits du département dentaire de l'hôpital animal, le genre qui exigerait que les dentistes fixent les dents qui ne peuvent pas supporter une digue en caoutchouc pour l'enregistrement radiographique, uniquement pour qualifier le traitement pour une subvention 3.3.1.",
+        "Il protège les résidents afin de ne pas perdre le financement gouvernemental, tout en exploitant le personnel visiteur jusqu'à l'os."
+      ],
+      "th": [
+        "ผู้จัดการเป็นผู้พิทักษ์ผลกำไรของแผนกทันตกรรมโรงพยาบาลสัตว์ เป็นคนที่จะเรียกร้องให้ทันตแพทย์หนีบฟันที่ไม่สามารถทนต่อแผ่นยางกั้นน้ำลายเพื่อบันทึกภาพรังสี เพียงเพื่อให้การรักษามีคุณสมบัติสำหรับเงินอุดหนุน 3.3.1",
+        "ปกป้องแพทย์ประจำบ้านเพื่อไม่ให้สูญเสียเงินทุนของรัฐ ในขณะที่ใช้ประโยชน์จากเจ้าหน้าที่ที่มาเยี่ยมจนถึงกระดูก"
+      ]
+    }
+  },
+  "Manager_BS01": {
+    "textbox1": {
+      "x": "20%",
+      "y": "30%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "We've got a VVIP who wants all-on-X for full mouth rehabilitation.\n Y'all should convince him to get an implant per tooth.",
+        "zh-hant": "醫院來了個VVIP，想做上下 all-on-X。\n你們爭氣一點，看可不可以講成一牙一植體。",
+        "ja": "VVIPの患者が全顎のall-on-X治療を希望しています。\n皆さん頑張って、一本の歯ごとにインプラントを入れるよう説得してください。",
+        "es": "Tenemos un VVIP que quiere all-on-X para rehabilitación bucal completa. Todos ustedes deberían convencerlo de obtener un implante por diente.",
+        "fr": "Nous avons un VVIP qui veut un all-on-X pour une réhabilitation complète de la bouche. Vous devriez tous le convaincre d'obtenir un implant par dent.",
+        "th": "เรามี VVIP ที่ต้องการ all-on-X สำหรับการฟื้นฟูช่องปากทั้งหมด พวกคุณทุกคนควรโน้มน้าวให้เขาได้รับการฝังรากฟันต่อฟันหนึ่งซี่"
+      }
+    }
+  },
+  "Manager_BS02": {
+    "textbox1": {
+      "x": "20%",
+      "y": "30%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "AND! Do NOT let Extractosaurus or R3.5 Bull touch him.",
+        "zh-hant": "然後! 不要讓拔牙暴龍和R3.5牛碰到他。",
+        "ja": "そして！拔牙暴龍（エクストラクトサウルス）とR3.5牛には彼に触れさせないでください。",
+        "es": "¡Y! NO dejes que Extractosaurus o Toro R3.5 lo toquen.",
+        "fr": "ET ! Ne laissez PAS Extractosaurus ou Taureau R3.5 le toucher.",
+        "th": "และ! อย่าให้ Extractosaurus หรือ วัว R3.5 แตะต้องเขา"
+      }
+    },
+    "textbox2": {
+        "x": "20%",
+        "y": "60%",
+        "width": "auto",
+        "height": "auto",
+        "fontSize": "40px",
+        "backgroundColor": "rgba(0,0,0,0.02)",
+        "border": "2px solid black",
+        "text": {
+          "en": "I know Scaling Kitty is free.\n Reserve the next 2 weeks for the VVIP and no one else.",
+          "zh-hant": "洗牙貓貓不是沒病人嗎?\n 接下來兩個禮拜都框起來留給他。",
+          "ja": "洗牙貓貓は空いていると聞いています。今後2週間はこのVVIPのためだけに予約を確保してください。他の誰も入れないでください。",
+          "es": "Sé que Scaling Kitty está libre. Reserva las próximas 2 semanas para el VVIP y nadie más.",
+          "fr": "Je sais que Scaling Kitty est libre. Réservez les 2 prochaines semaines pour le VVIP et personne d'autre.",
+          "th": "ฉันรู้ว่าแมวขูดหินปูนว่าง จองสองสัปดาห์ถัดไปสำหรับ VVIP และไม่มีใครอื่น"
+        }
+      }
+  }
+} 

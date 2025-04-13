@@ -40,8 +40,8 @@ function changeLanguage(lang) {
 // Function to load translations
 async function loadTranslations() {
     try {
-        const baseUrl = document.head.querySelector('meta[name="base-url"]')?.content || '';
-        console.log('Current path:', currentPath);
+        const path = window.location.pathname;
+        let translationPath;
 
         // Skip translation for admin page
         if (currentPath === '/admin/') return;
@@ -92,38 +92,29 @@ async function loadTranslations() {
         } else if (currentPath.includes('pedo-rabbit')) {
             translationFile = '/data/Comics/PedoRabbit_BS/PedoRabbit_BS.json';
             console.log('Loading <PedoRabbit> translations');
+        } else if (currentPath.includes('manager')) {
+            translationFile = '/data/Comics/Manager_BS/Manager_BS.json';
+            console.log('Loading <Manager> translations');
         } else {
-            console.error('Path not matched:', currentPath);
-            throw new Error('Unknown post type');
+            // Default translation path if needed
+            translationPath = '/data/default.json';
         }
 
-        if (translationFile) {
-            const pageResponse = await fetch(`${baseUrl}${translationFile}`);
-            const pageTranslations = await pageResponse.json();
-            // Merge page translations with nav translations
-            translations = { ...translations, ...pageTranslations };
+        const response = await fetch(window.location.origin + translationPath);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
         
-        console.log('Loaded translations:', translations);
-        
-        // Set up language selector after translations are loaded
-        const languageSelect = document.getElementById('language-select');
-        if (languageSelect) {
-            // Remove any existing listeners
-            const newSelect = languageSelect.cloneNode(true);
-            languageSelect.parentNode.replaceChild(newSelect, languageSelect);
-            
-            // Add new listener
-            newSelect.addEventListener('change', (e) => {
-                console.log('Language select changed to:', e.target.value);
-                changeLanguage(e.target.value);
-            });
-            
-            // Set initial language
-            changeLanguage(newSelect.value || 'zh-hant');
-        }
+        const translations = await response.json();
+        console.log('Translations loaded successfully:', translations);
+        return translations;
     } catch (error) {
-        console.error('Error loading translations:', error);
+        console.warn('Translation loading fallback:', error);
+        // Return default structure instead of throwing
+        return {
+            nav_content: {},
+            // Add other default translations as needed
+        };
     }
 }
 
