@@ -483,5 +483,54 @@
             "backgroundColor": "rgba(0, 0, 0, 0.02)",
             "border": "2px solid black"
     }
-  }
+  },
+  
+  "Manager_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>管理層<br><br><strong>專科：</strong>管理科<br><br><strong>特殊能力：</strong>替醫院賺$$",
+            "en": "<strong>Name:</strong> Manager<br><br><strong>Specialty:</strong> Administration<br><br><strong>Special Ability:</strong> Profittability.",
+            "ja": "<strong>名前：</strong>マネージャー<br><br><strong>専門：</strong>管理<br><br><strong>特殊能力：</strong>収益の厳格な監視、自費診療の目標達成の確保",
+            "es": "<strong>Nombre:</strong> Gerente<br><br><strong>Especialidad:</strong> Gestión Sanitaria<br><br><strong>Habilidad Especial:</strong>Control estricto de ingresos, asegurando que los tratamientos no asegurados alcancen los objetivos",
+            "fr": "<strong>Nom:</strong> Gestionnaire<br><br><strong>Spécialité:</strong> Gestion des soins de santé<br><br><strong>Capacité Spéciale:</strong>Suivi strict des revenus, garantissant que les traitements non assurés atteignent les objectifs",
+            "th": "<strong>ชื่อ:</strong> ผู้จัดการ<br><br><strong>ความเชี่ยวชาญ:</strong> การบริหารจัดการด้านสุขภาพ<br><br><strong>ความสามารถพิเศษ:</strong>การติดตามรายได้อย่างเข้มงวด ทำให้มั่นใจว่าการรักษาที่ไม่มีประกันบรรลุเป้าหมาย"
+        }
+    },
+    
+    "Manager_overlay": {
+        "1": {
+            "text": {
+                "zh-hant": "管理層",
+                "en": "Manager",
+                "ja": "マネージャー",
+                "es": "Gerente",
+                "fr": "Gestionnaire",
+                "th": "ผู้จัดการ"
+            },
+            "x": "75%",
+            "y": "25%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+        },
+        "2": {
+            "text": {
+                "zh-hant": "自費項目為什麼還佔不到一半？",
+                "en": "Why haven't the uninsured treatment reached 50% of the total revenue?",
+                "ja": "自費治療が総収入の50%に達していませんか？",
+                "es": "¿Por qué el tratamiento no asegurado no ha alcanzado el 50% de los ingresos totales?",
+                "fr": "Pourquoi le traitement non assuré n'a pas atteint 50% des revenus totaux ?",
+                "th": "ทำไมการรักษาที่ไม่รวมถึงค่ารักษายังไม่ถึง 50% ของรายได้รวม?"
+            },
+            "x": "20%",
+            "y": "40%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+        }
+    }
 }
