@@ -321,6 +321,42 @@
       }
     }
   },
+  "TerribleDad": {
+    "textbox1": {
+      "x": "75%",
+      "y": "25%",
+      "width": "auto",
+      "height": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0.02)",
+      "border": "2px solid black",
+      "fontSize": "80px",
+      "text": {
+        "en": "CEO (Scaling Kitty's Dad)",
+        "zh-hant": "西醫歐 (洗牙貓貓他爸)",
+        "ja": "ひどいお父さん",
+        "es": "Padre Terrible",
+        "fr": "Père Terrible",
+        "th": "พ่อที่แย่"
+      }
+    },
+    "textbox2": {
+      "x": "20%",
+      "y": "40%",
+      "width": "auto",
+      "height": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0.02)",
+      "border": "2px solid black",
+      "fontSize": "40px",
+      "text": {
+        "en": "MY~SON~",
+        "zh-hant": "兒~子~",
+        "ja": "私の子供たち",
+        "es": "Mis hijos",
+        "fr": "Mes enfants",
+        "th": "ลูก ๆ ของฉัน"
+      }
+    }
+  },
   "Manager": {
     "textbox1": {
       "x": "75%",
