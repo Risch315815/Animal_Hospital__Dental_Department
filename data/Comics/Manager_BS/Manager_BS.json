@@ -60,7 +60,7 @@
   "Manager_BS01": {
     "textbox1": {
       "x": "20%",
-      "y": "30%",
+      "y": "10%",
       "width": "auto",
       "height": "auto",
       "fontSize": "40px",
@@ -78,8 +78,8 @@
   },
   "Manager_BS02": {
     "textbox1": {
-      "x": "20%",
-      "y": "30%",
+      "x": "10%",
+      "y": "10%",
       "width": "auto",
       "height": "auto",
       "fontSize": "40px",
@@ -95,8 +95,8 @@
       }
     },
     "textbox2": {
-        "x": "20%",
-        "y": "60%",
+        "x": "10%",
+        "y": "40%",
         "width": "auto",
         "height": "auto",
         "fontSize": "40px",
@@ -104,7 +104,7 @@
         "border": "2px solid black",
         "text": {
           "en": "I know Scaling Kitty is free.\n Reserve the next 2 weeks for the VVIP and no one else.",
-          "zh-hant": "洗牙貓貓不是沒病人嗎?\n 接下來兩個禮拜都框起來留給他。",
+          "zh-hant": "洗牙貓貓\n不是沒病人嗎?\n 接下來兩個禮拜\n都框起來留給他。",
           "ja": "洗牙貓貓は空いていると聞いています。今後2週間はこのVVIPのためだけに予約を確保してください。他の誰も入れないでください。",
           "es": "Sé que Scaling Kitty está libre. Reserva las próximas 2 semanas para el VVIP y nadie más.",
           "fr": "Je sais que Scaling Kitty est libre. Réservez les 2 prochaines semaines pour le VVIP et personne d'autre.",
