@@ -1,0 +1,42 @@
+{
+    "nav_content": {
+        "text": {
+            "zh-hant": [
+                "首頁",
+                "最新公告",
+                "醫療團隊",
+                "預約諮詢"
+            ],
+            "en": [
+                "Home",
+                "News",
+                "Team",
+                "Appointments"
+            ],
+            "ja": [
+                "トップページ",
+                "最新のお知らせ",
+                "医療チーム",
+                "診療予約"
+            ],
+            "es": [
+                "Inicio",
+                "Últimas Noticias",
+                "Equipo Médico",
+                "Citas"
+            ],
+            "fr": [
+                "Accueil",
+                "Actualités",
+                "Équipe",
+                "Rendez-vous"
+            ],
+            "th": [
+                "หน้าแรก",
+                "ข่าวสาร",
+                "ทีมแพทย์",
+                "นัดหมาย"
+            ]
+        }
+    }
+} 

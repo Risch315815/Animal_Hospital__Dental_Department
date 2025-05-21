@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base-url" content="/Animal_Hospital__Dental_Department">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    
+    <title>Home | 動物醫院:牙科部 Animal_Hospital:Dental_Dept</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Animal_Hospital__Dental_Department/assets/css/style.css">
+
+    <!-- Scripts -->
+    <script>
+        // Initialize empty config in case script fails to load
+        window.GITHUB_TOKEN = null;
+        window.NOTIFICATION_EMAIL = null;
+        console.log('Initial config setup');
+        
+        // Debug script loading
+        function checkConfig() {
+            console.log('Config check:', {
+                token: window.GITHUB_TOKEN ? 'present' : 'missing',
+                email: window.NOTIFICATION_EMAIL ? 'present' : 'missing',
+                configScript: document.querySelector('script[src*="config.js"]')?.src
+            });
+        }
+        setTimeout(checkConfig, 1000);
+    </script>
+    <!-- Load config first -->
+    <script src="/Animal_Hospital__Dental_Department/assets/js/config.js" 
+            onload="console.log('✓ Config loaded successfully')"
+            onerror="console.error('✗ Failed to load config.js - check file path')"
+            type="text/javascript"
+            async="false"></script>
+    <script src="/Animal_Hospital__Dental_Department/assets/js/create_labels.js"></script>
+    <script src="/Animal_Hospital__Dental_Department/assets/js/lang_display.js"></script>
+    <script src="/Animal_Hospital__Dental_Department/assets/js/comments.js"></script>
+    
+    <!-- Add CSS for image overlay -->
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+        .text-overlay {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: black;
+          /* text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.7); */
+          white-space: pre-line; /* Allows line breaks */
+          font-size: 24px;
+          text-align: center;
+          z-index: 1;
+          padding: 6px;
+          margin: 3px;
+          background-color: rgba(0,0,0,0.05);
+          border-radius: 6px;
+          border: 2px solid black; /* Debug border */
+        }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/Animal_Hospital__Dental_Department/assets/images/favicon.png">
+    
+    <!-- Open Graph Meta Tags for better social sharing -->
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+    <meta property="og:url" content="https://risch315815.github.io/Animal_Hospital__Dental_Department/">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title"><a href="/Animal_Hospital__Dental_Department/">動物醫院:牙科部 Animal_Hospital:Dental_Dept</a></h1>
+            <nav class="site-nav">
+                <a href="/Animal_Hospital__Dental_Department/" 
+                   class="active" 
+                   data-nav-id="nav_content" 
+                   data-nav-index="0">首頁</a>
+                <a href="/Animal_Hospital__Dental_Department/news" 
+                    
+                   data-nav-id="nav_content" 
+                   data-nav-index="1">公告</a>
+                <a href="/Animal_Hospital__Dental_Department/team" 
+                    
+                   data-nav-id="nav_content" 
+                   data-nav-index="2">團隊成員</a>
+                <a href="/Animal_Hospital__Dental_Department/contact" 
+                    
+                   data-nav-id="nav_content" 
+                   data-nav-index="3">聯絡我們</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="language-selector">
+        <div class="container">
+            <label for="language-select" id="language-label">選擇語言</label>
+            <select id="language-select" onchange="changeLanguage(this.value)">
+                <option value="zh-hant" >中文</option>
+                <option value="en" >English</option>
+                <option value="fr" >Français</option>
+                <option value="ja" >日本語</option>
+                <option value="th" >ไทย</option>
+                <option value="es" >Español</option>
+            </select>
+        </div>
+    </div>
+
+    <main class="site-content">
+        <div class="container">
+
+
+            <div class="post-header"></div>
+    <h1>科室剪影 / Our Department</h1>
+    <br>
+</div>
+
+<!-- Main Content -->
+<main class="site-content">
+    <div class="container">
+        <!-- Main Image -->
+        <div class="main-image-section">
+            <img src="/Animal_Hospital__Dental_Department/data/Homepage01.png" alt="Animal Hospital Logo" class="main-logo">
+        </div>
+
+        <!-- About Section -->
+        <div class="about-section">
+            <div class="section-header">
+                <h2 class="section-title" data-story-id="about_section_title"></h2>
+            </div>
+            <div class="section-content" data-story-id="about_section_content">
+                <!-- Content will be inserted here by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Recent Posts -->
+        <div class="recent-posts">
+            <h2 class="section-title" data-story-id="recent_posts"></h2>
+            <ul>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2025/05/21/mentor-meeting.html">公告: 請主治醫師參與 05/21 中午12:00 導師會議</a></h3>
+                        <div class="post-meta">2025-05-21</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2025/01/02/pedo-rabbit">兒牙兔:家長不要看 / PedoRabbit: The Horror</a></h3>
+                        <div class="post-meta">2025-01-02</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2025/01/02/SubstituteTeacher-post.html">公告: 2025年2月 牙科部休診科別與時段</a></h3>
+                        <div class="post-meta">2025-01-02</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2025/01/01/WorkplaceInjury.html">公告: 請同仁踴躍參與 01/08 中午12:00 工傷事件線上報告</a></h3>
+                        <div class="post-meta">2025-01-01</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2024/12/30/manager.html">管理層:不要偷懶 / Manager: Stop Idling</a></h3>
+                        <div class="post-meta">2024-12-30</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2024/12/29/captainfrontallobotomy.html">前額葉切除隊長 / Captain Frontal Lobotomy</a></h3>
+                        <div class="post-meta">2024-12-29</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2024/12/22/scaling-kitty.html">洗牙貓貓:AAPD 2017 / Scaling Kitty: AAPD 2017</a></h3>
+                        <div class="post-meta">2024-12-22</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/prosthowolf/">波索沃:固定補綴學 / ProsthoWolf: Never Fall Off</a></h3>
+                        <div class="post-meta">2024-12-22</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2024/12/22/r3-5-cow/">R3.5牛:太簡單的我不接 / R3.5 Cow: Too Young Too Simple</a></h3>
+                        <div class="post-meta">2024-12-22</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2024/12/22/extractosaurus.html">拔牙暴龍:就下來了 / Extractosaurus: Just Fell Off</a></h3>
+                        <div class="post-meta">2024-12-22</div>
+                    </li>
+                
+                    <li>
+                        <h3><a href="/Animal_Hospital__Dental_Department/2024/03/16/terrible-dad.html">西醫歐:洗牙貓貓他爸 / CEO: Scaling Kitty's Daddy</a></h3>
+                        <div class="post-meta">2024-03-16</div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</main> 
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 動物醫院:牙科部 Animal_Hospital:Dental_Dept. All rights reserved.</p>
+                <div class="social-links">
+                    
+                    <a href="https://github.com/Risch315815" target="_blank">GitHub</a>
+                    
+                    
+                    <a href="https://twitter.com/jekyllrb" target="_blank">Twitter</a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

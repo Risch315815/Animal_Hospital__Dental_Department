@@ -1,0 +1,3 @@
+// Example config - DO NOT add real tokens here
+window.GITHUB_TOKEN = 'your_token_here';
+window.NOTIFICATION_EMAIL = 'your_email@example.com'; 

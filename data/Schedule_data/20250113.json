@@ -1,0 +1,43 @@
+{
+  "2025": {
+    "01": {
+      "01": {
+        "1": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "2": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "3": {
+          "morning": "available",
+          "afternoon": "available",
+          "evening": "available"
+        },
+        "4": {
+          "morning": "available",
+          "afternoon": "available",
+          "evening": "available"
+        },
+        "5": {
+          "morning": "available",
+          "afternoon": "available",
+          "evening": "available"
+        },
+        "6": {
+          "morning": "available",
+          "afternoon": "available",
+          "evening": "available"
+        },
+        "7": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        }
+      }
+    }
+  }
+}

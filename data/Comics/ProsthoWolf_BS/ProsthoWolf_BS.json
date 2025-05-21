@@ -1,0 +1,155 @@
+{
+  "character_title": {
+    "text": {
+      "zh-hant": "波索沃",
+      "en": "ProsthoWolf",
+      "ja": "プロストウルフ",
+      "es": "ProsthoWolf",
+      "fr": "ProsthoWolf",
+      "th": "โพรสโธวูล์"
+    }
+  },
+  "background_story_title": {
+    "text": {
+      "zh-hant": "醫師介紹",
+      "en": "Introduction",
+      "ja": "医師紹介",
+      "es": "Introducción",
+      "fr": "Introduction",
+      "th": "การนำเสนอ"
+    }
+  },
+  "character-description": {
+    "text": {
+      "zh-hant":"<strong>專科: </strong>補綴科<br><br><strong>名言: </strong>就再也不會掉下來了",
+      "en": "<strong>Specialty: </strong>Prosthodontics<br><br><strong>Catchphrase: </strong>It will never fall off.",
+      "ja": "<strong>専門: </strong>補綴科<br><br><strong>名言: </strong>二度と外れることはありません",
+      "es": "<strong>Especialidad: </strong>Prostodoncia<br><br><strong>Catchphrase: </strong>Nunca se caerá.",
+      "fr": "<strong>Spécialité: </strong>Prothèse Dentaire<br><br><strong>Catchphrase: </strong>Ça ne tombera jamais.",
+      "th": "<strong>สาขา: </strong>ทันตกรรมประดิษฐ์<br><br><strong>ประโยคประจำตัว: </strong>มันจะไม่หลุดอีกต่อไป"
+    }
+  },
+  "character_story": {
+    "text": {
+      "en": [
+        "ProsthoWolf is a prosthodontist who is gregariously amiable.",
+        "However, he never compromises his bottom line and would reprimand those who brush over them.",
+        "Occasionally, he has to cooperate with Extractosaurus over implant rehabilitation, and would argue with him fiercely."
+      ],
+      "zh-hant": [
+        "波索沃是一位處事圓滑的補綴科醫師。",
+        "然而，他絕對堅守自己的治療原則，並且會嚴厲斥責那些想敷衍了事的患者。",
+        "偶爾需要和拔牙暴龍合作植牙重建，但兩人總是會爭論不休。"
+      ],
+      "ja": [
+        "プロストウルフは、社交的で親しみやすい補綴専門医です。",
+        "しかし、彼は原則を決して妥協せず、それを軽視する人々を叱責します。",
+        "時にはエクストラクトサウルスとインプラントリハビリで協力する必要がありますが、激しく議論することになります。"
+      ],
+      "es": [
+        "ProsthoWolf es un prostodoncista que es gregariamente amable.",
+        "Sin embargo, nunca compromete sus principios y reprende a aquellos que los pasan por alto.",
+        "Ocasionalmente, tiene que cooperar con Extractosaurus en la rehabilitación con implantes, y discute ferozmente con él."
+      ],
+      "fr": [
+        "ProsthoWolf est un prothésiste dentaire qui est très sociable.",
+        "Cependant, il ne compromet jamais ses principes et réprimande ceux qui les négligent.",
+        "Occasionnellement, il doit coopérer avec Extractosaurus pour la réhabilitation implantaire, et ils se disputent férocement."
+      ],
+      "th": [
+        "โพรสโธวูล์ฟเป็นทันตแพทย์ด้านฟันเทียมที่เป็นมิตรและเข้าสังคมเก่ง",
+        "อย่างไรก็ตาม เขาไม่เคยประนีประนอมในหลักการของเขา และจะตำหนิผู้ที่ละเลยหลักการเหล่านั้น",
+        "บางครั้งเขาต้องร่วมมือกับเอ็กซ์แทรคโตซอรัสในการฟื้นฟูด้วยรากฟันเทียม และมักจะโต้เถียงกันอย่างดุเดือด"
+      ]
+    }
+  },
+  "ProsthoWolf_BS01": {
+    "textbox1": {
+      "x": "60%",
+      "y": "15%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "32px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "I refuse.\nWith your poor oral hygiene, your tooth would just decay until it fractures even if it is protected by a crown.",
+        "zh-hant": "我拒絕。\n口腔衛生這麼差，做了牙冠也是蛀掉。",
+        "ja": "私は拒否します。\n口腔衛生状態が悪いと、歯冠で保護されていても、歯が骨折するまで虫歯になってしまいます。",
+        "es": "Me niego.\nCon una mala higiene bucal, su diente simplemente se deterioraría hasta fracturarse, incluso si está protegido por una corona.",
+        "fr": "Je refuse.\nAvec votre mauvaise hygiène bucco-dentaire, votre dent ne ferait que se décomposer jusqu’à ce qu’elle se fracture, même si elle est protégée par une couronne.",
+        "th": "ฉันปฏิเสธ\nด้วยสุขอนามัยในช่องปากที่ไม่ดีฟันของคุณจะผุจนหักแม้ว่าจะได้รับการปกป้องด้วยครอบฟันก็ตาม"
+      }
+    },
+    "textbox2": {
+      "x": "68%",
+      "y": "40%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "26px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Hey!\nHow dare you call my oral hygiene bad!",
+        "zh-hant": "欸！\n說誰的口腔衛生差呢！?",
+        "ja": "ねえ！\n私の口腔衛生を悪いと呼ぶなんて!",
+        "es": "¡Eh!\n¡Cómo te atreves a decir que mi higiene bucal es mala!",
+        "fr": "Hé!\nComment osez-vous dire que mon hygiène bucco-dentaire est mauvaise !",
+        "th": "หวัดดี!\nคุณกล้าเรียกสุขอนามัยในช่องปากของฉันว่าไม่ดีได้อย่างไร!"
+      }
+    },
+    "textbox3": {
+      "x": "50%",
+      "y": "90%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "35px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "Please do not let you food drop onto the floor.",
+        "zh-hant": "請不要讓食物掉到診間地板。",
+        "ja": "食べ物を床に落とさないでください。",
+        "es": "Por favor, no deje que la comida caiga al suelo.",
+        "fr": "Veuillez ne pas laisser tomber votre nourriture sur le sol.",
+        "th": "โปรดอย่าปล่อยให้อาหารหล่นลงบนพื้น"
+      }
+    }
+  },
+  "ProsthoWolf_BS02": {
+    "textbox1": {
+      "x": "70%",
+      "y": "10%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "You place your dental implant too shallow!",
+        "zh-hant": "你植的太淺了！",
+        "ja": "歯科インプラントを浅くしすぎます!",
+        "es": "¡Colocas tu implante dental demasiado poco profundo!",
+        "fr": "Vous placez votre implant dentaire trop peu profond !",
+        "th": "คุณวางรากฟันเทียมตื้นเกินไป!"
+      }
+    },
+    "textbox2": {
+      "x": "25%",
+      "y": "10%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "30px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "en": "The emergence profile of your crown is ugly.",
+        "zh-hant": "是你的 emergence profile 醜~",
+        "ja": "あなたの王冠の出現プロファイルは醜いです。",
+        "es": "El perfil de emergencia de su corona es feo.",
+        "fr": "Le profil d’émergence de votre couronne est moche.",
+        "th": "โปรไฟล์การเกิดขึ้นของมงกุฎของคุณน่าเกลียด"
+      }
+    }
+  }
+}

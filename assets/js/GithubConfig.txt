@@ -1,0 +1,17 @@
+# Handles how text files are displayed
+diff.astextplain.textconv=astextplain
+
+# Git LFS (Large File Storage) settings
+filter.lfs.clean=git-lfs clean -- %f      # Handles large files when adding to Git
+filter.lfs.smudge=git-lfs smudge -- %f    # Handles large files when downloading
+filter.lfs.process=git-lfs filter-process  # Processes large files
+filter.lfs.required=true                   # LFS is required for this repo
+
+# SSL/HTTPS settings for secure connections
+http.sslbackend=openssl                    # Uses OpenSSL for HTTPS
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt  # SSL certificate location
+
+# Core Git settings
+core.autocrlf=input        # Handles line endings (input = convert to LF on commit)
+core.fscache=true         # File system caching for better performance
+core.symlinks=false       # Windows doesn't support symbolic links by default

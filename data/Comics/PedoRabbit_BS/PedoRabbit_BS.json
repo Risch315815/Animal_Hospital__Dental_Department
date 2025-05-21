@@ -1,0 +1,128 @@
+{
+    "character_title": {
+        "text": {
+          "zh-hant": "兒牙兔",
+          "en": "PedoRabbit",
+          "ja": "児牙兎",
+          "es": "Conejo Pediátrico",
+          "fr": "Lapin Pédiatrique",
+          "th": "กัปตันโลโบโตมี"
+        }
+      },
+      "background_story_title": {
+        "text": {
+          "zh-hant": "醫師介紹",
+          "en": "Introduction",
+          "ja": "医師紹介",
+          "es": "Introducción",
+          "fr": "Introduction",
+          "th": "การนำเสนอ"
+        }
+      },
+      "character-description": {
+        "text": {
+          "zh-hant":"<strong>專科: </strong>兒童牙科<br><br><strong>名言: </strong>家長先到櫃台簽同意書喔",
+          "en": "<strong>Specialty: </strong>Pediatric Dentistry<br><br><strong>Catchphrase: </strong>Parents please sign the consent form at the reception desk first.",
+          "ja": "<strong>専門: </strong>小児歯科<br><br><strong>名言: </strong>家長は受付で同意書にご署名ください。",
+          "es": "<strong>Especialidad: </strong>Dentistería Pediátrica<br><br><strong>Catchphrase: </strong>Padres, por favor firmen el formulario de consentimiento en la recepción primero.",
+          "fr": "<strong>Spécialité: </strong>Dentisterie Pédiatrique<br><br><strong>Catchphrase: </strong>Parents, veuillez d'abord signer le formulaire de consentement à la réception.",
+          "th": "<strong>สาขา: </strong>ทันตกรรมสำหรับเด็ก<br><br><strong>ประโยคประจำตัว: </strong>ผู้ปกครองกรุณาลงนามในแบบฟอร์มยินยอมที่เคาน์เตอร์ก่อนนะคะ"
+        }
+      },
+      "character_story": {
+        "text": {
+          "en": [
+            "As a pediatric dentist at a medical center, PedoRabbit believes that he has the responsibility to act as the final line of defense:",
+            "Parents should never have to see their child go feral on the dental chair.",
+            "Parents please sign the consent form at the reception desk first."
+          ],
+          "zh-hant": [
+            "身為醫學中心的兒童牙科醫師，兒牙兔認為他有義務作為最後一道防線:",
+            "絕對不能讓家長看到孩子坐上診療椅後瞬間獸化的殘忍畫面。",
+            "家長請先到櫃台簽同意書喔。"
+          ],
+          "ja": [
+            "医療センターの小児歯科医として、児牙兎は最後の防衛線としての責任があると信じています：",
+            "親御さんが、お子様が歯科用チェアに座った後で暴れ出す姿を見ることがあってはなりません。",
+            "家長は受付で同意書にご署名ください。"
+          ],
+          "es": [
+            "Como dentista pediátrico en un centro médico, el Conejo Pediátrico cree que tiene la responsabilidad de actuar como la última frontera:",
+            "Los padres nunca deberían ver a sus hijos volverse salvajes después de subir a la silla dental.",
+            "Padres, por favor firmen el formulario de consentimiento en la recepción primero."
+          ],
+          "fr": [
+            "En tant que dentiste pédiatrique dans un centre médical, le Lapin Pédiatrique estime qu'il a la responsabilité d'agir comme la dernière frontière :",
+            "Les parents ne devraient jamais avoir à voir leur enfant devenir sauvage après être monté sur le fauteuil dentaire.",
+            "Parents, veuillez d'abord signer le formulaire de consentement à la réception."
+          ],
+          "th": [
+            "ในฐานะทันตแพทย์เด็กที่ศูนย์การแพทย์ กระต่ายทันตกรรมเด็กเชื่อว่าเขามีหน้าที่เป็นด่านสุดท้าย:",
+            "ผู้ปกครองไม่ควรต้องเห็นลูกของตนกลายเป็นสัตว์ป่าหลังจากขึ้นเก้าอี้ทำฟัน",
+            "ผู้ปกครองกรุณาลงนามในแบบฟอร์มยินยอมที่เคาน์เตอร์ก่อนนะคะ"
+          ]
+        }
+      },
+    
+
+    "PedoRabbit_BS01": {
+        "textbox1": {
+            "x": "60%",
+            "y": "4%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "0px solid black",
+            "fontWeight": "normal",
+            "text": {
+                "en": "Parents please sign the consent form at the reception desk first.",
+                "zh-hant": "家長先到櫃台簽同意書喔",
+                "ja": "家長は受付で同意書にご署名ください。",
+                "es": "Padres, por favor firmen el formulario de consentimiento en la recepción primero.",
+                "fr": "Parents, veuillez d'abord signer le formulaire de consentement à la réception.",
+                "th": "ผู้ปกครองกรุณาลงนามในแบบฟอร์มยินยอมที่เคาน์เตอร์ก่อนนะคะ"
+            }
+        }
+    },
+    "PedoRabbit_BS04": {
+        "textbox1": {
+            "x": "60%",
+            "y": "8%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "60px",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "0px solid black",
+            "fontWeight": "normal",
+            "text": {
+                "en": "Good boy~",
+                "zh-hant": "好乖好乖",
+                "ja": "よくできましたね~",
+                "es": "Muy bien~",
+                "fr": "Très bien~",
+                "th": "ดีมากดีมากครับ"
+            }
+        }
+    },
+    "PedoRabbit_BS05": {
+        "textbox1": {
+            "x": "77%",
+            "y": "21%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "60px",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "border": "0px solid black",
+            "fontWeight": "normal",
+            "text": {
+                "en": "See you in 6 months :)",
+                "zh-hant": "半年後見 :)",
+                "ja": "6ヶ月後にお会いしましょう :)",
+                "es": "Nos vemos en 6 meses :)",
+                "fr": "On se voit dans 6 mois :)",
+                "th": "เจอกันใน 6 เดือนนะ :)"
+            }
+        }
+    }
+}

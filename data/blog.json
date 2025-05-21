@@ -1,0 +1,56 @@
+{
+    "blog_content": {
+        "text": {
+            "zh-hant": [
+                "歡迎來到我們的部落格。",
+                "在這裡，我們會分享一些有趣的病例和醫療故事。",
+                "敬請期待更多更新。"
+            ],
+            "en": [
+                "Welcome to our blog.",
+                "Here, we share interesting cases and medical stories.",
+                "Stay tuned for more updates."
+            ],
+            "ja": [
+                "ブログへようこそ。",
+                "ここでは、興味深い症例や医療に関する話を共有します。",
+                "今後の更新をお楽しみに。"
+            ],
+            "es": [
+                "Bienvenido a nuestro blog.",
+                "Aquí compartimos casos interesantes e historias médicas.",
+                "Estén atentos a más actualizaciones."
+            ],
+            "fr": [
+                "Bienvenue sur notre blog.",
+                "Ici, nous partageons des cas intéressants et des histoires médicales.",
+                "Restez à l'écoute pour plus de mises à jour."
+            ],
+            "th": [
+                "ยินดีต้อนรับสู่บล็อกของเรา",
+                "ที่นี่เราแบ่งปันกรณีที่น่าสนใจและเรื่องราวทางการแพทย์",
+                "โปรดติดตามการอัปเดตเพิ่มเติม"
+            ]
+        }
+    },
+    "featured_title": {
+        "text": {
+            "zh-hant": "精選文章",
+            "en": "Featured Stories",
+            "ja": "注目の記事",
+            "es": "Historias Destacadas",
+            "fr": "Articles Vedettes",
+            "th": "เรื่องราวแนะนำ"
+        }
+    },
+    "all_posts_title": {
+        "text": {
+            "zh-hant": "所有文章",
+            "en": "All Posts",
+            "ja": "すべての記事",
+            "es": "Todas las Publicaciones",
+            "fr": "Tous les Articles",
+            "th": "โพสต์ทั้งหมด"
+        }
+    }
+} 

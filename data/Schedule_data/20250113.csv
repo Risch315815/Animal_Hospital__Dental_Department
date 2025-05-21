@@ -1,0 +1,29 @@
+,,,Mon,Tue,Wed,Thur,Fri,Sat
+Department,Doctor,Timeslots,2025/01/13,2025/01/14,2025/01/15,2025/01/16,2025/01/17,2025/01/18
+Oral Pathology,OralPathAnteater,Morning,V,V,,,,
+Oral Pathology,OralPathAnteater,Afternoon,V,V,,,,
+Oral Pathology,OralPathAnteater,Evening,,,,,,
+Oral Surgery,Extractosaurus,Morning,V,V,V,V,V,
+Oral Surgery,Extractosaurus,Afternoon,V,V,V,V,V,
+Oral Surgery,Extractosaurus,Evening,,,,,,
+Periodontology,Scaling Kitty,Morning,V,V,V,V,V,V
+Periodontology,Scaling Kitty,Afternoon,V,V,V,V,V,V
+Periodontology,Scaling Kitty,Evening,V,V,V,V,V,V
+"Operative Dentistry
+Endodontics
+Prosthodontics",ProsthoWolf,Morning,V,V,V,V,V,V
+"Operative Dentistry
+Endodontics
+Prosthodontics",ProsthoWolf,Afternoon,V,V,V,V,V,V
+"Operative Dentistry
+Endodontics
+Prosthodontics",ProsthoWolf,Evening,V,V,V,V,V,V
+Pedodontics,PedoRabbit,Morning,V,,V,,V,V
+Pedodontics,PedoRabbit,Afternoon,V,,V,,V,V
+Pedodontics,PedoRabbit,Evening,V,V,V,V,V,V
+Orthodontics,Lavisheep,Morning,V,,V,,V,V
+Orthodontics,Lavisheep,Afternoon,V,,V,,V,V
+Orthodontics,Lavisheep,Evening,V,V,V,V,V,V
+Neurosurgery,Captain Frontal Lobotomy,Morning,V,V,,,,
+Neurosurgery,Captain Frontal Lobotomy,Afternoon,V,V,,,,
+Neurosurgery,Captain Frontal Lobotomy,Evening,,,,,,

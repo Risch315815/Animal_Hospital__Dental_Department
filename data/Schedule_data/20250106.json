@@ -1,0 +1,228 @@
+{
+  "2025": {
+    "01": {
+      "27": {
+        "1": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "2": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "3": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "4": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "5": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "6": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "7": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        }
+      },
+      "28": {
+        "1": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "2": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "3": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "4": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "5": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "6": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "7": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        }
+      },
+      "29": {
+        "1": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "2": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "3": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "4": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "5": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "6": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "7": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        }
+      },
+      "30": {
+        "1": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "2": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "3": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "4": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "5": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "6": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "7": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        }
+      },
+      "31": {
+        "1": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "2": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "3": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "4": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "5": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "6": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "7": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        }
+      },
+      "01\r": {
+        "1": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "2": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "3": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "4": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "5": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "6": {
+          "morning": "available",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        },
+        "7": {
+          "morning": "unavailable",
+          "afternoon": "unavailable",
+          "evening": "unavailable"
+        }
+      }
+    }
+  }
+}

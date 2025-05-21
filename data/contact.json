@@ -1,0 +1,190 @@
+{
+    "contact_title": {
+        "text": {
+            "zh-hant": "預約諮詢",
+            "en": "Book an Appointment",
+            "ja": "予約相談",
+            "es": "Reservar una Cita",
+            "fr": "Prendre Rendez-vous",
+            "th": "นัดหมาย"
+        }
+    },
+    "weekdays": {
+        "text": {
+            "zh-hant": ["週一", "週二", "週三", "週四", "週五", "週六"],
+            "en": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "ja": ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"],
+            "es": ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+            "fr": ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
+            "th": ["จ.", "อ.", "พ.", "พฤ.", "ศ.", "ส."]
+        }
+    },
+    "doctors": {
+        "OralPath Anteater": {
+            "zh-hant": "口病食蟻獸",
+            "en": "OralPath Anteater",
+            "ja": "口病アリクイ",
+            "es": "OralPath Anteater",
+            "fr": "OralPath Anteater",
+            "th": "โอรัลแพธแอนท์อีตเตอร์"
+        },
+        "Extractosaurus": {
+            "zh-hant": "拔牙暴龍",
+            "en": "Extractosaurus",
+            "ja": "エクストラクトサウルス",
+            "es": "Extractosaurus",
+            "fr": "Extractosaurus",
+            "th": "เอ็กซ์แทรคโตซอรัส"
+        },
+        "Scaling Kitty": {
+            "zh-hant": "洗牙貓貓",
+            "en": "Scaling Kitty",
+            "ja": "スケーリングキャット",
+            "es": "Scaling Kitty",
+            "fr": "Scaling Kitty",
+            "th": "สเกลลิงกิตตี้"
+        },
+        "ProsthoWolf": {
+            "zh-hant": "波索沃",
+            "en": "ProsthoWolf",
+            "ja": "プロストウルフ",
+            "es": "ProsthoWolf",
+            "fr": "ProsthoWolf",
+            "th": "โพรสโธวูล์ฟ"
+        },
+        "PedoRabbit": {
+            "zh-hant": "兒牙兔",
+            "en": "PedoRabbit",
+            "ja": "ペドラビット",
+            "es": "PedoRabbit",
+            "fr": "PedoRabbit",
+            "th": "เพโดแรบบิท"
+        },
+        "LaviSheep": {
+            "zh-hant": "敗家綿羊",
+            "en": "LaviSheep",
+            "ja": "ラヴィシープ",
+            "es": "LaviSheep",
+            "fr": "LaviSheep",
+            "th": "ลาวิชีพ"
+        },
+        "Captain Frontal Lobotomy": {
+            "zh-hant": "前額葉切除隊長",
+            "en": "Captain Frontal Lobotomy",
+            "ja": "前頭葉切除艦長",
+            "es": "Capitán Lobotomía Frontal",
+            "fr": "Capitaine Lobotomie Frontale",
+            "th": "กัปตันโลโบโทมี"
+        }
+    },
+    "specialties": {
+        "Oral Pathology": {
+            "zh-hant": "口腔病理科",
+            "en": "Oral Pathology",
+            "ja": "口腔病理",
+            "es": "Patología Oral",
+            "fr": "Pathologie Buccale",
+            "th": "พยาธิวิทยาช่องปาก"
+        },
+        "Oral Surgery": {
+            "zh-hant": "口腔外科",
+            "en": "Oral Surgery",
+            "ja": "口腔外科",
+            "es": "Cirugía Oral",
+            "fr": "Chirurgie Orale",
+            "th": "ศัลยกรรมช่องปาก"
+        },
+        "Periodontology": {
+            "zh-hant": "牙周病科",
+            "en": "Periodontology",
+            "ja": "歯周病科",
+            "es": "Periodontología",
+            "fr": "Parodontologie",
+            "th": "ปริทันตวิทยา"
+        },
+        "Operative Dentistry - Endodontics - Prosthodontics": {
+            "zh-hant": "牙體復型科<br>根管治療科<br>義齒補綴科",
+            "en": "Operative Dentistry<br>Endodontics<br>Prosthodontics",
+            "ja": "保存修復科<br>歯内療法科<br>補綴科",
+            "es": "Odontología Operatoria<br>Endodoncia<br>Prostodoncia",
+            "fr": "Dentisterie Opératoire<br>Endodontie<br>Prothèse",
+            "th": "ทันตกรรมหัตถการ<br>วิทยาเอ็นโดดอนต์<br>ทันตกรรมประดิษฐ์"
+        },
+        "Pedodontics": {
+            "zh-hant": "兒童牙科",
+            "en": "Pedodontics",
+            "ja": "小児歯科",
+            "es": "Odontopediatría",
+            "fr": "Pédodontie",
+            "th": "ทันตกรรมสำหรับเด็ก"
+        },
+        "Orthodontics": {
+            "zh-hant": "矯正科",
+            "en": "Orthodontics",
+            "ja": "矯正歯科",
+            "es": "Ortodoncia",
+            "fr": "Orthodontie",
+            "th": "ทันตกรรมจัดฟัน"
+        },
+        "Neurosurgery": {
+            "zh-hant": "神經外科",
+            "en": "Neurosurgery",
+            "ja": "脳神経外科",
+            "es": "Neurocirugía",
+            "fr": "Neurochirurgie",
+            "th": "ประสาทศัลยศาสตร์"
+        }
+    },
+    "time_slots": {
+        "morning": {
+            "zh-hant": "上午",
+            "en": "Morning",
+            "ja": "午前",
+            "es": "Mañana",
+            "fr": "Matin",
+            "th": "เช้า"
+        },
+        "afternoon": {
+            "zh-hant": "下午",
+            "en": "Afternoon",
+            "ja": "午後",
+            "es": "Tarde",
+            "fr": "Après-midi",
+            "th": "บ่าย"
+        },
+        "evening": {
+            "zh-hant": "晚上",
+            "en": "Evening",
+            "ja": "夜間",
+            "es": "Noche",
+            "fr": "Soir",
+            "th": "เย็น"
+        }
+    },
+    "status": {
+        "available": {
+            "zh-hant": "可預約",
+            "en": "Available",
+            "ja": "予約可能",
+            "es": "Disponible",
+            "fr": "Disponible",
+            "th": "ว่าง"
+        },
+        "full": {
+            "zh-hant": "已滿",
+            "en": "Full",
+            "ja": "満席",
+            "es": "Lleno",
+            "fr": "Complet",
+            "th": "เต็ม"
+        },
+        "unavailable": {
+            "zh-hant": "休診",
+            "en": "Unavailable",
+            "ja": "休診",
+            "es": "No Disponible",
+            "fr": "Indisponible",
+            "th": "ไม่ว่าง"
+        }
+    }
+} 

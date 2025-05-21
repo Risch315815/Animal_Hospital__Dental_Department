@@ -1,0 +1,533 @@
+{
+    "team_title": {
+        "text": {
+            "zh-hant": "認識我們的團隊",
+            "en": "Meet Our Team",
+            "ja": "チームメンバー紹介",
+            "es": "Conozca a Nuestro Equipo",
+            "fr": "Notre Équipe",
+            "th": "พบกับทีมของเรา"
+        }
+    },
+    "team_description": {
+        "text": {
+            "zh-hant": "<strong>動物醫院牙科部</strong>  由一群在乎專業超過病患人身安全的醫師組成，只提供最高標準的治療。",
+            "en": "<strong>The Animal Hospital's Dental Department</strong> is equipped with a team of specialists who prioritize professional excellence over patient safety, only providing treatment of the utmost standard.",
+            "ja": "当院歯科部門は、患者の安全よりも専門性を重視する医師たちで構成され、最高水準の治療のみを提供しています。",
+            "es": "<strong>El Departamento Dental del Hospital Animal</strong> cuenta con un equipo de especialistas que priorizan la excelencia profesional sobre la seguridad del paciente, proporcionando únicamente tratamientos del más alto nivel.",
+            "fr": "<strong>Le service dentaire de l'hôpital pour animaux</strong> est composé de spécialistes qui privilégient l'excellence professionnelle à la sécurité des patients, ne fournissant que des traitements du plus haut niveau.",
+            "th": "แผนกทันตกรรมของโรงพยาบาลสัตว์ประกอบด้วยทีมผู้เชี่ยวชาญที่ให้ความสำคัญกับความเป็นเลิศทางวิชาชีพมากกว่าความปลอดภัยของผู้ป่วย โดยให้การรักษาในระดับสูงสุดเท่านั้น"
+        }
+    },
+
+  
+
+    "Extractosaurus_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>拔牙暴龍<br><br><strong>專科：</strong>口腔外科<br><br><strong>特殊能力：</strong> 只要是牙齒，不管多深，位置多刁鑽，花多久時間，都能拔下來 ",
+            "en": "<strong>Name:</strong> Extractosaurus<br><br><strong>Specialty:</strong> Maxillofacial Surgery<br><br><strong>Special Ability:</strong> As long as it's a tooth, no matter how deep it is, how hard it is, or how long it takes, he'll get it out. ",
+            "ja": "<strong>名前：</strong>エクストラクトサウルス<br><br><strong>専門：</strong>口腔外科<br><br><strong>特殊能力：</strong>どんな歯でも、どんなに深く、どんなに難しい位置でも、時間がかかっても必ず抜くことができる",
+            "es": "<strong>Nombre:</strong> Extractosaurio<br><br><strong>Especialidad:</strong> Cirugía Maxilofacial<br><br><strong>Habilidad Especial:</strong>Si es un diente, no importa qué tan profundo esté, qué tan difícil sea su posición o cuánto tiempo tome, lo extraerá",
+            "fr": "<strong>Nom:</strong> Extractosaure<br><br><strong>Spécialité:</strong> Chirurgie Maxillo-faciale<br><br><strong>Capacité Spéciale:</strong>Tant que c'est une dent, peu importe sa profondeur, sa position difficile ou le temps nécessaire, il l'extraira",
+            "th": "<strong>ชื่อ:</strong> เอ็กซ์แทรคโตซอรัส<br><br><strong>ความเชี่ยวชาญ:</strong> ศัลยกรรมช่องปากและขากรรไกร<br><br><strong>ความสามารถพิเศษ:</strong>ตราบใดที่เป็นฟัน ไม่ว่าจะลึกแค่ไหน ตำแหน่งยากแค่ไหน หรือใช้เวลานานเท่าไหร่ ก็ถอนออกได้"
+        }
+    },
+    "ScalingKitty_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>洗牙貓貓<br><br><strong>專科：</strong>牙周病科<br><br><strong>特殊能力：</strong> 手術技巧微創到幾乎不見血，但就是收不到病人",
+            "en": "<strong>Name:</strong> Scaling Kitty<br><br><strong>Specialty:</strong> Periodontics<br><br><strong>Special Ability:</strong> Wields extraordinary minimally-invasive surgical skill, but still can't get patients",
+            "ja": "<strong>名前：</strong>スケーリングキティ<br><br><strong>専門：</strong>歯周病科<br><br><strong>特殊能力：</strong>ほとんど出血しない最小侵襲手術の技術を持っているが、患者がなかなか集まらない",
+            "es": "<strong>Nombre:</strong> Gatito Escamoso<br><br><strong>Especialidad:</strong> Periodoncia<br><br><strong>Habilidad Especial:</strong>Posee una extraordinaria habilidad quirúrgica mínimamente invasiva, pero aún así no consigue pacientes",
+            "fr": "<strong>Nom:</strong> Chaton Détartreur<br><br><strong>Spécialité:</strong> Parodontologie<br><br><strong>Capacité Spéciale:</strong>Maîtrise une technique chirurgicale mini-invasive extraordinaire, mais n'arrive toujours pas à avoir des patients",
+            "th": "<strong>ชื่อ:</strong> สเกลลิ่งคิตตี้<br><br><strong>ความเชี่ยวชาญ:</strong> ปริทันตวิทยาช่องปาก<br><br><strong>ความสามารถพิเศษ:</strong>มีทักษะการผ่าตัดแบบเนื้อเยื่อบาดเจ็บน้อยที่ยอดเยี่ยมจนแทบไม่มีเลือดออก แต่ก็ยังไม่มีคนไข้"
+        }
+    },
+    "ProsthoWolf_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>波索沃<br><br><strong>專科：</strong>補綴科<br><br><strong>特殊能力：</strong> 人際手腕極高，甚至用言語賞奧客巴掌也不會被投訴",
+            "en": "<strong>Name:</strong> ProsthoWolf<br><br><strong>Specialty:</strong> Prosthodontics<br><br><strong>Special Ability:</strong> Extremely gregarious such that difficult patients never thought to file complaints even after being slapped in the face by his words.",
+            "ja": "<strong>名前：</strong>プロストウルフ<br><br><strong>専門：</strong>補綴科<br><br><strong>特殊能力：</strong>対人スキルが非常に高く、言葉で問題患者を叱っても苦情を言われることはない",
+            "es": "<strong>Nombre:</strong> Lobo Protésico<br><br><strong>Especialidad:</strong> Prostodoncia<br><br><strong>Habilidad Especial:</strong>Tan carismático que los pacientes difíciles nunca piensan en presentar quejas incluso después de ser abofeteados por sus palabras",
+            "fr": "<strong>Nom:</strong> Loup Prothétique<br><br><strong>Spécialité:</strong> Prothèse Dentaire<br><br><strong>Capacité Spéciale:</strong>Tellement sociable que les patients difficiles ne pensent jamais à porter plainte même après avoir été giflés par ses mots",
+            "th": "<strong>ชื่อ:</strong> พรอสโธวูล์ฟ<br><br><strong>ความเชี่ยวชาญ:</strong> ทันตกรรมประดิษฐ์<br><br><strong>คำามสามารถพิเศษ:</strong>มีทักษะการเข้าสังคมสูงมาก แม้แต่คนไข้ที่ยากจะรับมือก็ไม่คิดจะร้องเรียนแม้จะถูกคำพูดของเขาตบหน้า"
+        }
+    },
+    "R3_5Cow_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>R3.5牛<br><br><strong>專科：</strong>家庭牙科住院醫師(訓練年資:0.5年)<br><br><strong>特殊能力：</strong> 對自己未經證實的臨床技能有超乎常人的信心",
+            "en": "<strong>Name:</strong> R3.5 Cow<br><br><strong>Specialty:</strong> Family Dentistry Resident (Training Experience: 0.5 years)<br><br><strong>Special Ability:</strong> Holds unparalleled confidence in his uncorroborated clinical skills.",
+            "ja": "<strong>名前：</strong>R3.5カウ<br><br><strong>専門：</strong>家庭歯科住院醫師<br><br><strong>特殊能力：</strong>未実証の臨床技術に対して並外れた自信を持っている",
+            "es": "<strong>Nombre:</strong> Vaca R3.5<br><br><strong>Especialidad:</strong> Odontología Familiar<br><br><strong>Habilidad Especial:</strong>Tiene una confianza sin igual en sus habilidades clínicas no comprobadas",
+            "fr": "<strong>Nom:</strong> Vache R3.5<br><br><strong>Spécialité:</strong> Dentisterie Familiale<br><br><strong>Capacité Spéciale:</strong>Possède une confiance inégalée dans ses compétences cliniques non vérifiées",
+            "th": "<strong>ชื่อ:</strong> อาร์3.5คาว<br><br><strong>ความเชี่ยวชาญ:</strong> ทันตกรรมครอบครัว<br><br><strong>คำามสามารถพิเศษ:</strong>มีความมั่นใจในทักษะทางคลินิกที่ยังไม่ได้รับการพิสูจน์ของตนเองอย่างไม่มีใครเทียบ"
+        }
+    },
+    "CaptainFrontalLobotomy_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>前額葉切除隊長<br><br><strong>專科：</strong>神經外科<br><br><strong>特殊能力：</strong> 不管患者主訴為何都能推前額葉切除術",
+            "en": "<strong>Name:</strong> Captain Frontal Lobotomy<br><br><strong>Specialty:</strong> Neurosurgery<br><br><strong>Special Ability:</strong> The ability to suggest frontal lobotomy regardless of the chief complaint",
+            "ja": "<strong>名前：</strong>前頭葉ロボトミー隊長<br><br><strong>専門：</strong>神経外科<br><br><strong>特殊能力：</strong>患者の主訴に関係なく、前頭葉ロボトミーを提案できる能力",
+            "es": "<strong>Nombre:</strong> Capitán Lobotomía Frontal<br><br><strong>Especialidad:</strong> Neurocirugía<br><br><strong>Habilidad Especial:</strong>La capacidad de sugerir una lobotomía frontal independientemente del motivo de consulta",
+            "fr": "<strong>Nom:</strong> Capitaine Lobotomie Frontale<br><br><strong>Spécialité:</strong> Neurochirurgie<br><br><strong>Capacité Spéciale:</strong>La capacité de suggérer une lobotomie frontale quel que soit le motif de consultation",
+            "th": "<strong>ชื่อ:</strong> กัปตันโลโบโตมี<br><br><strong>ความเชี่ยวชาญ:</strong> ประสาทศัลยศาสตร์<br><br><strong>ความสามารถพิเศษ:</strong>สามารถแนะนำการผ่าตัดสมองส่วนหน้าได้ไม่ว่าคนไข้จะมาด้วยอาการอะไร"
+        }
+    },
+    "OralPathAnteater_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>口病食蟻獸<br><br><strong>專科：</strong>口腔病理科<br><br><strong>特殊能力：</strong> 強韌的耐力使她能不停建議住院醫師修改報告直到當事人想退訓",
+            "en": "<strong>Name:</strong> Oral Pathology Anteater<br><br><strong>Specialty:</strong> Oral Pathology<br><br><strong>Special Ability:</strong> Her amazing resilience allows her to keep correcting the resident's report until the residence wishes to drop out.",
+            "ja": "<strong>名前：</strong>口腔病理アリクイ<br><br><strong>専門：</strong>口腔病理学<br><br><strong>特殊能力：</strong>驚異的な忍耐力で、研修医が辞めたいと思うまでレポートの修正を求め続けることができる",
+            "es": "<strong>Nombre:</strong> Oso Hormiguero de Patología Oral<br><br><strong>Especialidad:</strong> Patología Oral<br><br><strong>Habilidad Especial:</strong>Su increíble resistencia le permite seguir corrigiendo el informe del residente hasta que este desee abandonar",
+            "fr": "<strong>Nom:</strong> Fourmilier de Pathologie Orale<br><br><strong>Spécialité:</strong> Pathologie Orale<br><br><strong>Capacité Spéciale:</strong>Son endurance incroyable lui permet de continuer à corriger le rapport du résident jusqu'à ce qu'il souhaite abandonner",
+            "th": "<strong>ชื่อ:</strong> ตัวกินมดพยาธิช่องปาก<br><br><strong>ความเชี่ยวชาญ:</strong> พยาธิวิทยาช่องปาก<br><br><strong>ความสามารถพิเศษ:</strong>ความอดทนที่น่าทึ่งทำให้เธอสามารถแก้ไขรายงานของแพทย์ประจำบ้านไปเรื่อยๆ จนกว่าพวกเขาจะอยากลาออก"
+        }
+    },
+    "PedoRabbit_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>兒牙兔<br><br><strong>專科：</strong>兒童牙科(也會做矯正)<br><br><strong>特殊能力：</strong> 讓幼兒患者不吵",
+            "en": "<strong>Name:</strong> PedoRabbit<br><br><strong>Specialty:</strong> Pedodontics (and a little orthodontics)<br><br><strong> Special Ability:</strong>Keeping pediatric patients quiet.",
+            "ja": "<strong>名前：</strong>小児歯科ウサギ<br><br><strong>専門：</strong>小児歯科（矯正もできる）<br><br><strong>特殊能力：</strong>小児患者を静かにさせることができる",
+            "es": "<strong>Nombre:</strong> Conejo Pedodóntico<br><br><strong>Especialidad:</strong> Odontopediatría (y algo de ortodoncia)<br><br><strong>Habilidad Especial:</strong>Mantener callados a los pacientes pediátricos",
+            "fr": "<strong>Nom:</strong> Lapin Pédodontique<br><br><strong>Spécialité:</strong> Pédodontie (et un peu d'orthodontie)<br><br><strong>Capacité Spéciale:</strong>Faire taire les patients pédiatriques",
+            "th": "<strong>ชื่อ:</strong> กระต่ายทันตกรรมเด็ก<br><br><strong>ความเชี่ยวชาญ:</strong> ทันตกรรมสำหรับเด็ก (และจัดฟันเล็กน้อย)<br><br><strong>ความสามารถพิเศษ:</strong>ทำให้คนไข้เด็กเงียบได้"
+        }
+    },
+    "Lavisheep_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>敗家綿羊<br><br><strong>專科：</strong>齒顎矯正科<br><br><strong>特殊能力：</strong> 花的比賺的多",
+            "en": "<strong>Name:</strong> Lavisheep<br><br><strong>Specialty:</strong> Orthodontics<br><br><strong>Special Ability:</strong> Spending more than she earned.",
+            "ja": "<strong>名前：</strong>浪費羊<br><br><strong>専門：</strong>歯科矯正<br><br><strong>特殊能力：</strong>稼ぎより多く使ってしまう",
+            "es": "<strong>Nombre:</strong> Oveja Derrochadora<br><br><strong>Especialidad:</strong> Ortodoncia<br><br><strong>Habilidad Especial:</strong>Gastar más de lo que gana",
+            "fr": "<strong>Nom:</strong> Brebis Dépensière<br><br><strong>Spécialité:</strong> Orthodontie<br><br><strong>Capacité Spéciale:</strong>Dépenser plus que ce qu'elle gagne",
+            "th": "<strong>ชื่อ:</strong> แกะสุรุ่ยสุร่าย<br><br><strong>ความเชี่ยวชาญ:</strong> ทันตกรรมจัดฟัน<br><br><strong>ความสามารถพิเศษ:</strong>ใช้จ่ายมากกว่าที่หาได้"
+        }
+    },
+    "TerribleDad_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>西醫歐(洗牙貓貓他爸)<br><br><strong>專科：</strong>耳鼻喉科<br><br><strong>特殊能力：</strong> 口腔癌、鼻咽癌切除專家(拔牙暴龍的偶像)；洗牙貓貓覺得他很煩",
+            "en": "<strong>Name:</strong> CEO (Scaling Kitty's Dad)<br><br><strong>Specialty:</strong> ENT<br><br><strong>Special Ability:</strong> Expert in oral and nasopharyngeal cancer surgery (Extractosaurus is a fan). Scaling Kitty finds him annoying.",
+            "ja": "<strong>名前：</strong>CEO（スケーリングキティの父）<br><br><strong>専門：</strong>耳鼻咽喉科<br><br><strong>特殊能力：</strong>世間の基準では息子を全面的に上回る能力と実績を持つが、それでも自分なりの方法で息子の承認を得ようとする",
+            "es": "<strong>Nombre:</strong> CEO (Padre de Gatito Escamoso)<br><br><strong>Especialidad:</strong> Otorrinolaringología<br><br><strong>Habilidad Especial:</strong>Superior a su hijo en todos los aspectos (según los estándares mundanos), pero aún así intenta ganar su aprobación",
+            "fr": "<strong>Nom:</strong> PDG (Père du Chaton Détartreur)<br><br><strong>Spécialité:</strong> ORL<br><br><strong>Capacité Spéciale:</strong>Supérieur à son fils dans tous les domaines (selon les standards mondains), mais cherche toujours à gagner son approbation",
+            "th": "<strong>ชื่อ:</strong> ซีอีโอ (พ่อของสเกลลิ่งคิตตี้)<br><br><strong>ความเชี่ยวชาญ:</strong> หู คอ จมูก<br><br><strong>ความสามารถพิเศษ:</strong>เหนือกว่าลูกชายในทุกด้านตามมาตรฐานทางโลก แต่ยังคงพยายามที่จะได้รับการยอมรับจากลูกชายในแบบของตัวเอง"
+        }
+    },
+    "Manager_profile": {
+        "text": {
+            "zh-hant": "<strong>姓名：</strong>管理層<br><br><strong>專科：</strong>管理科<br><br><strong>特殊能力：</strong>替醫院賺$$",
+            "en": "<strong>Name:</strong> Manager<br><br><strong>Specialty:</strong> Administration<br><br><strong>Special Ability:</strong> Profittability.",
+            "ja": "<strong>名前：</strong>マネージャー<br><br><strong>専門：</strong>管理<br><br><strong>特殊能力：</strong>収益の厳格な監視、自費診療の目標達成の確保",
+            "es": "<strong>Nombre:</strong> Gerente<br><br><strong>Especialidad:</strong> Gestión Sanitaria<br><br><strong>Habilidad Especial:</strong>Control estricto de ingresos, asegurando que los tratamientos no asegurados alcancen los objetivos",
+            "fr": "<strong>Nom:</strong> Gestionnaire<br><br><strong>Spécialité:</strong> Gestion des soins de santé<br><br><strong>Capacité Spéciale:</strong>Suivi strict des revenus, garantissant que les traitements non assurés atteignent les objectifs",
+            "th": "<strong>ชื่อ:</strong> ผู้จัดการ<br><br><strong>ความเชี่ยวชาญ:</strong> การบริหารจัดการด้านสุขภาพ<br><br><strong>ความสามารถพิเศษ:</strong>การติดตามรายได้อย่างเข้มงวด ทำให้มั่นใจว่าการรักษาที่ไม่มีประกันบรรลุเป้าหมาย"
+        }
+    },
+
+
+
+    "Extractosaurus_overlay": {
+    "1": {
+            "text": {
+                "zh-hant": "拔牙暴龍",
+      "en": "Extractosaurus",
+      "ja": "ティラノサウルスの歯を抜く",
+      "es": "Extraer dientes Tyrannosaurus",
+      "fr": "Extraire les dents Tyrannosaurus",
+      "th": "สกัดฟันไทแรนโนซอรัส"
+            },
+            "x": "75%",
+            "y": "25%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold",
+            "transform": "translate(-50%, -50%)"
+    },
+    "2": {
+            "text": {
+      "zh-hant": "不知道耶~\n就下來了~",
+      "en": "I don't know.\nIt just came off.",
+      "ja": "知りません。\nそれはただ外れました。",
+      "es": "No sé.\nSimplemente se desprendió.",
+      "fr": "Je ne sais pas.\nC'est juste sorti.",
+      "th": "ฉันไม่รู้ \nมันเพิ่งหลุดออกมา"
+            },
+            "x": "15%",
+            "y": "15%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+        }
+    },
+    "ScalingKitty_overlay": {
+    "1": {
+            "text": {
+      "zh-hant": "洗牙貓貓",
+      "en": "Scaling Kitty",
+      "ja": "スケーリング子猫",
+      "es": "Gatito escamoso",
+      "fr": "Mise à l'échelle du chaton",
+      "th": "ลูกแมวขูดหินปูน"
+            },
+            "x": "80%",
+            "y": "40%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+    },
+    "2": {
+            "text": {
+      "zh-hant": "Stage幾?\nGrade幾?",
+      "en": "Stage?\nGrade?",
+      "ja": "舞台。等級。",
+      "es": "¿Etapa? ¿Grado?",
+      "fr": "Étape? Grade?",
+      "th": "เวที  เกรด "
+            },
+            "x": "15%",
+            "y": "15%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "50px",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "border": "0px solid black"
+    },
+    "3": {
+            "text": {
+                "zh-hant": "有看 AAPD 2017 了嗎？",
+      "en": "Have you read the AAPD 2017 Classification of Periodontal Diseases?",
+      "ja": "AAPD 2017 Classification of Periodontal Diseasesを読んだことがありますか?",
+      "es": "¿Has leído la Clasificación de Enfermedades Periodontales 2017 de la AAPD?",
+                "fr": "Avez-vous lu la classification 2017 de l'AAPD des maladies parodontales ?",
+      "th": "คุณได้อ่านการจําแนกประเภทของโรคปริทันต์ AAPD 2017 แล้วหรือยัง?"
+            },
+            "x": "52%",
+            "y": "10%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "26px",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "border": "0px solid black"
+        }
+    },
+    "ProsthoWolf_overlay": {
+    "1": {
+            "text": {
+                "zh-hant": "波索沃",
+      "en": "ProsthoWolf",
+      "ja": "補綴オオカミ",
+      "es": "Lobo protésico",
+      "fr": "Loup prothétique",
+      "th": "หมาป่าประดิษฐ์"
+            },
+            "x": "18%",
+            "y": "15%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+    },
+    "2": {
+            "text": {
+                "zh-hant": "像這樣\n\"啪\"\n然後就永遠不會掉下來了",
+      "en": "Just like this, and it will never fall off.",
+      "ja": "このように、それは決して落ちることはありません。",
+      "es": "Así de simple, y nunca se caerá.",
+      "fr": "Juste comme ça, et il ne tombera jamais.",
+      "th": "แค่นี้และมันจะไม่มีวันหลุดออก"
+            },
+            "x": "80%",
+            "y": "30%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+        }
+    },
+    "R3_5Cow_overlay": {
+    "1": {
+            "text": {
+                "zh-hant": "R3.5牛",
+      "en": "Resident 3.5 Cow",
+      "ja": "R3.5 カウ",
+      "es": "Vaca R3.5",
+      "fr": "R3.5 Vache",
+      "th": "R3.5 วัว"
+            },
+            "x": "70%",
+            "y": "20%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+    },
+    "2": {
+            "text": {
+                "zh-hant": "太簡單的病人我不接",
+      "en": "If the case is too easy,\nI'm not going to take it.",
+      "ja": "ケースが簡単すぎると、\n私はそれを受け入れるつもりはありません。",
+      "es": "Si el caso es demasiado fácil,\nNo lo voy a aceptar.",
+      "fr": "Si le cas est trop facile,\nJe ne vais pas le prendre.",
+      "th": "หากคดีง่ายเกินไป\nฉันจะไม่รับมัน"
+            },
+            "x": "75%",
+            "y": "50%",
+            "width": "300px",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+    },
+    "3": {
+            "text": {
+      "zh-hant": "我可不是來這裡玩的~",
+                "en": "I didn't come here to play~",
+      "ja": "遊びに来たんじゃない~",
+      "es": "No vengo aquí a jugar ~",
+      "fr": "Je ne viens pas ici pour jouer~",
+      "th": "ฉันไม่ได้มาที่นี่เพื่อเล่น~"
+            },
+            "x": "75%",
+            "y": "70%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "26px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "border": "0px solid black"
+        }
+    },
+    "CaptainFrontalLobotomy_overlay": {
+    "1": {
+            "text": {
+                "zh-hant": "前額葉切除隊長",
+      "en": "Captain Frontal Lobotomy",
+      "ja": "キャプテン・フロンタル・ロボトミー",
+      "es": "Capitán Lobotomía Frontal",
+      "fr": "Lobotomie frontale du capitaine",
+      "th": "กัปตันหน้า Lobotomy"
+            },
+            "x": "20%",
+            "y": "20%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+    },
+    "2": {
+            "text": {
+                "zh-hant": "這麼嚴重啊？\n有考慮過前額葉切除術嗎？",
+      "en": "That serious already?\nHave you considered frontal lobotomy?",
+      "ja": "もうそんなに深刻?\n前頭葉ロボトミーを検討したことがありますか?",
+      "es": "¿Tan serio ya?\n¿Has considerado la lobotomía frontal?",
+      "fr": "Déjà si sérieux ?\nAvez-vous envisagé la lobotomie frontale ?",
+      "th": "จริงจังแล้วเหรอ?\nคุณเคยพิจารณาการผ่าตัด lobotomy หน้าผากหรือไม่?"
+            },
+            "x": "20%",
+            "y": "60%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+        }
+    },
+    "OralPathAnteater_overlay": {
+    "1": {
+            "text": {
+                "zh-hant": "口病食蟻獸",
+      "en": "Oral Pathology Anteater",
+      "ja": "口腔病理学アリクイ",
+      "es": "Patología Bucal Oso Hormiguero",
+      "fr": "Pathologie buccale Fourmilier",
+      "th": "สัตว์กินกมดทางพยาธิวิทยาช่องปาก"
+            },
+            "x": "80%",
+            "y": "65%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+    },
+    "2": {
+            "text": {
+                "zh-hant": "第 58 次修改",
+      "en": "58th modification",
+      "ja": "58回目の修正",
+      "es": "58ª modificación",
+      "fr": "58e modification",
+      "th": "การปรับเปลี่ยนครั้งที่ 58"
+            },
+            "x": "52%",
+            "y": "78%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "26px",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "border": "0px solid black"
+        }
+    },
+    "PedoRabbit_overlay": {
+    "1": {
+            "text": {
+                "zh-hant": "兒牙兔",
+      "en": "Pedodontic Rabbit",
+      "ja": "小児性ウサギ",
+      "es": "Conejo pedodóntico",
+      "fr": "Lapin pédodontique",
+      "th": "กระต่าย Pedodontic"
+            },
+            "x": "80%",
+            "y": "30%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+    },
+    "2": {
+            "text": {
+                "zh-hant": "絕對不會\n讓家長看到",
+      "en": "I will never let parents see the horror that is their children.",
+      "ja": "私は親に自分の子供である恐怖を決して見せません。",
+      "es": "Nunca dejaré que los padres vean el horror que es de sus hijos.",
+                "fr": "Je ne laisserai jamais les parents voir l'horreur que sont leurs enfants.",
+      "th": "ฉันจะไม่ปล่อยให้พ่อแม่เห็นความน่ากลัวของลูก ๆ ของพวกเขา"
+            },
+            "x": "80%",
+            "y": "80%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0,0,0,0.6)",
+            "border": "0px solid black"
+        }
+    },
+    "Lavisheep_overlay": {
+    "1": {
+            "text": {
+      "zh-hant": "敗家綿羊",
+                "en": "Lavisheep",
+      "ja": "贅沢な羊",
+      "es": "Ovejas fastuosas",
+      "fr": "Moutons somptueux",
+      "th": "แกะฟุ่มเฟือย"
+            },
+            "x": "80%",
+            "y": "50%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+    },
+    "2": {
+            "text": {
+                "zh-hant": "這個沒有\n很貴啊~",
+      "en": "It's not that expensive~",
+      "ja": "そんなに高くないですよ~",
+      "es": "No es tan caro ~",
+                "fr": "Ce n'est pas si cher~",
+      "th": "ไม่แพงขนาดนั้น~"
+            },
+            "x": "10%",
+            "y": "30%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+        }
+    }, 
+    "TerribleDad_overlay": {
+        "1": {
+            "text": {
+                "zh-hant": "西醫歐\n(洗牙貓貓他爸)",
+                "en": "CEO\n(Scaling Kitty's Dad)",
+                "ja": "CEO\n(スケーリングキティの父)",
+                "es": "CEO\n(Padre de Gatito Escamoso)",
+                "fr": "PDG\n(Père du Chaton Détartreur)",
+                "th": "ซีอีโอ\n(พ่อของสเกลลิ่งคิตตี้)"
+            },
+            "x": "70%",
+            "y": "10%",
+            "width": "600px",
+            "height": "auto",
+            "fontSize": "60px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+        },
+        "2": {
+            "text": {
+                "zh-hant": "兒~子~",
+                "en": "S~O~N~",
+                "ja": "息子よ~",
+                "es": "HIJO~",
+                "fr": "FILS~",
+                "th": "ลูกชาย~"
+            },
+            "x": "20%",
+            "y": "20%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "100px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+    }
+  },
+    "Manager_overlay": {
+        "1": {
+            "text": {
+                "zh-hant": "管理層",
+                "en": "Manager",
+                "ja": "マネージャー",
+                "es": "Gerente",
+                "fr": "Gestionnaire",
+                "th": "ผู้จัดการ"
+            },
+            "x": "25%",
+            "y": "25%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "80px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black",
+            "fontWeight": "bold"
+        },
+        "2": {
+            "text": {
+                "zh-hant": "自費項目為什麼\n還佔不到一半？",
+                "en": "Why haven't the uninsured treatment\n reached 50% of the total revenue?",
+                "ja": "自費治療が総収入の50%に達していませんか？",
+                "es": "¿Por qué el tratamiento no asegurado no ha alcanzado el 50% de los ingresos totales?",
+                "fr": "Pourquoi le traitement non assuré n'a pas atteint 50% des revenus totaux ?",
+                "th": "ทำไมการรักษาที่ไม่รวมถึงค่ารักษายังไม่ถึง 50% ของรายได้รวม?"
+            },
+            "x": "20%",
+            "y": "40%",
+            "width": "auto",
+            "height": "auto",
+            "fontSize": "40px",
+            "backgroundColor": "rgba(0, 0, 0, 0.02)",
+            "border": "2px solid black"
+        }
+    }
+}

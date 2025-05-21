@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base-url" content="/Animal_Hospital__Dental_Department">
+    <meta name="description" content="Meet R3.5 Cow, the resident who refuse to take simple cases">
+    
+    <title>R3.5牛:太簡單的我不接 / R3.5 Cow: Too Young Too Simple | 動物醫院:牙科部 Animal_Hospital:Dental_Dept</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Animal_Hospital__Dental_Department/assets/css/style.css">
+
+    <!-- Scripts -->
+    <script>
+        // Initialize empty config in case script fails to load
+        window.GITHUB_TOKEN = null;
+        window.NOTIFICATION_EMAIL = null;
+        console.log('Initial config setup');
+        
+        // Debug script loading
+        function checkConfig() {
+            console.log('Config check:', {
+                token: window.GITHUB_TOKEN ? 'present' : 'missing',
+                email: window.NOTIFICATION_EMAIL ? 'present' : 'missing',
+                configScript: document.querySelector('script[src*="config.js"]')?.src
+            });
+        }
+        setTimeout(checkConfig, 1000);
+    </script>
+    <!-- Load config first -->
+    <script src="/Animal_Hospital__Dental_Department/assets/js/config.js" 
+            onload="console.log('✓ Config loaded successfully')"
+            onerror="console.error('✗ Failed to load config.js - check file path')"
+            type="text/javascript"
+            async="false"></script>
+    <script src="/Animal_Hospital__Dental_Department/assets/js/create_labels.js"></script>
+    <script src="/Animal_Hospital__Dental_Department/assets/js/lang_display.js"></script>
+    <script src="/Animal_Hospital__Dental_Department/assets/js/comments.js"></script>
+    
+    <!-- Add CSS for image overlay -->
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+        .text-overlay {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: black;
+          /* text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.7); */
+          white-space: pre-line; /* Allows line breaks */
+          font-size: 24px;
+          text-align: center;
+          z-index: 1;
+          padding: 6px;
+          margin: 3px;
+          background-color: rgba(0,0,0,0.05);
+          border-radius: 6px;
+          border: 2px solid black; /* Debug border */
+        }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/Animal_Hospital__Dental_Department/assets/images/favicon.png">
+    
+    <!-- Open Graph Meta Tags for better social sharing -->
+    <meta property="og:title" content="R3.5牛:太簡單的我不接 / R3.5 Cow: Too Young Too Simple">
+    <meta property="og:description" content="Meet R3.5 Cow, the resident who refuse to take simple cases">
+    <meta property="og:url" content="https://risch315815.github.io/Animal_Hospital__Dental_Department/2024/12/22/r3-5-cow/">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title"><a href="/Animal_Hospital__Dental_Department/">動物醫院:牙科部 Animal_Hospital:Dental_Dept</a></h1>
+            <nav class="site-nav">
+                <a href="/Animal_Hospital__Dental_Department/" 
+                    
+                   data-nav-id="nav_content" 
+                   data-nav-index="0">首頁</a>
+                <a href="/Animal_Hospital__Dental_Department/news" 
+                    
+                   data-nav-id="nav_content" 
+                   data-nav-index="1">公告</a>
+                <a href="/Animal_Hospital__Dental_Department/team" 
+                    
+                   data-nav-id="nav_content" 
+                   data-nav-index="2">團隊成員</a>
+                <a href="/Animal_Hospital__Dental_Department/contact" 
+                    
+                   data-nav-id="nav_content" 
+                   data-nav-index="3">聯絡我們</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="language-selector">
+        <div class="container">
+            <label for="language-select" id="language-label">選擇語言</label>
+            <select id="language-select" onchange="changeLanguage(this.value)">
+                <option value="zh-hant" >中文</option>
+                <option value="en" >English</option>
+                <option value="fr" >Français</option>
+                <option value="ja" >日本語</option>
+                <option value="th" >ไทย</option>
+                <option value="es" >Español</option>
+            </select>
+        </div>
+    </div>
+
+    <main class="site-content">
+        <div class="container">
+
+
+            <div class="post-header"></div>
+    <h1 data-story-id="character_title"></h1>
+</div>
+
+<hr>
+<br>
+
+<div class="character-story">
+    <h2 data-story-id="background_story_title"></h2>
+    <div class="story-content" data-story-id="character-description">
+        <!-- Story paragraphs will be inserted here by JavaScript -->
+    </div>
+
+    <br>
+
+    <div class="story-content" data-story-id="character_story">
+        <!-- Story paragraphs will be inserted here by JavaScript -->
+    </div>
+</div>
+
+<hr>
+
+<div class="comic-container">
+    <!-- Scene 1 -->
+    <div class="comic-panel">
+        <div class="image-container">
+            <img src="/Animal_Hospital__Dental_Department/data/Comics/R3_5Cow_BS/R3_5Cow_BS01.png" alt="Scene 1">
+            <div class="text-overlays" data-image-id="R3_5Cow_BS01">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scene 2 -->
+    <div class="comic-panel">
+        <div class="image-container">
+            <img src="/Animal_Hospital__Dental_Department/data/Comics/R3_5Cow_BS/R3_5Cow_BS02.png" alt="Scene 2">
+            <div class="text-overlays" data-image-id="R3_5Cow_BS02">
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 動物醫院:牙科部 Animal_Hospital:Dental_Dept. All rights reserved.</p>
+                <div class="social-links">
+                    
+                    <a href="https://github.com/Risch315815" target="_blank">GitHub</a>
+                    
+                    
+                    <a href="https://twitter.com/jekyllrb" target="_blank">Twitter</a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
