@@ -24,9 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: ""  # adjust this to match your repository name
+baseurl: "/Animal_Hospital__Dental_Department"  # adjust this to match your repository name
 url: "https://risch315815.github.io"
-repository: "Risch315815/Risch315815.github.io"
+repository: "Risch315815/Animal_Hospital__Dental_Department"
 twitter_username: jekyllrb
 github_username:  Risch315815
 

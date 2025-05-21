@@ -82,7 +82,7 @@ class CommentSystem {
             
             // Only show approved comments
             const response = await fetch(
-                `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues?labels=comment:${path},${this.labels.approved}`
+                `https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues?labels=comment:${path},${this.labels.approved}`
             );
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -107,7 +107,7 @@ class CommentSystem {
 
         try {
             // Submit comment as pending
-            const response = await fetch('https://api.github.com/repos/Risch315815/Risch315815.github.io/issues', {
+            const response = await fetch('https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues', {
                 method: 'POST',
                 headers: {
                     'Authorization': `token ${this.token}`,
@@ -149,7 +149,7 @@ class CommentSystem {
         try {
             // Get the current page path from the issue before updating
             const issueResponse = await fetch(
-                `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
+                `https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues/${issueNumber}`,
                 {
                     headers: {
                         'Authorization': `token ${this.token}`
@@ -164,7 +164,7 @@ class CommentSystem {
 
             // Update with both labels
             const response = await fetch(
-                `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
+                `https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues/${issueNumber}`,
                 {
                     method: 'PATCH',
                     headers: {
@@ -297,7 +297,7 @@ class CommentSystem {
             try {
                 // Get the current issue to preserve its page label
                 const issueResponse = await fetch(
-                    `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
+                    `https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues/${issueNumber}`,
                     {
                         headers: {
                             'Authorization': `token ${system.token}`
@@ -309,7 +309,7 @@ class CommentSystem {
                     .find(label => label.name.startsWith('comment:/'))?.name;
 
                 const response = await fetch(
-                    `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issueNumber}`,
+                    `https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues/${issueNumber}`,
                     {
                         method: 'PATCH',
                         headers: {

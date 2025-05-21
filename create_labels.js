@@ -30,7 +30,7 @@ async function createCommentLabels() {
     for (const label of labels) {
         try {
             console.log(`Creating label: ${label.name}...`);
-            const response = await fetch('https://api.github.com/repos/Risch315815/Risch315815.github.io/labels', {
+            const response = await fetch('https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/labels', {
                 method: 'POST',
                 headers: {
                     'Authorization': `token ${CONFIG.GITHUB_TOKEN}`,
@@ -55,7 +55,7 @@ async function testLabels() {
     
     // 1. Test getting all labels
     try {
-        const response = await fetch('https://api.github.com/repos/Risch315815/Risch315815.github.io/labels', {
+        const response = await fetch('https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/labels', {
             headers: {
                 'Authorization': `token ${CONFIG.GITHUB_TOKEN}`
             }
@@ -84,7 +84,7 @@ async function testLabels() {
 
         // 2. Test creating a test comment
         console.log('📝 Testing comment creation...');
-        const commentResponse = await fetch('https://api.github.com/repos/Risch315815/Risch315815.github.io/issues', {
+        const commentResponse = await fetch('https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues', {
             method: 'POST',
             headers: {
                 'Authorization': `token ${CONFIG.GITHUB_TOKEN}`,
@@ -104,7 +104,7 @@ async function testLabels() {
             // 3. Test modifying labels
             console.log('🏷️ Testing label modification...');
             const updateResponse = await fetch(
-                `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issue.number}`,
+                `https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues/${issue.number}`,
                 {
                     method: 'PATCH',
                     headers: {
@@ -126,7 +126,7 @@ async function testLabels() {
             // 4. Clean up - delete test comment
             console.log('🧹 Cleaning up test comment...');
             const deleteResponse = await fetch(
-                `https://api.github.com/repos/Risch315815/Risch315815.github.io/issues/${issue.number}`,
+                `https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/issues/${issue.number}`,
                 {
                     method: 'PATCH',
                     headers: {

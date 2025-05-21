@@ -32,7 +32,7 @@ async function createCommentLabels() {
     for (const label of labels) {
         try {
             console.log(`Creating label: ${label.name}...`);
-            const response = await fetch('https://api.github.com/repos/Risch315815/Risch315815.github.io/labels', {
+            const response = await fetch('https://api.github.com/repos/Risch315815/Animal_Hospital__Dental_Department/labels', {
                 method: 'POST',
                 headers: {
                     'Authorization': `token ${CONFIG.GITHUB_TOKEN}`,

@@ -113,5 +113,5 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git remote -v
           if ! git remote | grep -q 'origin'; then
-            git remote add origin "https://github.com/Risch315815/Risch315815.github.io.git"
+            git remote add origin "https://github.com/Risch315815/Animal_Hospital__Dental_Department.git"
           fi
