@@ -1,0 +1,718 @@
+{
+  "Character": {
+    "textbox1": {
+      "x": "86%",
+      "y": "67%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "人",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox2": {
+      "x": "92%",
+      "y": "60%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "上",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox3": {
+      "x": "87%",
+      "y": "60%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "目",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox4": {
+      "x": "86%",
+      "y": "60%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "﹁",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox5": {
+      "x": "83%",
+      "y": "60%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "脈",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox6": {
+      "x": "63%",
+      "y": "31%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "崎",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox7": {
+      "x": "77%",
+      "y": "29%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "七",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox8": {
+      "x": "63%",
+      "y": "28%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "﹁ 頁",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox9": {
+      "x": "66%",
+      "y": "28%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "兔",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox10": {
+      "x": "71%",
+      "y": "28%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "載",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox11": {
+      "x": "60%",
+      "y": "28%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "因\n目",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox12": {
+      "x": "3%",
+      "y": "27%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "2 三 芃",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox13": {
+      "x": "55%",
+      "y": "21%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "%",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox14": {
+      "x": "45%",
+      "y": "20%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "|",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox15": {
+      "x": "79%",
+      "y": "19%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "/",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox16": {
+      "x": "57%",
+      "y": "19%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "4 巳",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox17": {
+      "x": "42%",
+      "y": "19%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "人",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox18": {
+      "x": "83%",
+      "y": "19%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "鬼",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox19": {
+      "x": "76%",
+      "y": "18%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "N",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox20": {
+      "x": "68%",
+      "y": "18%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "﹁D",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox21": {
+      "x": "72%",
+      "y": "18%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "C",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox22": {
+      "x": "47%",
+      "y": "18%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "一",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox23": {
+      "x": "84%",
+      "y": "18%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "胸",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox24": {
+      "x": "54%",
+      "y": "18%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "日",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox25": {
+      "x": "52%",
+      "y": "18%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "比",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox26": {
+      "x": "80%",
+      "y": "17%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "|",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox27": {
+      "x": "63%",
+      "y": "17%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "|",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox28": {
+      "x": "90%",
+      "y": "17%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "反",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox29": {
+      "x": "65%",
+      "y": "17%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "L曷",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox30": {
+      "x": "43%",
+      "y": "17%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "失",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox31": {
+      "x": "58%",
+      "y": "10%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "入 計",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox32": {
+      "x": "68%",
+      "y": "8%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "切 叫",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox33": {
+      "x": "70%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "【 同\n| 巴",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox34": {
+      "x": "75%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "十",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox35": {
+      "x": "90%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "人",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox36": {
+      "x": "79%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "E\nM Ki K",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox37": {
+      "x": "74%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "f",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox38": {
+      "x": "63%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "! 十",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox39": {
+      "x": "42%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "找",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox40": {
+      "x": "86%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "A",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox41": {
+      "x": "52%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "三 ]",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    },
+    "textbox42": {
+      "x": "47%",
+      "y": "6%",
+      "width": "auto",
+      "height": "auto",
+      "fontSize": "40px",
+      "backgroundColor": "rgba(0,0,0,0.02)",
+      "border": "2px solid black",
+      "text": {
+        "zh-hant": "不",
+        "en": "",
+        "ja": "",
+        "es": "",
+        "fr": "",
+        "th": ""
+      }
+    }
+  }
+}

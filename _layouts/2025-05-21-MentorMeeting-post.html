@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+</div>
+
+<hr>
+<br>
+
+<div class="character-story">
+    <h2>背景故事 / Background Story</h2>
+    <div class="story-content">
+        <p>在動物醫院牙科部的一個普通下午，三位頂尖專科醫師碰面了：拔牙暴龍、波索沃和洗牙貓貓。他們開始討論教學和培訓年輕醫師的經驗與挑戰。</p>
+        <p>On an ordinary afternoon at the Animal Hospital's Dental Department, three top specialists met: Extractosaurus, Prosthowolf, and Scaling Kitty. They began to discuss their experiences and challenges in teaching and mentoring young doctors.</p>
+    </div>
+</div>
+
+<hr>
+
+<div class="comic-container">
+    <!-- Scene 1 -->
+    <div class="comic-panel">
+        <div class="image-container">
+            <img src="{{ '/data/Comics/MentorMeeting/MentorMeeting01.png' | relative_url }}" alt="Scene 1">
+            <div class="text-overlays" data-image-id="MentorMeeting01">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scene 2 -->
+    <div class="comic-panel">
+        <div class="image-container">
+            <img src="{{ '/data/Comics/MentorMeeting/MentorMeeting02.png' | relative_url }}" alt="Scene 2">
+            <div class="text-overlays" data-image-id="MentorMeeting02">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scene 3 -->
+    <div class="comic-panel">
+        <div class="image-container">
+            <img src="{{ '/data/Comics/MentorMeeting/MentorMeeting03.png' | relative_url }}" alt="Scene 3">
+            <div class="text-overlays" data-image-id="MentorMeeting03">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include comments.html %} 
